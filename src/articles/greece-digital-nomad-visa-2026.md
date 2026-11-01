@@ -6,11 +6,19 @@ guide: nomad
 published: 2026-11-01
 order: 3
 summary: The income you need, who can apply, why you must start at a consulate, and the tax questions to ask.
+hero: laptop-sea
 ---
 
 Greece has a residence route built for remote workers: the digital nomad permit. If you work for employers or clients outside Greece and want to do that work from Athens, Crete or a quiet island, this is the route to look at.
 
 This article covers the income rule, who qualifies, how to apply in 2026 and the tax points that people often miss. It is general information, not legal or tax advice, and the consulate has the final say on your application.
+
+:::facts
+euro | Minimum income | €3,500 a month, net
+pin | Employer or clients | Outside Greece
+doc | National visa | Fee €75; valid up to 12 months
+calendar | Residence permit | 2 years, renewable
+:::
 
 ## The legal basis
 
@@ -49,6 +57,12 @@ A few practical tips:
 This is the biggest change for 2026, so it is worth being clear about it.
 
 Since Law 5275/2026, you must **get a type D national visa at a Greek consulate first**. According to Greek immigration lawyers, arriving in Greece as a tourist and applying afterwards is no longer accepted.
+
+:::steps
+Consulate | Check the requirements and gather your documents.
+Visa | Get the type D national visa before you travel.
+Permit | In Greece, apply for the 2-year permit if you want to stay longer.
+:::
 
 So the order is:
 

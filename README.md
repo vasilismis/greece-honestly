@@ -33,7 +33,39 @@ Practical English-language guides for visiting and moving to Greece. This reposi
    - `guide` picks the call-to-action box at the end. Use one of: `retire`, `nomad`, `islands`, `eat`, `phrases`, `flashcards`, `first90`, `renting`, `alphabet` (defined in `src/site.mjs`).
    - `order` sets the position in lists (lower comes first).
    - Optional: `modified: 2027-01-15` when you update an article, and `lastChecked: January 2027` to override the default "Last checked" line.
+   - `hero` (required) is the photo at the top of the article and its social-preview image: a name from `src/images.mjs`, e.g. `hero: ferry`.
+   - Optional: `featured: true` shows the article as the big photo card on the home page.
    - Link to other articles with root paths, e.g. `[island groups](/articles/which-greek-island-is-right-for-you/)`. The build adds the base path for you.
+
+### Photos and content blocks
+
+Photos live in `src/static/img/<name>.jpg`. Add each one to `src/images.mjs` with plain alt text (describe what is in the photo; do not name a place the photo is not of). The build crops every photo to 16:9 and writes 480, 800 and 1600px WebP copies plus a 1200×630 JPEG for social previews.
+
+Inside an article you can use these blocks (each on its own lines):
+
+```markdown
+::figure lefkada-boats | Caption text. Do not name an exact place unless the file name does.
+
+:::note Good to know
+Any Markdown here.
+:::
+
+:::quote
+A short line worth pulling out.
+:::
+
+:::facts
+plane | Nearest airport | Aktion, about 20 km
+sun | Best months | May, June and September
+:::
+
+:::steps
+First step | One short sentence.
+Second step | One short sentence.
+:::
+```
+
+Icons for `:::facts` are listed in `src/icons.mjs` (plane, bus, car, boat, sun, wind, calendar, euro, percent, clock, doc, home, phone, bank, id, health, info, pin, food, chat, check, shield, leaf).
 
 3. Run `npm test` (build + link check). Commit and push to `main`; the site redeploys automatically. The article also appears on the home page, the articles list, `sitemap.xml` and `rss.xml`.
 

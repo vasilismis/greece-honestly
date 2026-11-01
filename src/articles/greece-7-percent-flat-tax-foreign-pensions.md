@@ -6,11 +6,19 @@ guide: retire
 published: 2026-11-01
 order: 2
 summary: Who qualifies for the 7% regime, the 31 October deadline, the 2 July rule and the one-payment catch.
+hero: athens-street
 ---
 
 Greece offers retirees a special tax regime: a flat 7% on foreign income instead of the normal rates, which go up to 44%. It is one of the reasons many pensioners look at Greece in the first place.
 
 The rules were updated in 2026, and the deadlines matter more than ever. This article explains who qualifies, when to apply and the traps to avoid. It is general information, not tax advice.
+
+:::facts
+percent | Flat rate | 7% on all foreign income
+calendar | For up to | 15 tax years
+doc | Apply by | 31 October
+euro | Pay by | Last working day of December, in one go
+:::
 
 ## The rules in brief
 
@@ -62,13 +70,13 @@ If you have just missed 31 October, do not panic. Depending on when you moved, t
 
 ## The payment catch: one instalment, no plans
 
-The payment rules are strict:
-
+:::note The trap that hurts most
 - You pay the 7% tax in **one instalment** by the last working day of December.
 - There are **no instalment plans**.
 - If you do not pay in full, the regime ends from that year.
 
-So keep the money aside before December comes round. Of everything here, this is the trap that hurts most.
+So keep the money aside before December comes round.
+:::
 
 ## How to apply
 

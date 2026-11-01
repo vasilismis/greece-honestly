@@ -6,11 +6,18 @@ guide: first90
 published: 2026-11-01
 order: 12
 summary: Tax number, phone, home, bank, AMKA and residence registration, in the order that saves you trips.
+hero: cyclades-harbour
 ---
 
 The first weeks in Greece are full of paperwork, and most of it depends on something else. The bank wants your tax number and proof of address. The proof of address is your lease. The lease needs your tax number. Do things in the wrong order and you will find yourself going back to the same office twice.
 
 This article puts the main steps in a sensible order. It is general information, not legal advice. Your exact path depends on your nationality and your residence route, so always check the official pages linked at the end.
+
+:::steps
+AFM first | Your tax number unlocks the lease, the bank and most other steps.
+Home, phone and bank | A registered lease is your proof of address.
+AMKA and residence | Social security number, then register or apply for your permit.
+:::
 
 ## Before you arrive
 
