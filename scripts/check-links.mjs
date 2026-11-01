@@ -61,15 +61,22 @@ function report(page, url, why) {
 }
 
 if (process.argv.includes('--external')) {
-  for (const [url, pages] of external) {
-    try {
-      const res = await fetch(url, { method: 'GET', redirect: 'follow', signal: AbortSignal.timeout(20000) });
-      if (res.status >= 400) report([...pages][0], url, `HTTP ${res.status}`);
-      else console.log(`ok ${res.status}  ${url}`);
-    } catch (e) {
-      report([...pages][0], url, `request failed: ${e.cause?.code || e.message}`);
+  // Request external URLs in parallel (8 at a time) so CI stays quick.
+  const list = [...external];
+  let next = 0;
+  const worker = async () => {
+    while (next < list.length) {
+      const [url, pages] = list[next++];
+      try {
+        const res = await fetch(url, { method: 'GET', redirect: 'follow', signal: AbortSignal.timeout(15000) });
+        if (res.status >= 400) report([...pages][0], url, `HTTP ${res.status}`);
+        else console.log(`ok ${res.status}  ${url}`);
+      } catch (e) {
+        report([...pages][0], url, `request failed: ${e.cause?.code || e.message}`);
+      }
     }
-  }
+  };
+  await Promise.all(Array.from({ length: 8 }, worker));
 }
 
 console.log(`${files.length} pages, ${checked} links checked, ${external.size} distinct external URLs${process.argv.includes('--external') ? ' (requested)' : ' (not requested; use --external)'}.`);
