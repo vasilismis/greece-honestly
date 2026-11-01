@@ -26,6 +26,8 @@ On the west side of Greece. The Ionian islands are green, with softer winds and 
 
 **Islands include:** Corfu, Kefalonia, Zakynthos, Lefkada, Ithaca, Paxos.
 
+For a closer look, see [the Ionian islands compared](/articles/ionian-islands-compared/) and our [practical guide to Lefkada](/articles/lefkada-travel-guide/), the island you can drive to.
+
 ### Crete
 
 The biggest Greek island, almost a small country in its own right. It has two international airports, Heraklion and Chania, which makes it easy to reach. You could spend weeks here and not see it all.

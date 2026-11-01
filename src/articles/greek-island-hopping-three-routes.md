@@ -73,6 +73,8 @@ A green, softer alternative to the Cyclades, mixing islands with a drive on the 
 
 **Check this first:** **make sure the Lefkada–Kefalonia ferry runs on your date.** If you hire a car, confirm with the rental company that you are allowed to take it on ferries.
 
+Planning your four nights on Lefkada? Our [Lefkada guide](/articles/lefkada-travel-guide/) covers the beaches, Nydri, Vasiliki and where to stay.
+
 ## When to go
 
 The month changes everything on the islands:

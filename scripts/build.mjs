@@ -257,11 +257,16 @@ write(
 <h1>Greece, without the sales talk</h1>
 <p class="intro">Plain-English answers for people visiting or moving to Greece: residence permits, the 7% pension tax, healthcare, which island to pick, what to order in a taverna and enough Greek to get by.</p>
 <p>The articles below are free. Where a topic needs a full checklist, each article links to a paid PDF guide at the end. You never need to buy anything to use this site.</p>
+${articles.filter((a) => a.featured === 'true').map((a) => `<section class="feature" aria-labelledby="feat-${a.slug}">
+<p class="kicker">Featured guide</p>
+<h2 id="feat-${a.slug}"><a href="${rel(`articles/${a.slug}/`)}">${esc(a.title)}</a></h2>
+<p>${esc(a.summary)}</p>
+</section>`).join('')}
 <h2>Free articles</h2>
 <ul class="cards">${articles.map(articleCard).join('')}</ul>
 <h2>The guides</h2>
 <p>Downloadable guides sold through Payhip. <a href="${rel('guides/')}">See all guides</a> or <a href="${site.shopUrl}">visit the shop</a>.</p>
-<ul class="cards">${['retire', 'nomad', 'islands', 'eat', 'phrases', 'alphabet'].map(guideCard).join('')}</ul>
+<ul class="cards">${['retire', 'nomad', 'first90', 'renting', 'islands', 'eat', 'phrases', 'alphabet'].map(guideCard).join('')}</ul>
 </div>`,
   })
 );

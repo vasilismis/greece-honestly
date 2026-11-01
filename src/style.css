@@ -64,6 +64,10 @@ blockquote{margin:0 0 1em;padding:.5rem 1rem;border-left:4px solid var(--sea);ba
 code{font-family:var(--sans);background:#EEF3F8;padding:0 .25em;border-radius:3px}
 .gr{font-family:var(--serif);font-weight:700;letter-spacing:.03em}
 
+.feature{background:#fff;border:1px solid var(--line);border-left:6px solid var(--ochre);border-radius:6px;padding:1rem 1.25rem;margin:1.5rem 0}
+.feature h2{margin:.1rem 0 .4rem}
+.feature p{margin:0}
+.kicker{font-size:.85rem;font-weight:700;color:var(--muted)}
 .cta{margin:2.5rem 0 1.5rem;padding:1.25rem 1.25rem 1.4rem;background:#fff;border:2px solid var(--ochre);border-radius:8px}
 .cta h2{margin:0 0 .4rem;font-size:1.3rem}
 .cta p{margin:0 0 .9rem}
