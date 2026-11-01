@@ -168,6 +168,15 @@ code{font-family:var(--sans);background:#EEF3F8;padding:0 .25em;border-radius:3p
 .product .small{margin:.75rem 0 0}
 @media (min-width:640px){.product{grid-template-columns:260px 1fr}.product .cover{aspect-ratio:auto;height:100%;min-height:220px}}
 
+.route-picker{list-style:none;padding:0;margin:1.5rem 0 1rem;display:grid;gap:.75rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))}
+.route-picker li{margin:0}
+.route-picker a{display:flex;align-items:center;gap:.7rem;background:#fff;border:1px solid var(--line);border-left:5px solid var(--ochre);border-radius:var(--radius);padding:.9rem 1rem;font-weight:700;text-decoration:none;color:var(--aegean);box-shadow:var(--shadow);min-height:3.5rem}
+.route-picker a:hover{text-decoration:underline}
+.route-picker .icon{color:var(--sea);width:1.6rem;height:1.6rem}
+.route{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--line);scroll-margin-top:1rem}
+.route>.kicker{display:flex;align-items:center;gap:.4rem}
+.route>.kicker .icon{width:1.1rem;height:1.1rem}
+.route-guides{margin-top:2rem;font-size:1.15rem}
 .note{font-size:.95rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1rem}
 .more{margin-top:2rem}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
