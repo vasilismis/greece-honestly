@@ -170,6 +170,7 @@ const logo = `<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><cir
 
 const nav = [
   ['', 'Home'],
+  ['start-here/', 'Start here'],
   ['articles/', 'Articles'],
   ['guides/', 'Guides'],
   ['about/', 'About'],
@@ -374,7 +375,7 @@ ${img(homeHero, { eager: true })}
 <p class="kicker">Practical guides to Greece</p>
 <h1>Greece, without the sales talk</h1>
 <p class="hero-intro">Plain-English answers for people visiting or moving to Greece: residence permits, the 7% pension tax, which island to pick, what to order in a taverna and enough Greek to get by.</p>
-<p class="hero-actions"><a class="button" href="${rel('articles/')}">Read the free articles</a><a class="button button-ghost" href="${rel('guides/')}">See the guides</a></p>
+<p class="hero-actions"><a class="button" href="${rel('start-here/')}">Start here</a><a class="button button-ghost" href="${rel('articles/')}">Read the free articles</a></p>
 </div>
 </header>
 <div class="wrap wide">
@@ -436,6 +437,63 @@ write(
 ${guideGroups.map((grp) => `<h2>${esc(grp.title)}</h2>\n<ul class="cards">${grp.keys.map((k, i) => guideCard(k, grp === guideGroups[0] ? i : 9)).join('')}</ul>`).join('\n')}
 <p><a class="button" href="${site.shopUrl}">Browse the full shop</a></p>
 <p class="note">Prices shown here may change; the price on the shop page is the one that applies. Cover images on this site are photos standing in for the guide covers.</p>
+</div>`,
+  })
+);
+
+// Start here: route visitors by situation
+const bySlug = Object.fromEntries(articles.map((a) => [a.slug, a]));
+const routes = [
+  {
+    id: 'visiting', icon: 'sun', title: 'I am visiting Greece',
+    intro: 'Choosing an island, getting around by ferry, eating out and a few words of Greek.',
+    slugs: ['which-greek-island-is-right-for-you', 'greek-island-hopping-three-routes', 'greek-ferries-how-to-book', 'greek-taverna-etiquette', 'how-to-order-coffee-in-greece', 'greek-phrases-for-your-first-week'],
+    guides: ['islands', 'eat', 'phrases'],
+  },
+  {
+    id: 'moving', icon: 'home', title: 'I am moving to Greece',
+    intro: 'The paperwork in the right order: tax number, a flat, a bank account and your social security number.',
+    slugs: ['first-90-days-in-greece', 'getting-an-afm-greek-tax-number', 'renting-a-flat-in-greece', 'opening-a-greek-bank-account', 'amka-explained', 'where-to-live-in-athens'],
+    guides: ['first90', 'renting'],
+  },
+  {
+    id: 'retiring', icon: 'leaf', title: 'I am retiring to Greece',
+    intro: 'Residence permits, the 7% flat tax on foreign pensions, and healthcare with an S1 or full health insurance.',
+    slugs: ['retiring-to-greece-2026', 'greece-7-percent-flat-tax-foreign-pensions', 'first-90-days-in-greece', 'amka-explained'],
+    guides: ['retire', 'first90'],
+  },
+  {
+    id: 'remote', icon: 'phone', title: 'I want to work remotely from Greece',
+    intro: 'The digital nomad visa, the income rule, tax residence and setting up your first months.',
+    slugs: ['greece-digital-nomad-visa-2026', 'first-90-days-in-greece', 'getting-an-afm-greek-tax-number', 'where-to-live-in-athens'],
+    guides: ['nomad', 'first90'],
+  },
+];
+for (const r of routes) for (const s of r.slugs) if (!bySlug[s]) throw new Error(`start-here: unknown article ${s}`);
+write(
+  'start-here/index.html',
+  layout({
+    path: 'start-here/',
+    title: 'Start here',
+    description: 'Not sure where to begin? Pick your situation — visiting, moving, retiring or working remotely — and see the articles and guides that fit.',
+    body: `<div class="wrap wide page">
+<p class="kicker">Start here</p>
+<h1>Where are you in your Greece plans?</h1>
+<p class="intro">Pick the line that fits you best. Each one lists the free articles to read first, in a sensible order, and the guide that goes deeper.</p>
+<ul class="route-picker">${routes.map((r) => `<li><a href="#${r.id}">${icon(r.icon)}<span>${esc(r.title)}</span></a></li>`).join('')}</ul>
+${routes
+  .map(
+    (r) => `<section class="route" id="${r.id}" aria-labelledby="${r.id}-h">
+<p class="kicker">${icon(r.icon)} Your route</p>
+<h2 id="${r.id}-h">${esc(r.title)}</h2>
+<p>${esc(r.intro)}</p>
+<ul class="cards">${r.slugs.map((s, i) => articleCard(bySlug[s], 'h3', i > 2 || r !== routes[0])).join('')}</ul>
+<h3 class="route-guides">The guides for this route</h3>
+<ul class="cards">${r.guides.map((k) => guideCard(k)).join('')}</ul>
+</section>`
+  )
+  .join('\n')}
+<p class="note">General information, not legal, tax or medical advice. Every article shows when it was last checked and lists its sources.</p>
 </div>`,
   })
 );
@@ -515,6 +573,7 @@ write('favicon.svg', logo.replace('aria-hidden="true" focusable="false"', 'xmlns
 // sitemap.xml
 const pages = [
   ['', articles[0].modified],
+  ['start-here/', articles[0].modified],
   ['articles/', articles[0].modified],
   ...articles.map((a) => [`articles/${a.slug}/`, a.modified]),
   ['guides/', articles[0].modified],
