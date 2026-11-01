@@ -23,7 +23,8 @@ const ids = (html) => new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m
 for (const file of files) {
   const html = readFileSync(file, 'utf8');
   const page = '/' + file.slice(dist.length + 1).replace(/\\/g, '/');
-  for (const [, url] of html.matchAll(/\s(?:href|src)="([^"]+)"/g)) {
+  for (const [, raw] of html.matchAll(/\s(?:href|src)="([^"]+)"/g)) {
+    const url = raw.replace(/&amp;/g, '&');
     checked++;
     if (/^https?:\/\//.test(url)) {
       if (url.startsWith(site.url + B)) {
