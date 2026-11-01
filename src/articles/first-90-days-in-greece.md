@@ -35,7 +35,7 @@ The **AFM** is your Greek tax identification number. Almost everything else need
 
 At the same time, ask for your **authentication key** (the personal code for AADE's online services). You will need it to accept your lease online and for most dealings with the tax authority.
 
-Having an AFM does not, by itself, make you a Greek tax resident. Tax residence depends on where your home and centre of life are, and on whether you spend more than 183 days a year in Greece.
+Having an AFM does not, by itself, make you a Greek tax resident. Tax residence depends on where your home and centre of life are, and on whether you spend more than 183 days in Greece in any 12-month period.
 
 ## Step 2: a Greek phone number
 

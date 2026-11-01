@@ -127,3 +127,9 @@ Tipping is **optional**. If you were happy, about **5–10% in cash** is a kind 
 - **Efcharistó:** thank you
 
 For more, see our list of [20 Greek phrases for your first week in Greece](/articles/greek-phrases-for-your-first-week/).
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- Sharing dishes, bread charges, tap water, fish by the kilo, marking frozen ingredients, receipts and card payment, tipping and the words used: Greece, Honestly fact sheet, checked in Greece. We could not find an official English-language page for the menu and receipt rules; ask the taverna or the consumer authorities if in doubt.

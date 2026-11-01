@@ -67,7 +67,7 @@ If you are buying property anyway, the Golden Visa is another non-EU route. The 
 
 ## Step 2: decide how you want to be taxed
 
-Once Greece becomes your permanent home or centre of life, or you spend more than 183 days a year there, you are normally a Greek tax resident. Greek tax residents are taxed on their worldwide income.
+Once Greece becomes your permanent home or centre of life, or you spend more than 183 days there in any 12-month period, you are normally a Greek tax resident. Greek tax residents are taxed on their worldwide income.
 
 For 2026, pensions and salaries follow this scale:
 
@@ -128,3 +128,17 @@ A new S1 arrives every year, and you must register each new one. Easy to forget,
 7. Put renewal and S1 dates in your diary.
 
 Every situation is a bit different, especially for tax. A short session with a Greek accountant before you move is usually money well spent.
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- EU registration after three months, in person, documents, no expiry: [Hellenic Police](https://astynomia.gr/index.php?Itemid=114&id=94449&lang=EN&option=ozo_content&perform=view); [MITOS, certificate for financially inactive EU citizens](https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Certificate_of_registration_for_Union_citizens_residing_in_Greece_as_financially_inactive_persons); [gov.gr, obligation to register residence](https://www.gov.gr/en/sdg/residence/temporary-or-permanent-move/general/obligation-for-citizens-to-register-their-residence-for-periods-exceeding-three-months)
+- Financially Independent Person permit (Law 5038/2023): [Ministry of Foreign Affairs, codification of migration legislation (PDF)](https://www.mfa.gr/images/docs/ethnikes_theoriseis/codification_of_legislation_en.pdf). Income amounts (joint ministerial decision 225679/2024), fees, renewal and the late-application fine under Law 5275/2026: Greece, Honestly fact sheet, checked in Greece
+- Golden Visa (Law 5100/2024): [IBA, the Greek Golden Visa after the 2024–2026 overhaul](https://www.ibanet.org/the-greek-golden-visa-after-2024-2026-overhaul); [Zeya law firm newsletter](https://zeya.com/newsletters/greek-golden-visa-regime-conditions-qualifying-property-investments-become-stricter)
+- Tax residence: [AADE, tax residence for natural persons](https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-residence-natural-persons-itc)
+- 2026 tax scale (Law 5246/2025): [KPMG Greece, tax updates November 2025](https://kpmg.com/gr/en/insights/2025/11/tax-updates-20112025.html); [Legal 500, Law 5246/2025](https://www.legal500.com/intelligence/greece/tax/tax-alert-new-law-5246-2025)
+- 7% regime: [AADE, tax incentives to attract new tax residents](https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-incentives-order-attract-new-tax-residents); [AADE guide to articles 5A, 5B and 5C (PDF)](https://www.aade.gr/sites/default/files/2024-01/Tax%20Incentives%20%28articles%205A%2C5B%2C%205C%20of%20the%20ITC%29.pdf); [AADE, tax incentives for new residents, November 2025 (PDF)](https://www.aade.gr/sites/default/files/2025-11/forologika_kinitra_ENG.pdf); 2026 changes (Law 5313/2026, AADE decision A.1192/2026): Greece, Honestly fact sheet, checked in Greece
+- S1, AMKA at a KEP and registering with EOPYY: [GOV.UK, healthcare for UK nationals living in Greece](https://www.gov.uk/guidance/healthcare-in-greece); [NHSBSA, apply for healthcare cover for living abroad](https://overseas-healthcare.nhsbsa.nhs.uk/apply-healthcare-cover-living-abroad/start); [EOPYY, moving abroad after retirement](https://eu-healthcare.eopyy.gov.gr/en/healthcare-abroad/moving-abroad-in-the-eu/moving-abroad-after-retirement/)
+- Prescription co-payment, hospital referrals, university hospitals: Greece, Honestly fact sheet, checked in Greece
+- Emergency numbers: [gov.gr, national emergency numbers](https://www.gov.gr/en/sdg/healthcare/national-emergency-numbers)

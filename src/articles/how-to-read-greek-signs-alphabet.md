@@ -115,3 +115,9 @@ Being able to sound out a word gets you a long way:
 - You will start noticing English words that come from Greek, which is genuinely fun.
 
 Once you can read the letters, the next step is a few words to say out loud. Our list of [20 Greek phrases for your first week](/articles/greek-phrases-for-your-first-week/) is a good place to start.
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- Letters, letter pairs and sign words: Greece, Honestly fact sheet, checked in Greece; the alphabet itself: [Wikipedia, Greek alphabet](https://en.wikipedia.org/wiki/Greek_alphabet)

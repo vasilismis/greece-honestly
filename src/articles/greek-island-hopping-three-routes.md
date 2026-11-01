@@ -112,3 +112,12 @@ If none of these fits, build your own with the same logic:
 - Stay within one island group.
 - Leave a buffer before your flight home.
 - Always check current ferry times: they change every year.
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- Routes, nights per island and the rules of thumb: Greece, Honestly fact sheet, checked in Greece
+- Ferry links for the Ionian route: [Ferryscanner, Vasiliki–Fiskardo](https://www.ferryscanner.com/en/ferry-routes/ferry-fiskardo-kefalonia-vassiliki-lefkada)
+- Lefkada's floating bridge: see the sources in our [Lefkada guide](/articles/lefkada-travel-guide/)
+- 15 August as a national holiday: [Wikipedia, public holidays in Greece](https://en.wikipedia.org/wiki/Public_holidays_in_Greece)

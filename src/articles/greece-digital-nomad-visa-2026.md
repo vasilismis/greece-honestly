@@ -87,7 +87,7 @@ The visa and your tax position are two separate things. Having a digital nomad p
 Under article 4 of the Greek Income Tax Code, you are generally a Greek tax resident if:
 
 - Greece is your permanent home or the centre of your life, **or**
-- you spend more than 183 days in Greece in a year.
+- you spend more than 183 days in Greece in any 12-month period.
 
 Greek tax residents are taxed on their **worldwide** income. For 2026, salaries are taxed on this scale:
 
@@ -123,3 +123,13 @@ An hour with an accountant who knows both countries is worth more than any forum
 6. Expect to become a Greek tax resident if you stay more than 183 days, and do not count on the 50% tax break.
 
 If you are thinking about Greece as a long-term base rather than a remote-work stint, the rules for the [Financially Independent Person permit](/articles/retiring-to-greece-2026/) are worth a look too, though that permit does not allow you to work in Greece at all.
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- Digital nomad visa: [Ministry of Foreign Affairs, working in Greece as a digital nomad](https://www.mfa.gr/en/services/working-in-greece-as-a-digital-nomad/)
+- Income threshold, family increases, €75 visa fee (Law 5038/2023, art. 68), consulate-first rule under Law 5275/2026, visa validity, permit duration and health insurance: Greece, Honestly fact sheet, checked in Greece
+- Tax residence: [AADE, tax residence for natural persons](https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-residence-natural-persons-itc)
+- 2026 tax scale: [KPMG Greece, tax updates November 2025](https://kpmg.com/gr/en/insights/2025/11/tax-updates-20112025.html); [Legal 500, Law 5246/2025](https://www.legal500.com/intelligence/greece/tax/tax-alert-new-law-5246-2025)
+- Article 5C 50% relief: [AADE, tax incentives to attract new tax residents](https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-incentives-order-attract-new-tax-residents); [AADE guide to articles 5A, 5B and 5C (PDF)](https://www.aade.gr/sites/default/files/2024-01/Tax%20Incentives%20%28articles%205A%2C5B%2C%205C%20of%20the%20ITC%29.pdf); [AADE, tax incentives for new residents, November 2025 (PDF)](https://www.aade.gr/sites/default/files/2025-11/forologika_kinitra_ENG.pdf)
