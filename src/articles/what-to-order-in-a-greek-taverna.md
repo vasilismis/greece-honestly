@@ -96,7 +96,7 @@ Sometimes a dessert, fruit or a small glass of something arrives that you did no
 
 ### Tipping
 
-Tipping is **optional**. If you were happy, about **5–10% in cash** is a kind gesture. Leaving cash on the table is common, even if you paid the bill by card.
+Tipping is **optional**. If you were happy, about **5–10% in cash** is a kind gesture.
 
 ## A quick checklist
 

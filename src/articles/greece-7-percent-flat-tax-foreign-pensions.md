@@ -46,7 +46,7 @@ That is a big gap, which is exactly why the deadlines below are worth taking ser
 
 ## The 31 October deadline and the 2 July rule
 
-Under the updated rules, the application deadline is **31 October** of the year you want the regime to start. Which years you can choose depends on when you moved.
+Before Law 5313/2026, the application deadline was **31 March**. AADE decision A.1192/2026 moved it to **31 October**. So under the current rules, the application deadline is **31 October** of the year you want the regime to start. Which years you can choose depends on when you moved.
 
 | You moved to Greece… | You can join… | Apply by… |
 |---|---|---|

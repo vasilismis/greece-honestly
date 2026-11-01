@@ -54,15 +54,15 @@ So the order is:
 
 1. **Check the requirements with your consulate.** Use the Greek consulate responsible for where you live. Ask for their current document list.
 2. **Prepare your documents.** Income evidence, proof that your employer or clients are outside Greece, your passport, and anything else on the consulate's list.
-3. **Apply for the type D visa.** The national visa fee set in the law is €75. The consulate will tell you about any other charges.
+3. **Apply for the type D visa.** The national visa fee set in the law is €75. The consulate will tell you about any other charges. The national visa is valid for up to 12 months.
 4. **Travel to Greece** once the visa is issued.
-5. **Follow the next steps you are given.** Your consulate and the Ministry of Migration set out what happens after arrival, including any residence permit application and its fees. Keep an eye on your visa's expiry date.
+5. **Apply for the residence permit if you want to stay longer.** The digital nomad residence permit lasts **2 years and is renewable**. Your consulate and the Ministry of Migration set out the steps and fees. Keep an eye on your visa's expiry date.
 
 Plan for this to take a while. Do not give up your flat or book a one-way flight before you know your visa is coming.
 
 ## Health insurance
 
-Ask your consulate what health insurance they require for the digital nomad visa, and make sure your policy covers you in Greece. Do not assume a basic travel policy will be enough: for other residence routes, Greece explicitly requires full health insurance rather than travel insurance.
+You need **full health insurance that covers you in Greece**. Travel insurance is not enough. Check that your policy explicitly covers living in Greece, not just short trips, before you apply.
 
 ## Tax: the part people skip
 
@@ -104,7 +104,8 @@ An hour with an accountant who knows both countries is worth more than any forum
 1. You need at least €3,500 a month net, more with a family.
 2. Your employer or clients must be outside Greece.
 3. Get the type D visa at a Greek consulate **before** you travel; you cannot switch from tourist status.
-4. The national visa fee in the law is €75.
-5. Expect to become a Greek tax resident if you stay more than 183 days, and do not count on the 50% tax break.
+4. The national visa fee in the law is €75; the visa is valid for up to 12 months, and the residence permit lasts 2 years and is renewable.
+5. You need full health insurance covering Greece; travel insurance is not enough.
+6. Expect to become a Greek tax resident if you stay more than 183 days, and do not count on the 50% tax break.
 
 If you are thinking about Greece as a long-term base rather than a remote-work stint, the rules for the [Financially Independent Person permit](/articles/retiring-to-greece-2026/) are worth a look too, though that permit does not allow you to work in Greece at all.
