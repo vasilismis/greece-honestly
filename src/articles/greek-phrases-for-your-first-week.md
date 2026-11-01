@@ -130,3 +130,10 @@ Learn this one even if you learn nothing else. And save the emergency number **1
 20. Kaló mína – happy new month (said on the 1st)
 
 Kaló taxídi!
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- Phrases, meanings and pronunciation: Greece, Honestly fact sheet, checked in Greece
+- 112 as the European emergency number: [gov.gr, national emergency numbers](https://www.gov.gr/en/sdg/healthcare/national-emergency-numbers)

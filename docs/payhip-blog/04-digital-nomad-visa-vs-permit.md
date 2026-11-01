@@ -31,7 +31,7 @@ The income, the outside-Greece work rule and the insurance requirement apply thr
 
 ## The tax question does not wait for the permit
 
-Whichever stage you are at, spending more than 183 days a year in Greece, or making it your home, normally makes you a Greek tax resident, taxed on your worldwide income. And the 50% tax break you may have heard about usually does not fit digital nomads: it requires working for a Greek employer or a Greek permanent establishment.
+Whichever stage you are at, spending more than 183 days in Greece in any 12-month period, or making it your home, normally makes you a Greek tax resident, taxed on your worldwide income. And the 50% tax break you may have heard about usually does not fit digital nomads: it requires working for a Greek employer or a Greek permanent establishment.
 
 Get tax advice early, not when your first Greek tax return is due.
 

@@ -114,3 +114,10 @@ If you want to visit more than one island, keep it simple. At least three nights
 - Short on time? A Saronic island near Athens.
 - Hate ferries? Fly straight into Corfu, Crete, Rhodes, Kos, Zakynthos, Kefalonia or Skiathos.
 - Want the sweet spot? Go in May or June.
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- Island groups, the quick quiz, airports you can fly into and the month-by-month guide: Greece, Honestly fact sheet, checked in Greece
+- 15 August as a national holiday: [Wikipedia, public holidays in Greece](https://en.wikipedia.org/wiki/Public_holidays_in_Greece)

@@ -37,7 +37,7 @@ You need to tick all four boxes:
 3. You were not a Greek tax resident in five of the previous six years.
 4. You are moving from a country that has a tax administrative cooperation agreement with Greece.
 
-As a reminder, you are generally a Greek tax resident if Greece is your permanent home or centre of life, or if you spend more than 183 days a year there.
+As a reminder, you are generally a Greek tax resident if Greece is your permanent home or centre of life, or if you spend more than 183 days there in any 12-month period.
 
 You cannot combine the 7% regime with the article 5A regime, the €100,000 flat tax for investors.
 
@@ -114,3 +114,13 @@ Also check the residence rules of the country you are leaving. Moving your tax r
 - Get advice from a Greek accountant for your own figures.
 
 For the bigger picture, including residence permits and healthcare, read [Retiring to Greece in 2026, step by step](/articles/retiring-to-greece-2026/).
+
+## Sources
+
+Checked in November 2026. Rules change: check the official source before you act.
+
+- The 7% regime, conditions, 15 years, credit for foreign tax, no combination with article 5A: [AADE, tax incentives to attract new tax residents](https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-incentives-order-attract-new-tax-residents); [AADE guide to articles 5A, 5B and 5C (PDF)](https://www.aade.gr/sites/default/files/2024-01/Tax%20Incentives%20%28articles%205A%2C5B%2C%205C%20of%20the%20ITC%29.pdf); [AADE, tax incentives for new residents, November 2025 (PDF)](https://www.aade.gr/sites/default/files/2025-11/forologika_kinitra_ENG.pdf)
+- Earlier 31 March deadline: AADE's guide to articles 5A–5C (linked above) still shows it
+- The 2026 rules (Law 5313/2026 art. 94; AADE decision A.1192/2026, Government Gazette B' 5767): 31 October deadline, 2 July rule, 30 November documents, decision timing, one-instalment payment, KEFODE offices, withdrawal: Greece, Honestly fact sheet, checked in Greece
+- Tax residence: [AADE, tax residence for natural persons](https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-residence-natural-persons-itc)
+- 2026 tax scale used in the example: [KPMG Greece, tax updates November 2025](https://kpmg.com/gr/en/insights/2025/11/tax-updates-20112025.html); [Legal 500, Law 5246/2025](https://www.legal500.com/intelligence/greece/tax/tax-alert-new-law-5246-2025)
