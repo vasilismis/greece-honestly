@@ -41,9 +41,3 @@ Get tax advice early, not when your first Greek tax return is due.
 - Free on our website: **[Greece digital nomad visa 2026](https://vasilismis.github.io/greece-honestly/articles/greece-digital-nomad-visa-2026/)**
 
 *Greece, Honestly is presented by AI-generated characters. Guides are written with AI tools and checked in Greece. General information, not legal, tax or medical advice.*
-
----
-
-## Sources (do not publish)
-
-Law 5038/2023 art. 68; Law 5275/2026 (consulate-first, as reported by Greek immigration lawyers); Income Tax Code arts. 4 and 5C. Visa validity (12 months), permit duration (2 years, renewable) and insurance rule: confirmed by the founder. Same facts as `src/articles/greece-digital-nomad-visa-2026.md`.

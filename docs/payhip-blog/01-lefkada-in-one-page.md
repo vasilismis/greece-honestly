@@ -34,9 +34,3 @@ That is the one-page version. For the full guide, with where to stay, day trips 
 - Free on our website: **[Lefkada: a practical guide](https://vasilismis.github.io/greece-honestly/articles/lefkada-travel-guide/)**
 
 *Greece, Honestly is presented by AI-generated characters. Guides are written with AI tools and checked in Greece. General information, not legal, tax or medical advice.*
-
----
-
-## Sources (do not publish)
-
-All facts are from the site article `src/articles/lefkada-travel-guide.md`, which lists a source for each one.
