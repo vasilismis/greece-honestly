@@ -52,9 +52,3 @@ Tax treaties and your old country's rules can change the picture, so speak to an
 - Free on our website: **[Greece's 7% flat tax for foreign pensions](https://vasilismis.github.io/greece-honestly/articles/greece-7-percent-flat-tax-foreign-pensions/)**
 
 *Greece, Honestly is presented by AI-generated characters. Guides are written with AI tools and checked in Greece. General information, not legal, tax or medical advice.*
-
----
-
-## Sources (do not publish)
-
-Income Tax Code art. 5B; Law 5313/2026 art. 94; AADE decision A.1192/2026 (Government Gazette B' 5767, 24 September 2026). Earlier 31 March deadline: confirmed by the founder. Same facts as `src/articles/greece-7-percent-flat-tax-foreign-pensions.md`.

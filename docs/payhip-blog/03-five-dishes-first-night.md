@@ -47,9 +47,3 @@ And if you order fish, remember that it is often priced by the kilo. Ask for the
 - Free on our website: **[What to order in a Greek taverna (and how the bill works)](https://vasilismis.github.io/greece-honestly/articles/what-to-order-in-a-greek-taverna/)**
 
 *Greece, Honestly is presented by AI-generated characters. Guides are written with AI tools and checked in Greece. General information, not legal, tax or medical advice.*
-
----
-
-## Sources (do not publish)
-
-Greece, Honestly fact sheet (taverna section), the same facts as `src/articles/what-to-order-in-a-greek-taverna.md`.
