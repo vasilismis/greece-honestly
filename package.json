@@ -1,0 +1,24 @@
+{
+  "name": "greece-honestly",
+  "version": "1.0.0",
+  "description": "Greece, Honestly static site",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-links.mjs",
+    "test": "npm run build && npm run check",
+    "serve": "node scripts/serve.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasilismis/greece-honestly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vasilismis/greece-honestly/issues"
+  },
+  "homepage": "https://github.com/vasilismis/greece-honestly#readme",
+  "devDependencies": {
+    "marked": "^18.1.2"
+  },
+  "private": true,
+  "type": "module"
+}
