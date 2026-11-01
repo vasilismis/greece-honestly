@@ -6,11 +6,18 @@ guide: retire
 published: 2026-11-01
 order: 1
 summary: Residence, the 7% pension tax and healthcare for retirees, in the order you will actually need them.
+hero: coffee
 ---
 
 Retiring to Greece is very doable, but the paperwork comes in a particular order. Get the order wrong and you can lose months, or miss a tax deadline that only comes round once a year.
 
 This article walks through the three big pieces: your right to live in Greece, your tax, and your healthcare. It is general information, not legal or tax advice, so treat it as a map rather than the final word.
+
+:::steps
+Residence | Work out your route: EU registration, the Financially Independent Person permit or the Golden Visa.
+Tax | Decide between the normal scale and the 7% regime, and note the 31 October deadline.
+Healthcare | Sort out your S1 or full health insurance, and get your AMKA.
+:::
 
 ## Step 1: work out which residence route is yours
 
@@ -45,7 +52,11 @@ The process has two stages:
 
 The permit lasts three years and can be renewed for another three. Apply for renewal in the two months before it expires. Since a 2026 change in the law, a late application is possible up to three months after expiry, but it costs a fine of €100 for every month you are late. Better to put the date in your diary.
 
-Two conditions catch people out:
+:::note Two conditions catch people out
+No work in Greece for you or your family members, and full health insurance that covers you in Greece. Travel insurance is not enough.
+:::
+
+In detail:
 
 - **No work in Greece.** Neither you nor your family members may take a job or be self-employed in Greece. Foreign pensions, rents and dividends are fine.
 - **Proper health insurance.** You need full health insurance that covers you in Greece. Travel insurance is not enough.
@@ -76,6 +87,8 @@ The difference can be large. On a €40,000 foreign pension, the normal scale co
 The catch is timing. You apply by **31 October** of the year you want the regime to start, and you pay in one instalment by the last working day of December. We cover the details, including who qualifies and what happens if you move after 2 July, in [our article on the 7% flat tax](/articles/greece-7-percent-flat-tax-foreign-pensions/).
 
 One more thing: tax treaties can change who taxes certain pensions. Government-service pensions, for example, are often taxed only by the country that pays them. Check the rules of the country you are leaving, too.
+
+::figure mountain-village | Life away from the coast: stone houses in a mountain village.
 
 ## Step 3: sort out your healthcare
 

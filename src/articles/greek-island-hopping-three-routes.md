@@ -6,6 +6,7 @@ guide: islands
 published: 2026-11-01
 order: 5
 summary: Classic Cyclades, quiet Cyclades and the Ionian by car, with the rules that stop a trip turning into a ferry marathon.
+hero: ferry
 ---
 
 Island hopping sounds simple: buy a ferry ticket, hop to the next island, repeat. In practice, the most common mistake is trying to see too much. Five islands in ten days means a lot of time on ferries and in ports, and not much time on beaches.
@@ -14,6 +15,13 @@ Below are three routes that work, followed by the rules of thumb behind them. Us
 
 ## First, the rules of thumb
 
+:::facts
+calendar | Stay | At least 3 nights per island
+pin | Choose | Two or three islands, not five
+boat | Stick to | One ferry line
+plane | Last night | Near your departure airport
+:::
+
 These four rules will save most trips:
 
 1. **At least three nights per island.** Arrival and departure days eat into your time. Two nights often means one real day.
@@ -21,7 +29,9 @@ These four rules will save most trips:
 3. **Stay on one ferry line.** Islands in the same group connect easily. Crossing between groups usually means long detours.
 4. **Keep the last night near your departure airport.** Ferries can be delayed or cancelled by wind. Do not plan to catch an international flight on the same day as a ferry if you can avoid it.
 
-And one warning that applies to every route here: **ferry times change every year**. Always check the current schedules for your dates before you book anything that cannot be changed.
+:::note One warning for every route
+**Ferry times change every year.** Always check the current schedules for your dates before you book anything that cannot be changed.
+:::
 
 ## Route 1: Classic Cyclades (10–12 days)
 

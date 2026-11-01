@@ -6,11 +6,19 @@ guide: renting
 published: 2026-11-01
 order: 11
 summary: The three-year rule, deposits, the contract, AADE registration and a checklist for before you sign.
+hero: athens-alley
 ---
 
 Renting a flat is usually the first big step after moving to Greece. The system is not complicated, but it works differently from the UK and many other countries. The lease has to be registered with the tax authority, there is a minimum term that surprises many newcomers, and much of what protects you depends on what is written in the contract.
 
 This article explains how long-term renting works and what to check before you sign. It is general information, not legal advice. For anything unusual, ask a Greek lawyer before you sign.
+
+:::facts
+calendar | Minimum term | 3 years for a main residence
+euro | Deposit | Commonly 1–2 months' rent
+doc | Lease registration | Declared to AADE by the landlord
+id | You need | An AFM and myAADE access
+:::
 
 ## Before you start: get your tax number
 
@@ -35,7 +43,9 @@ Landlords usually ask for a deposit. It is commonly **one or two months' rent**,
 - what it can be used for (for example, unpaid rent or damage beyond normal wear and tear)
 - when and how it will be returned at the end of the lease
 
+:::note Good to know
 Do not try to "use up" the deposit by not paying the last months' rent. Agree in writing how it will be settled instead.
+:::
 
 ## The contract
 

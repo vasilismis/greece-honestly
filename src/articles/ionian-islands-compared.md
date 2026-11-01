@@ -6,6 +6,7 @@ guide: islands
 published: 2026-11-01
 order: 10
 summary: Corfu, Paxos, Lefkada, Kefalonia, Ithaca and Zakynthos side by side, with how to get there and whether you need a car.
+hero: corfu-boats
 ---
 
 The Ionian islands sit off the west coast of Greece. Compared with the Cyclades they are green, the winds are softer and many towns still show their Venetian past. If you like trees, shade and gentle evenings, this is a good part of Greece to start with.
@@ -49,6 +50,8 @@ Small and rugged, with no airport. The main crossing is from Sami on Kefalonia t
 
 Easy to reach, with direct flights and a year-round ferry from Kyllini on the Peloponnese. That makes it a simple choice if you want little travel hassle. A car is useful if you want to explore beyond your resort.
 
+::figure lefkada-bay | Looking over a calm bay and small islands on Lefkada.
+
 ## Beaches: what to expect
 
 - **Lefkada** has the most dramatic beaches of the six, on its exposed west coast. Access to some has been difficult since an earthquake in 2015; see the [Lefkada guide](/articles/lefkada-travel-guide/) for the current picture.
@@ -73,7 +76,9 @@ Two or three Ionian islands make a lovely trip, as long as you keep it simple:
 - **Kefalonia + Ithaca:** short, frequent crossings between Sami and Pisaetos.
 - **Corfu → Lefkada → Kefalonia by car:** our [Ionian by car route](/articles/greek-island-hopping-three-routes/) does exactly this in ten days.
 
+:::note Good to know
 Ferry times change every year, and some links (such as Lefkada to Kefalonia) only run in season and not every day. Always check current schedules for your dates.
+:::
 
 ## Which one is right for you?
 

@@ -6,11 +6,16 @@ guide: islands
 published: 2026-11-01
 order: 4
 summary: The seven island groups in plain English, a quick quiz, and the best months to go.
+hero: santorini-wide
 ---
 
 Greece has a lot of islands, and from home they can all look the same: blue sea, white houses, a taverna by the harbour. In reality they are very different. Some are bare and windy, some are green and gentle, some are lively all year and some go to sleep in winter.
 
 The easiest way to choose is to start with the island **groups**. Islands in the same group tend to share a landscape and a style, and they are usually linked by ferry. Pick your group first, then your island.
+
+:::quote
+Pick your group first, then your island.
+:::
 
 ## The seven island groups
 
@@ -31,6 +36,8 @@ For a closer look, see [the Ionian islands compared](/articles/ionian-islands-co
 ### Crete
 
 The biggest Greek island, almost a small country in its own right. It has two international airports, Heraklion and Chania, which makes it easy to reach. You could spend weeks here and not see it all.
+
+::figure crete-rocks | A sheltered bay with shallow turquoise water on Crete.
 
 ### Dodecanese
 

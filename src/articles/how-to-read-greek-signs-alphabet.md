@@ -6,11 +6,18 @@ guide: alphabet
 published: 2026-11-01
 order: 8
 summary: The look-alike letters, the new ones, the letter pairs, and five signs to practise on.
+hero: greek-inscription
 ---
 
 The Greek alphabet looks scary, but here is the good news: you already know more of it than you think. Many letters look and sound the same as in English. A handful look familiar but are traps. The rest are new, but there are only ten of them.
 
 Give it ten minutes and you will be sounding out signs at the port, the pharmacy and the airport. Signs in Greece are often written in capital letters, so that is what we will learn here.
+
+:::steps
+The easy letters | Eight letters that look and sound like English.
+The traps | Six that look familiar but sound different.
+New letters and pairs | Ten new letters, then the pairs that make b, d and g.
+:::
 
 ## Part 1: the easy letters (1 minute)
 

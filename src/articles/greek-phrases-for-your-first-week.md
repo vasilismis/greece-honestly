@@ -6,6 +6,7 @@ guide: phrases
 published: 2026-11-01
 order: 7
 summary: Greetings, please and thank you, the bill, and help — twenty phrases with simple pronunciation.
+hero: cyclades-chairs
 ---
 
 You can travel in Greece without speaking a word of Greek. Plenty of people speak English, especially in tourist areas. But a few words of Greek change the mood of almost every conversation. People smile, relax and often reply with a few words of English to meet you halfway.
@@ -18,6 +19,10 @@ Here are twenty phrases that will cover most of your first week. You do not need
 - **"ch"** is the throaty sound in the Scottish word "loch", never the "ch" in "chair".
 - Vowels are short and clear: **a** as in "cat", **e** as in "pet", **i** as in "machine", **o** as in "hot", **u** as in "put".
 - Don't worry about getting it perfect. A warm attempt is always welcome.
+
+:::quote
+A warm attempt is always welcome. Start with *kaliméra* and *efcharistó*.
+:::
 
 ## The essentials
 
@@ -38,7 +43,9 @@ Here are twenty phrases that will cover most of your first week. You do not need
 
 **Parakaló** is the most useful word in the language. It means "please", it means "you're welcome" when someone thanks you, and you will hear it in shops when someone is ready to serve you.
 
+:::note Good to know
 Watch out for **ne**. It means **yes**, even though it sounds a bit like "no". And **óchi**, with the throaty "ch", means no. Mixing these two up is the classic beginner's mistake.
+:::
 
 ## Shopping and getting around
 

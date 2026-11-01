@@ -4,12 +4,15 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync, cpSync, ex
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked';
+import sharp from 'sharp';
 import { site, guides, guideGroups } from '../src/site.mjs';
+import { images, guideCovers } from '../src/images.mjs';
+import { icon } from '../src/icons.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const out = join(root, 'dist');
 const B = site.basePath; // e.g. "/greece-honestly/"
-const abs = (p = '') => site.url + B + p; // absolute URL for canonical, sitemap, RSS
+const abs = (p = '') => site.url + B + p; // absolute URL for canonical, sitemap, RSS, og:image
 const rel = (p = '') => B + p; // root-relative link used inside pages
 
 // ---------- helpers ----------
@@ -37,8 +40,43 @@ function write(path, content) {
   writeFileSync(full, content);
 }
 
-// Markdown rendering: tables get a focusable scroll wrapper so they work at 360px.
-// Links starting with "/" are treated as site-internal and get the base path.
+// ---------- images ----------
+// Every photo is cropped to 16:9 and written as 480px, 800px and 1600px WebP, plus a 1200×630 JPEG for og:image.
+const W = [480, 800, 1600];
+const used = new Set();
+function checkImage(name, where) {
+  if (!images[name]) throw new Error(`${where}: unknown image "${name}" (add it to src/images.mjs)`);
+  if (!existsSync(join(root, 'src/static/img', name + '.jpg'))) throw new Error(`${where}: src/static/img/${name}.jpg not found`);
+  used.add(name);
+}
+async function renderImages() {
+  mkdirSync(join(out, 'img'), { recursive: true });
+  await Promise.all(
+    [...used].map(async (name) => {
+      const src = join(root, 'src/static/img', name + '.jpg');
+      const position = images[name].pos || 'centre';
+      for (const w of W) {
+        await sharp(src).resize(w, Math.round((w * 9) / 16), { fit: 'cover', position }).webp({ quality: 70 }).toFile(join(out, 'img', `${name}-${w}.webp`));
+      }
+      await sharp(src).resize(1200, 630, { fit: 'cover', position }).jpeg({ quality: 78, mozjpeg: true }).toFile(join(out, 'img', `${name}-og.jpg`));
+    })
+  );
+}
+const srcset = (name) => W.map((w) => `${rel(`img/${name}-${w}.webp`)} ${w}w`).join(', ');
+function img(name, { sizes = '100vw', eager = false, lazy = true, cls = '', alt } = {}) {
+  checkImage(name, 'img()');
+  const a = alt ?? images[name].alt;
+  return `<img${cls ? ` class="${cls}"` : ''} src="${rel(`img/${name}-800.webp`)}" srcset="${srcset(name)}" sizes="${sizes}" width="1600" height="900" alt="${esc(a)}" ${
+    eager ? 'fetchpriority="high" decoding="async"' : lazy ? 'loading="lazy" decoding="async"' : 'decoding="async"'
+  }>`;
+}
+
+// ---------- Markdown with a few content blocks ----------
+// ::figure name | caption                 → photo with caption
+// :::note Title  … :::                     → "Good to know" box (Markdown inside)
+// :::quote … :::                           → pull quote
+// :::facts  icon | label | value  … :::    → key facts with icons
+// :::steps  title | text  … :::            → numbered step strip
 marked.use({
   gfm: true,
   renderer: {
@@ -53,22 +91,62 @@ marked.use({
     }
   },
 });
+const oneLine = (html) => html.replace(/\n+/g, ' ').trim();
+const inline = (s) => marked.parseInline(s.trim());
+
+function blocks(body, file) {
+  const fail = (msg) => {
+    throw new Error(`${file}: ${msg}`);
+  };
+  body = body.replace(/^::figure (.+)$/gm, (_, rest) => {
+    const [name, caption] = rest.split('|').map((s) => s.trim());
+    checkImage(name, file);
+    return `<figure class="photo">${img(name, { sizes: '(min-width: 760px) 720px, 100vw' })}${caption ? `<figcaption>${inline(caption)}</figcaption>` : ''}</figure>`;
+  });
+  return body.replace(/^:::(note|quote|facts|steps)(?: (.*))?\n([\s\S]*?)\n:::$/gm, (_, kind, arg, inner) => {
+    const lines = inner.split('\n').filter((l) => l.trim());
+    if (kind === 'note') {
+      return oneLine(`<aside class="note-box">${icon('info')}<div><p class="note-title">${esc(arg || 'Good to know')}</p>${marked.parse(inner)}</div></aside>`);
+    }
+    if (kind === 'quote') return oneLine(`<blockquote class="pull"><p>${inline(inner)}</p></blockquote>`);
+    const rows = lines.map((l) => l.split('|').map((s) => s.trim()));
+    if (kind === 'facts') {
+      for (const r of rows) if (r.length !== 3) fail(`facts lines need "icon | label | value": ${r.join('|')}`);
+      return `<ul class="facts">${rows.map(([ic, label, value]) => `<li>${icon(ic)}<span class="fact-label">${inline(label)}</span><span class="fact-value">${inline(value)}</span></li>`).join('')}</ul>`;
+    }
+    for (const r of rows) if (r.length !== 2) fail(`steps lines need "title | text": ${r.join('|')}`);
+    return `<ol class="steps">${rows.map(([t, d]) => `<li><span class="step-title">${inline(t)}</span><span class="step-text">${inline(d)}</span></li>`).join('')}</ol>`;
+  });
+}
 
 // ---------- load articles ----------
-const required = ['title', 'description', 'slug', 'guide', 'published', 'order', 'summary'];
+const kickers = {
+  retire: 'Moving to Greece',
+  nomad: 'Moving to Greece',
+  first90: 'Moving to Greece',
+  renting: 'Moving to Greece',
+  islands: 'Islands',
+  eat: 'Food and drink',
+  phrases: 'Speaking Greek',
+  flashcards: 'Speaking Greek',
+  alphabet: 'Speaking Greek',
+};
+const required = ['title', 'description', 'slug', 'guide', 'published', 'order', 'summary', 'hero'];
 const articles = readdirSync(join(root, 'src/articles'))
   .filter((f) => f.endsWith('.md'))
   .map((f) => {
     const { data, body } = parseFrontMatter(readFileSync(join(root, 'src/articles', f), 'utf8'), f);
     for (const k of required) if (!data[k]) throw new Error(`${f}: front matter needs "${k}"`);
     if (!guides[data.guide]) throw new Error(`${f}: unknown guide "${data.guide}" (see src/site.mjs)`);
-    const words = body.replace(/[#|*_>`\-]/g, ' ').split(/\s+/).filter(Boolean).length;
+    checkImage(data.hero, f);
+    const words = body.replace(/^:::?\w+.*$/gm, '').replace(/[#|*_>`\-]/g, ' ').split(/\s+/).filter(Boolean).length;
     return {
       ...data,
       order: Number(data.order),
       modified: data.modified || data.published,
       lastChecked: data.lastChecked || site.lastChecked,
-      html: marked.parse(body),
+      kicker: data.kicker || kickers[data.guide],
+      html: marked.parse(blocks(body, f)),
       words,
       file: f,
     };
@@ -84,8 +162,9 @@ for (const a of articles) {
 // ---------- layout ----------
 const css = readFileSync(join(root, 'src/style.css'), 'utf8')
   .replace(/FONTS\//g, rel('fonts/'))
+  .replace(/\/\*[\s\S]*?\*\//g, '')
   .replace(/\n\s*/g, '')
-  .replace(/\s*([{};:,])\s*/g, '$1');
+  .replace(/\s*([{};:,>])\s*/g, '$1');
 
 const logo = `<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="15" fill="#FBF7EF"/><path d="M3 19c4-3 7-3 10 0s7 3 10 0 5-3 6-2v3a15 15 0 0 1-26 2z" fill="#2E86AB"/><circle cx="21" cy="11" r="4" fill="#D9A441"/></svg>`;
 
@@ -96,10 +175,19 @@ const nav = [
   ['about/', 'About'],
 ];
 
-function layout({ path, title, description, body, type = 'website', jsonld = [], published, modified }) {
+function layout({ path, title, description, body, type = 'website', jsonld = [], published, modified, hero }) {
   const fullTitle = path === '' ? `${site.name}: practical guides to Greece` : `${title} | ${site.name}`;
   const url = abs(path);
   const ld = jsonld.map((o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`).join('');
+  const og = hero
+    ? `<meta property="og:image" content="${abs(`img/${hero}-og.jpg`)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(images[hero].alt)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${abs(`img/${hero}-og.jpg`)}">
+<meta name="twitter:image:alt" content="${esc(images[hero].alt)}">`
+    : `<meta name="twitter:card" content="summary">`;
   return `<!doctype html>
 <html lang="${site.lang}">
 <head>
@@ -108,7 +196,7 @@ function layout({ path, title, description, body, type = 'website', jsonld = [],
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${url}">
-<link rel="preload" href="${rel('fonts/noto-sans-latin-400-normal.woff2')}" as="font" type="font/woff2" crossorigin>
+${hero ? `<link rel="preload" as="image" type="image/webp" imagesrcset="${srcset(hero)}" imagesizes="100vw" fetchpriority="high">\n` : ''}<link rel="preload" href="${rel('fonts/noto-sans-latin-400-normal.woff2')}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${rel('fonts/noto-serif-latin-700-normal.woff2')}" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="${rel('favicon.svg')}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="${esc(site.name)}" href="${abs('rss.xml')}">
@@ -119,8 +207,8 @@ function layout({ path, title, description, body, type = 'website', jsonld = [],
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">
-${published ? `<meta property="article:published_time" content="${published}">\n<meta property="article:modified_time" content="${modified}">\n` : ''}<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="${esc(title)}">
+${og}
+${published ? `<meta property="article:published_time" content="${published}">\n<meta property="article:modified_time" content="${modified}">\n` : ''}<meta name="twitter:title" content="${esc(title)}">
 <meta name="twitter:description" content="${esc(description)}">
 <style>${css}</style>
 ${ld}
@@ -149,7 +237,7 @@ ${body}
 <li><a href="${site.shopUrl}">Shop on Payhip</a></li>
 </ul>
 <p>${esc(site.footerNote)}</p>
-<p>No cookies, no tracking.</p>
+<p>No cookies, no tracking. Photos: Unsplash.</p>
 </div>
 </footer>
 </body>
@@ -158,28 +246,39 @@ ${body}
 }
 
 const priceLabel = (g) => (g.price === 'see shop' ? 'see shop for price' : g.price);
+const priceShort = (g) => (g.price === 'free' ? 'Free' : g.price === 'see shop' ? 'Price: see shop' : g.price);
 
-function cta(a) {
-  const g = guides[a.guide];
-  return `<aside class="cta" aria-labelledby="cta-h">
-<h2 id="cta-h">Want the full checklist?</h2>
+// A "cover" for a guide: the stand-in photo with the guide's name set on it.
+function cover(key, sizes, lazy = true) {
+  const g = guides[key];
+  const name = guideCovers[key];
+  return `<div class="cover">${img(name, { sizes, lazy })}<span class="cover-text" aria-hidden="true"><span class="cover-brand">${esc(site.name)}</span><span class="cover-title">${esc(g.name)}</span></span></div>`;
+}
+
+function productCard(key) {
+  const g = guides[key];
+  return `<aside class="product" aria-labelledby="product-h">
+${cover(key, '(min-width: 640px) 260px, 100vw')}
+<div class="product-body">
+<p class="kicker">Want the full checklist?</p>
+<h2 id="product-h">${esc(g.name)}</h2>
+<p class="product-meta">${icon('doc')}<span>${g.format}, ${priceLabel(g)}</span></p>
 <p><a class="button" href="${g.url}">→ ${esc(g.name)} (${g.format}, ${priceLabel(g)})</a></p>
-<p class="note" style="border:0;padding:0;margin:0">Sold through Payhip. Opens the shop page, where you can see what is inside before you decide.</p>
+<p class="small">Sold through Payhip. The shop page shows what is inside before you decide.</p>
+</div>
 </aside>`;
 }
 
-function articleCard(a) {
-  return `<li><article class="card"><h3><a href="${rel(`articles/${a.slug}/`)}">${esc(a.title)}</a></h3><p>${esc(a.summary)}</p></article></li>`;
+function articleCard(a, h = 'h3', lazy = true) {
+  return `<li><article class="card">${img(a.hero, { sizes: '(min-width: 1040px) 320px, (min-width: 700px) 45vw, 100vw', lazy })}<div class="card-body"><p class="kicker">${esc(a.kicker)}</p><${h}><a class="stretched" href="${rel(`articles/${a.slug}/`)}">${esc(a.title)}</a></${h}><p>${esc(a.summary)}</p></div></article></li>`;
 }
 
-function guideCard(key) {
+function guideCard(key, i = 9) {
   const g = guides[key];
   const related = articles.filter((a) => a.guide === key);
-  return `<li><article class="card guide"><h3><a href="${g.url}">${esc(g.name)}</a></h3>${
-    related.length
-      ? `<p>Free reading first: ${related.map((a) => `<a href="${rel(`articles/${a.slug}/`)}">${esc(a.title)}</a>`).join('; ')}</p>`
-      : ''
-  }<p class="price">${g.price === 'free' ? 'Free' : g.price === 'see shop' ? 'Price: see shop' : g.price}</p></article></li>`;
+  return `<li><article class="card guide">${cover(key, '(min-width: 1040px) 320px, (min-width: 700px) 45vw, 100vw', i > 1)}<div class="card-body"><h3><a href="${g.url}">${esc(g.name)}</a></h3>${
+    related.length ? `<p>Free reading first: ${related.map((a) => `<a href="${rel(`articles/${a.slug}/`)}">${esc(a.title)}</a>`).join('; ')}</p>` : ''
+  }<p class="price">${priceShort(g)}</p></div></article></li>`;
 }
 
 const publisher = { '@type': 'Organization', name: site.name, url: abs() };
@@ -187,26 +286,36 @@ const publisher = { '@type': 'Organization', name: site.name, url: abs() };
 // ---------- pages ----------
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
-cpSync(join(root, 'src/static'), out, { recursive: true });
+cpSync(join(root, 'src/static'), out, { recursive: true, filter: (src) => !src.includes(join('src', 'static', 'img')) });
 
 // Article pages
 for (const a of articles) {
   const path = `articles/${a.slug}/`;
-  const others = articles.filter((o) => o !== a && o.guide === a.guide).concat(articles.filter((o) => o !== a && o.guide !== a.guide)).slice(0, 3);
-  const body = `<div class="wrap">
+  const others = articles
+    .filter((o) => o !== a && o.guide === a.guide)
+    .concat(articles.filter((o) => o !== a && o.guide !== a.guide))
+    .slice(0, 3);
+  const body = `<article>
+<header class="hero hero-article">
+${img(a.hero, { eager: true })}
+<div class="hero-text wrap">
 <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="${rel()}">Home</a></li><li><a href="${rel('articles/')}">Articles</a></li></ol></nav>
-<article>
+<p class="kicker">${esc(a.kicker)}</p>
 <h1>${esc(a.title)}</h1>
-<p class="meta">Last checked: ${esc(a.lastChecked)} · About ${Math.max(1, Math.round(a.words / 220))} minutes to read</p>
+<p class="meta">${icon('calendar')}<span>Last checked: ${esc(a.lastChecked)}</span><span aria-hidden="true">·</span><span>About ${Math.max(1, Math.round(a.words / 220))} minutes to read</span></p>
+</div>
+</header>
+<div class="wrap article-body">
 ${a.html}
-${cta(a)}
+${productCard(a.guide)}
 <p class="note">General information, not legal, tax or medical advice. Rules change: check with the official source or a qualified professional before you act.</p>
+</div>
 </article>
-<section aria-labelledby="more-h">
+<section class="wrap wide more" aria-labelledby="more-h">
+<p class="kicker">Keep reading</p>
 <h2 id="more-h">More free articles</h2>
-<ul class="cards">${others.map(articleCard).join('')}</ul>
-</section>
-</div>`;
+<ul class="cards">${others.map((o) => articleCard(o)).join('')}</ul>
+</section>`;
   write(
     path + 'index.html',
     layout({
@@ -217,12 +326,14 @@ ${cta(a)}
       type: 'article',
       published: a.published,
       modified: a.modified,
+      hero: a.hero,
       jsonld: [
         {
           '@context': 'https://schema.org',
           '@type': 'Article',
           headline: a.title,
           description: a.description,
+          image: abs(`img/${a.hero}-og.jpg`),
           datePublished: a.published,
           dateModified: a.modified,
           inLanguage: site.lang,
@@ -246,27 +357,51 @@ ${cta(a)}
 }
 
 // Home
+const homeHero = 'santorini-wide';
+const featured = articles.filter((a) => a.featured === 'true');
+checkImage(homeHero, 'home');
 write(
   'index.html',
   layout({
     path: '',
     title: `${site.name}: practical guides to Greece`,
     description: site.description,
+    hero: homeHero,
     jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: site.name, url: abs(), inLanguage: site.lang }],
-    body: `<div class="wrap wide">
+    body: `<header class="hero hero-home">
+${img(homeHero, { eager: true })}
+<div class="hero-text wrap wide">
+<p class="kicker">Practical guides to Greece</p>
 <h1>Greece, without the sales talk</h1>
-<p class="intro">Plain-English answers for people visiting or moving to Greece: residence permits, the 7% pension tax, healthcare, which island to pick, what to order in a taverna and enough Greek to get by.</p>
-<p>The articles below are free. Where a topic needs a full checklist, each article links to a paid PDF guide at the end. You never need to buy anything to use this site.</p>
-${articles.filter((a) => a.featured === 'true').map((a) => `<section class="feature" aria-labelledby="feat-${a.slug}">
+<p class="hero-intro">Plain-English answers for people visiting or moving to Greece: residence permits, the 7% pension tax, which island to pick, what to order in a taverna and enough Greek to get by.</p>
+<p class="hero-actions"><a class="button" href="${rel('articles/')}">Read the free articles</a><a class="button button-ghost" href="${rel('guides/')}">See the guides</a></p>
+</div>
+</header>
+<div class="wrap wide">
+<ul class="trust">
+<li>${icon('calendar')}<span><strong>Dated.</strong> Every article shows when it was last checked.</span></li>
+<li>${icon('shield')}<span><strong>Checked in Greece.</strong> Written with AI tools, checked by people who live here.</span></li>
+<li>${icon('check')}<span><strong>No tracking.</strong> No cookies, no ads, nothing to sign up for.</span></li>
+</ul>
+${featured
+  .map(
+    (a) => `<section class="feature" aria-labelledby="feat-${a.slug}">
+${img('lefkada-bay', { sizes: '(min-width: 1040px) 1000px, 100vw' })}
+<div class="feature-text">
 <p class="kicker">Featured guide</p>
-<h2 id="feat-${a.slug}"><a href="${rel(`articles/${a.slug}/`)}">${esc(a.title)}</a></h2>
+<h2 id="feat-${a.slug}"><a class="stretched" href="${rel(`articles/${a.slug}/`)}">${esc(a.title)}</a></h2>
 <p>${esc(a.summary)}</p>
-</section>`).join('')}
-<h2>Free articles</h2>
-<ul class="cards">${articles.map(articleCard).join('')}</ul>
+</div>
+</section>`
+  )
+  .join('')}
+<p class="kicker section-kicker">Free to read</p>
+<h2>Articles</h2>
+<ul class="cards">${articles.filter((a) => !featured.includes(a)).map((a) => articleCard(a)).join('')}</ul>
+<p class="kicker section-kicker">Downloadable PDFs</p>
 <h2>The guides</h2>
-<p>Downloadable guides sold through Payhip. <a href="${rel('guides/')}">See all guides</a> or <a href="${site.shopUrl}">visit the shop</a>.</p>
-<ul class="cards">${['retire', 'nomad', 'first90', 'renting', 'islands', 'eat', 'phrases', 'alphabet'].map(guideCard).join('')}</ul>
+<p>Sold through Payhip. Each article above links to the guide that goes with it. You never need to buy anything to use this site. <a href="${rel('guides/')}">See all guides</a>.</p>
+<ul class="cards">${['retire', 'nomad', 'first90', 'renting', 'islands', 'eat', 'phrases', 'alphabet'].map((k) => guideCard(k)).join('')}</ul>
 </div>`,
   })
 );
@@ -278,10 +413,11 @@ write(
     path: 'articles/',
     title: 'All articles',
     description: 'Free articles about living in and visiting Greece: visas, tax, healthcare, islands, food and the Greek language.',
-    body: `<div class="wrap wide">
+    body: `<div class="wrap wide page">
+<p class="kicker">Free to read</p>
 <h1>All articles</h1>
-<p class="intro">Free, practical articles. Each one was last checked in ${esc(site.lastChecked)}.</p>
-<ul class="cards">${articles.map(articleCard).join('')}</ul>
+<p class="intro">Practical articles, each one dated with the month it was last checked.</p>
+<ul class="cards">${articles.map((a, i) => articleCard(a, 'h2', i > 1)).join('')}</ul>
 </div>`,
   })
 );
@@ -293,12 +429,13 @@ write(
     path: 'guides/',
     title: 'Guides',
     description: 'Downloadable guides from Greece, Honestly: retiring, digital nomad life, islands, food, Survival Greek and a free alphabet cheat sheet.',
-    body: `<div class="wrap wide">
+    body: `<div class="wrap wide page">
+<p class="kicker">Downloadable PDFs</p>
 <h1>Guides</h1>
 <p class="intro">Our downloadable guides are sold through Payhip, a third-party shop. Each link opens the guide's shop page, where you can read the description before buying.</p>
-${guideGroups.map((grp) => `<h2>${esc(grp.title)}</h2>\n<ul class="cards">${grp.keys.map(guideCard).join('')}</ul>`).join('\n')}
+${guideGroups.map((grp) => `<h2>${esc(grp.title)}</h2>\n<ul class="cards">${grp.keys.map((k, i) => guideCard(k, grp === guideGroups[0] ? i : 9)).join('')}</ul>`).join('\n')}
 <p><a class="button" href="${site.shopUrl}">Browse the full shop</a></p>
-<p class="note">Prices shown here may change; the price on the shop page is the one that applies.</p>
+<p class="note">Prices shown here may change; the price on the shop page is the one that applies. Cover images on this site are photos standing in for the guide covers.</p>
 </div>`,
   })
 );
@@ -310,7 +447,8 @@ write(
     path: 'about/',
     title: 'About',
     description: 'What Greece, Honestly is, how the guides are made, and what it is not.',
-    body: `<div class="wrap">
+    body: `<div class="wrap page">
+<p class="kicker">About</p>
 <h1>About Greece, Honestly</h1>
 <p class="intro">Greece, Honestly publishes practical English-language guides for people visiting or moving to Greece.</p>
 <h2>How it works</h2>
@@ -319,6 +457,7 @@ write(
 <li>The paid guides are PDFs sold through Payhip.</li>
 <li>Greece, Honestly is presented by AI-generated characters. They are not real people, and we do not pretend otherwise.</li>
 <li>Guides are written with AI tools and checked in Greece.</li>
+<li>Photos come from Unsplash. They illustrate the articles and are not always of the exact place described.</li>
 </ul>
 <h2>What we are not</h2>
 <p>We are not lawyers, accountants or doctors. Everything here is general information, not legal, tax or medical advice. Rules in Greece change, sometimes quickly. Before you make a big decision, check with the official source, the Greek consulate, or a qualified professional.</p>
@@ -337,7 +476,8 @@ write(
     path: 'privacy/',
     title: 'Privacy',
     description: 'Greece, Honestly uses no cookies and no tracking.',
-    body: `<div class="wrap">
+    body: `<div class="wrap page">
+<p class="kicker">Privacy</p>
 <h1>Privacy</h1>
 <p class="intro">Short version: this site uses no cookies and no tracking.</p>
 <h2>On this website</h2>
@@ -345,7 +485,7 @@ write(
 <li>No cookies.</li>
 <li>No analytics, no advertising and no third-party scripts.</li>
 <li>No forms, no accounts and nothing that asks for your details.</li>
-<li>Fonts are served from this site, not from a font service.</li>
+<li>Fonts and photos are served from this site, not from outside services.</li>
 </ul>
 <h2>Hosting</h2>
 <p>The site is hosted on GitHub Pages. Like any web host, GitHub may process technical data such as your IP address to deliver pages and keep the service secure. See GitHub's own privacy statement for details.</p>
@@ -353,7 +493,7 @@ write(
 <p>Guides are sold through Payhip. When you follow a link to the shop you leave this site, and Payhip's own privacy policy applies to anything you do there, including payment.</p>
 <h2>Contact</h2>
 <p>${site.contactEmail ? `Email <a href="mailto:${esc(site.contactEmail)}">${esc(site.contactEmail)}</a>. We only use your email to reply to you.` : 'Contact is by email only. An address will be added here soon.'}</p>
-<p class="meta">Last updated: ${esc(site.lastChecked)}</p>
+<p class="meta-plain">Last updated: ${esc(site.lastChecked)}</p>
 </div>`,
   })
 );
@@ -365,7 +505,7 @@ write(
     path: '404.html',
     title: 'Page not found',
     description: 'This page does not exist.',
-    body: `<div class="wrap"><h1>Page not found</h1><p>Sorry, that page does not exist. Try the <a href="${rel()}">home page</a> or the <a href="${rel('articles/')}">list of articles</a>.</p></div>`,
+    body: `<div class="wrap page"><h1>Page not found</h1><p>Sorry, that page does not exist. Try the <a href="${rel()}">home page</a> or the <a href="${rel('articles/')}">list of articles</a>.</p></div>`,
   }).replace('<link rel="canonical"', '<meta name="robots" content="noindex">\n<link rel="canonical"')
 );
 
@@ -420,5 +560,7 @@ ${[...articles]
 write('.nojekyll', '');
 if (process.env.CNAME) write('CNAME', process.env.CNAME.trim() + '\n');
 
-console.log(`Built ${articles.length} articles → dist/ (base ${site.url}${B})`);
+await renderImages();
+
+console.log(`Built ${articles.length} articles and ${used.size} photos → dist/ (base ${site.url}${B})`);
 for (const a of articles) console.log(`  ${String(a.words).padStart(5)} words  ${a.file}`);

@@ -6,11 +6,19 @@ guide: eat
 published: 2026-11-01
 order: 6
 summary: Ten classic dishes explained, how Greeks order, and what to expect when the bill arrives.
+hero: taverna-tables
 ---
 
 A meal in a Greek taverna is one of the best parts of any trip to Greece. It is also slightly different from eating out at home. People order differently, some things are priced differently, and the bill has a few surprises if you do not know them.
 
 Here is how it works, plus ten dishes worth knowing.
+
+:::facts
+food | Order | Several dishes, and share
+euro | Bread | Usually charged
+doc | Receipt | You should get one; card payment should be possible
+check | Tip | Optional, about 5–10% in cash
+:::
 
 ## How Greeks order: share everything
 
@@ -42,6 +50,8 @@ You can always order more later. Over-ordering is the classic tourist mistake.
 
 Recipes vary from region to region and from kitchen to kitchen, which is part of the fun. If you are not sure what something is, ask.
 
+::figure taverna-chairs | A shady taverna terrace. Greeks usually order several dishes and share them.
+
 ## Things that work differently
 
 ### Bread is usually charged
@@ -56,11 +66,11 @@ Many tavernas bring a jug or bottle of tap water to the table. If you prefer bot
 
 Fresh fish is often priced **by the kilo**, not per portion. That means the price on the menu is not the price of your plate.
 
-To avoid a surprise:
-
-1. Choose your fish.
-2. **Ask for the weight and the price before it is cooked.**
-3. Agree, then let them cook it.
+:::steps
+Choose | Pick your fish from the display.
+Ask | Ask for the weight and the price before it is cooked.
+Agree | Then let them cook it.
+:::
 
 This is completely normal in Greece, and nobody will mind you asking.
 

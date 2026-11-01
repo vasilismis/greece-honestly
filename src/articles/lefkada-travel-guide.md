@@ -7,11 +7,19 @@ published: 2026-11-01
 order: 9
 featured: true
 summary: The island you can drive to: getting there, the west-coast beaches as they are today, Vasiliki, Nydri, the villages and when to go.
+hero: lefkada-green
 ---
 
 Lefkada is the Ionian island you can drive to. There is no ferry to book and no timetable to worry about: you cross a short floating bridge from the mainland and you are on the island. That makes it easy to reach, but it is not the whole story. Lefkada has a wild, cliff-lined west coast, a calm and green east coast, a bay famous among windsurfers and mountain villages where life goes on much as it always has.
 
 This guide covers what you need to plan a trip: how to get there, which beaches suit you (and how to reach them today), where to stay and when to go.
+
+:::facts
+car | Getting there | Drive in over the floating bridge
+plane | Nearest airport | Aktion (Preveza), about 20 km
+bus | From Athens | KTEL bus, about 5¼ hours
+sun | Best months | May, June and September
+:::
 
 ## Getting there
 
@@ -38,9 +46,11 @@ The west coast faces the open Ionian Sea. This is where the famous photos come f
 | **Milos** | A beautiful beach next to Agios Nikitas with no road | Walk the path from Agios Nikitas (about 20–30 minutes, rough in places) or take a water taxi from the village beach in season |
 | **Egremni** | A long, wild beach below the cliffs | **By boat is the safe choice.** See below. |
 
-### Egremni after the earthquake
+::figure lefkada-cliff | A pebble beach under a pale cliff on Lefkada. Many west-coast beaches sit below cliffs like this.
 
+:::note Egremni after the earthquake
 In November 2015 a strong earthquake hit Lefkada and destroyed the road and the steps down to Egremni. A new staircase was built and reopened in 2021. In 2026, local reports said winter storms had damaged the staircase again and that land access had been closed because the ground was unstable. Whatever you read online, treat land access as uncertain. Boat trips from Vasiliki and Nydri visit this coast, and they are the safest way to see Egremni. Ask locally before you go.
+:::
 
 ## The east coast: calm water and boat trips
 
@@ -49,6 +59,8 @@ The east coast looks across to the mainland and a scattering of small islands. T
 ### Nydri and the islands
 
 Nydri is the main base for boat trips. Day trips usually head to **Meganisi**, a small island with sea caves (including the large Papanikolis cave), and around **Skorpios**, the private island once owned by the Onassis family. Most trips show you Skorpios from the water and stop to swim nearby; check with the operator what is included. A small local ferry also runs from Nydri to Meganisi, daily in high season, if you would rather explore it on your own.
+
+::figure lefkada-boats | Clear water and boats in a bay on Lefkada. The east side of the island is the calmer one.
 
 ## Vasiliki: wind for windsurfers
 
@@ -90,6 +102,10 @@ Lefkada town sits right by the bridge and lagoon. Walk the old streets and look 
 - **October:** quieter, and the season starts to wind down.
 
 **About the wind:** in summer, the west coast can get big waves on windy days, which is when the calm east coast comes into its own. In Vasiliki the wind usually arrives in the afternoon.
+
+:::quote
+On windy days the west coast can get big waves. That is when the calm east coast comes into its own.
+:::
 
 ## Where to stay
 
