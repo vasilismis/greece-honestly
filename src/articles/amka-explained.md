@@ -58,8 +58,8 @@ The official AMKA site lists:
 - a valid **passport** or travel document, and
 - a valid **residence permit that gives access to the labour market**.
 
-:::note What if my permit does not allow work?
-Some permits, such as the Financially Independent Person permit, do not allow work in Greece. The official list above mentions a permit with access to the labour market, so ask the KEP or e-EFKA what applies to you **before** you go. Take your permit, passport, AFM and proof of address with you.
+:::note If your permit does not allow work
+The Financially Independent Person permit gives no access to the labour market, and guides report that its holders generally **cannot** get an AMKA: they are expected to keep private health insurance instead. If you hold another permit that does not allow work, ask the KEP or e-EFKA what applies to you before you go.
 :::
 
 ### Asylum seekers and people with international protection
@@ -72,7 +72,7 @@ UK and EU state pensioners often have healthcare cover in Greece through an **S1
 
 1. Ask your home country for the S1. For UK pensioners, that is NHS Overseas Healthcare Services (+44 191 218 1999).
 2. Get your **AMKA** at a KEP.
-3. Register your S1 with **EOPYY**, the national health provider.
+3. Register your S1 with **EOPYY**, the national health provider. GOV.UK says to register the S1 with EOPYY; EOPYY's own cross-border healthcare page says the S1 is registered with e-EFKA. Ask at the KEP which office to use.
 
 A new S1 comes every year, and each one must be registered.
 
@@ -99,4 +99,6 @@ Checked in November 2026. Procedures change: check the official page before you 
 - Documents for non-EU citizens (passport and a residence permit with access to the labour market): [amka.gr](https://www.amka.gr/)
 - Representatives with certified authorisation, and documents commonly asked for (AFM, proof of address, translations, EU regulation 2016/1191): [My Greek Expat Journey, how to get an AMKA](https://www.mygreekexpatjourney.com/post/how-do-i-obtain-an-amka-in-greece); [XpatAthens, guide to AMKA](https://www.xpatathens.com/living-in-athens/practical-information/healthcare-insurance-visas/item/10121-your-guide-to-amka-in-greece)
 - PAAYPA for asylum applicants: [gov.gr, PAAYPA](https://www.gov.gr/en/ipiresies/polites-kai-kathemerinoteta/polites-allon-kraton/eurese-prosorinou-arithmou-asphalises-kai-ugeionomikes-perithalpses-allodapou-paaupa); [Ministry of Migration and Asylum, positive decision](https://migration.gov.gr/en/gas/diadikasia-asyloy/thetiki-apofasi/)
+- FIP holders and AMKA: [Stathaki-Tsopela law firm](https://stathaki-tsopela.gr/en/immigration-law/financially-independent-persons-new-greek-residence-permit/); [My Greek Expat Journey, eligibility](https://www.mygreekexpatjourney.com/post/am-i-eligible-for-the-amka)
+- S1 registered with e-EFKA: [EOPYY cross-border healthcare](https://eu-healthcare.eopyy.gov.gr/en/healthcare-in-greece/accessing-health-services-in-greece-for-eu-citizens/moving-to-greece-for-eu-citizens/)
 - S1, AMKA at a KEP and EOPYY registration: [GOV.UK, healthcare for UK nationals living in Greece](https://www.gov.uk/guidance/healthcare-in-greece); NHS phone number and yearly S1: Greece, Honestly fact sheet

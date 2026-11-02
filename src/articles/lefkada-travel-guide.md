@@ -25,7 +25,7 @@ sun | Best months | May, June and September
 
 ### By road: the floating bridge
 
-Lefkada is joined to the mainland by a causeway and a floating swing bridge across the Lefkada canal. You drive straight across, so the island works well as part of a road trip. The bridge also swings open at set times to let boats through the canal. Road traffic is not affected by its closures to boats, but the opening schedule for boats changes, so sailors should check the current notice.
+Lefkada is joined to the mainland by a causeway and a floating swing bridge across the Lefkada canal, in service since 1986. You drive straight across, so the island works well as part of a road trip. The bridge also swings open at set times to let boats through the canal. Road traffic is not affected by its closures to boats, but the opening schedule for boats changes, so sailors should check the current notice.
 
 ### By air: Aktion (Preveza) airport
 
@@ -49,7 +49,7 @@ The west coast faces the open Ionian Sea. This is where the famous photos come f
 ::figure lefkada-cliff | A pebble beach under a pale cliff on Lefkada. Many west-coast beaches sit below cliffs like this.
 
 :::note Egremni after the earthquake
-In November 2015 a strong earthquake hit Lefkada and destroyed the road and the steps down to Egremni. A new staircase was built and reopened in 2021. In 2026, local reports said winter storms had damaged the staircase again and that land access had been closed because the ground was unstable. Whatever you read online, treat land access as uncertain. Boat trips from Vasiliki and Nydri visit this coast, and they are the safest way to see Egremni. Ask locally before you go.
+In November 2015 a strong earthquake hit Lefkada and destroyed the road and the steps down to Egremni. A new staircase was built and reopened in 2021. In February 2026, storms caused a rockfall near the bottom of the trail that damaged the metal stairs, and local guides advise against using them until a safety assessment has been made. Whatever you read online, treat land access as uncertain. Boat trips from Vasiliki and Nydri visit this coast, and they are the safest way to see Egremni. Ask locally before you go.
 :::
 
 ## The east coast: calm water and boat trips
@@ -58,7 +58,7 @@ The east coast looks across to the mainland and a scattering of small islands. T
 
 ### Nydri and the islands
 
-Nydri is the main base for boat trips. Day trips usually head to **Meganisi**, a small island with sea caves (including the large Papanikolis cave), and around **Skorpios**, the private island once owned by the Onassis family. Most trips show you Skorpios from the water and stop to swim nearby; check with the operator what is included. A small local ferry also runs from Nydri to Meganisi, daily in high season, if you would rather explore it on your own.
+Nydri is the main base for boat trips. Day trips usually head to **Meganisi**, a small island with sea caves (including the large Papanikolis cave), and around **Skorpios**, the private island once owned by the Onassis family. Landing on Skorpios is not allowed except at one public beach, and private security patrols the island, so most trips show it from the water and stop to swim nearby; check with the operator what is included. A small local ferry also runs from Nydri to Meganisi, daily in high season, if you would rather explore it on your own.
 
 ::figure lefkada-boats | Clear water and boats in a bay on Lefkada. The east side of the island is the calmer one.
 
@@ -71,7 +71,7 @@ Vasiliki, in the south, is famous among windsurfers. In summer a thermal wind bu
 Drive up from either coast and the island changes. The centre of Lefkada is mountainous, with olive groves, small fields and stone villages.
 
 - **Karya** is the best known. It is famous for a type of embroidery, the *karsaniko* stitch, made by the women of the village.
-- **Eglouvi**, higher up, is known for its small lentils, grown on tiny plots by a few farmers. They are the island's most famous food product.
+- **Eglouvi**, higher up, is known for its small lentils, grown on tiny plots by a few farmers. They are the island's most famous food product, and the EU has added them to its register of protected designation of origin (PDO) products.
 
 Walking between the villages is a lovely way to spend a cooler day. The roads are narrow and winding, so drive slowly.
 
@@ -137,7 +137,10 @@ Checked in November 2026. Times, schedules and access change: always check befor
 - Porto Katsiki access: [Wikipedia](https://en.wikipedia.org/wiki/Porto_Katsiki); [Drink Tea & Travel](https://drinkteatravel.com/porto-katsiki-beach-lefkada-greece/)
 - Milos beach path and water taxi: [Nikana guide](https://nikana.gr/en/tourist-guide/lefkada/beaches/2514/mylos-beach); [Drink Tea & Travel](https://drinkteatravel.com/milos-beach-lefkada-greece/)
 - Kathisma, about 3 km from Agios Nikitas: [Nikana, Agios Nikitas and beaches nearby](https://nikana.gr/en/tourist-guide/lefkada/beaches/3513/agios-nikitas-and-beaches-nearby)
-- Egremni after 2015 and in 2026: [Wikipedia, Egremni](https://en.wikipedia.org/wiki/Egremni); [Nikana, road to Egremni](https://nikana.gr/en/blog/4863/road-to-egremni-beach-is-finally-finished?lang=en); [Vasiliki.eu, 2026 safety update](https://vasiliki.eu/news/is-egremni-beach-open-important-safety-update-for-2026-visitors.html)
+- Egremni after 2015 and in 2026: [Wikipedia, Egremni](https://en.wikipedia.org/wiki/Egremni); [Nikana, road to Egremni](https://nikana.gr/en/blog/4863/road-to-egremni-beach-is-finally-finished?lang=en); [Vasiliki.eu, 2026 safety update](https://vasiliki.eu/news/is-egremni-beach-open-important-safety-update-for-2026-visitors.html); [Vasiliki.eu, Egremni (2026)](https://vasiliki.eu/egremni-beach.html); [Amazing Lefkada, Egremni guide 2026](https://amazinglefkada.com/egremni-beach/)
+- Skorpios landing rules: [Barbaros Yachting, Skorpios](https://barbarosyachting.com/destinations/greece/ionian-islands-region/skorpios); [Practical Boat Owner](https://www.pbo.co.uk/news/armed-guards-on-ionian-island-skorpios-22123)
+- Bridge in service since 1986: [Lefkada municipality (lefkada.gr)](https://lefkada.gr/en/?p=4613); [Greek News Agenda](https://www.greeknewsagenda.gr/lefkada-a-cultural-and-natural-treasure/)
+- Eglouvi lentils added to the PDO register: [To Vima](https://www.tovima.com/food/eu-commission-adds-egklouvi-lentil-to-pdo-list/)
 - Vasiliki wind and season: [Wikipedia, Vasiliki](https://en.wikipedia.org/wiki/Vasiliki,_Lefkada); [Greeka, Lefkada windsurfing](https://greeka.com/ionian/lefkada/sports/windsurfing)
 - Nydri boat trips and the Meganisi ferry: [Manawa, boat tour from Nydri](https://www.manawa.com/en-GB/activity/greece/lefkada/boat-tours/boat-tour-meganisi-skorpios-madouri-from-nydri-lefkada/26346); [Greeka, Lefkada ferries](https://greeka.com/ionian/lefkada/ferries)
 - Karya embroidery, Eglouvi lentils and local products: [Greeka, Lefkada products](https://greeka.com/ionian/lefkada/products); [Visit Greece, flavours from Lefkada](https://visitgreece.gr/experiences/gastronomy/traditional-cuisine/flavours-from-lefkada); [Municipality of Lefkada, local products](https://lefkada.gr/en/local-traditional-products/)

@@ -34,7 +34,7 @@ Loukoumades: small fried dough balls with honey. Sometimes something sweet simpl
 ## Three things to know before the bill
 
 - **Ask for the bill.** Say *To logariasmó, parakaló* (the bill, please).
-- **You should get a receipt**, and card payment should be possible.
+- **You should get a receipt**, and you can pay by card: restaurants must have a card terminal.
 - **Tipping is optional.** About 5–10% in cash if you were happy.
 
 And if you order fish, remember that it is often priced by the kilo. Ask for the weight and the price before it is cooked.

@@ -39,7 +39,7 @@ From November, **small islands go to sleep.** Many businesses close until spring
 | **Crete** | The biggest island; its northern towns, such as Chania, Rethymno and Heraklion, stay active all year. Flights from Athens run all winter. |
 | **Rhodes** | Rhodes Town stays lively all year; flights from Athens run all winter. Resort areas go quiet. |
 | **Corfu** | Has hotels, restaurants and businesses that work all year round, but it is wetter in winter. |
-| **Syros** | One of the islands that keeps living outside summer. Check ferry days carefully. |
+| **Syros** | Ermoupoli, the administrative capital of the Cyclades, stays busy all year, and ferries run year-round. Check ferry days carefully. |
 
 ::figure cyclades-harbour | A small island harbour. Out of season, ferry days matter more than ever.
 
@@ -92,3 +92,4 @@ Checked in November 2026. Opening times and schedules change every year.
 - Crete's northern towns active all year, Rhodes Town lively all year, Corfu open year-round but rainy, Mykonos's near-total shutdown: [To Vima, do the Greek islands shut down in winter?](https://www.tovima.com/travel/do-the-greek-islands-shut-down-in-winter/)
 - Ferries run all year with fewer sailings, some connections stop after mid-October; flights from Athens to Crete and Rhodes run all winter: [Ferries in Greece, Greek ferries in winter](https://blog.ferriesingreece.com/greek-ferries/in-winter); [Ferries in Greece, visiting the islands in winter](https://blog.ferriesingreece.com/greek-islands/visit-greek-islands-for-winter-holidays)
 - Crete among the warmest places in winter: [Travel the Greek Way, warmest places in Greece in winter](https://travelthegreekway.com/warmest-places-in-greece-in-the-winter)
+- Syros year-round, Ermoupoli, ferries all year: [Lonely Planet, first-time guide to Syros](https://www.lonelyplanet.com/articles/first-time-guide-to-syros-cyclades); [The Mediterranean Traveller, Syros](https://www.themediterraneantraveller.com/syros-travel-guide/)
