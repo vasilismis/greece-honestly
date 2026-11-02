@@ -44,6 +44,10 @@ To do:
   - Or download four tracks yourself (`islands`, `food`, `words`, `calm`) into `social/reels/music/`, record them in `social/reels/MUSIC-LICENCES.md`, and run `python3 scripts/reels.py`. It trims, fades and normalises to about −14 LUFS.
 - [ ] Post as Reels, not carousels. Pick the cover in Instagram's editor if it doesn't default to the first frame.
 
+## 4f. Gumroad listings
+
+- [ ] `docs/gumroad-update.md` covers all 9 Gumroad products: the cover and thumbnail files from `covers/`, a description and up to 8 tags for each. Paste the real "What is inside" list from each Payhip listing where marked; those texts were not available here. Confirm the three prices shown as "see shop" on the site.
+
 ## 5. Things that need a human (could not be confirmed online)
 
 - [ ] **Navagio (Zakynthos):** the access ban ran to 31 October 2026 (Gazette B' 3033/28.05.2026). No follow-up decision had been published on 2 November. Update the Ionian guide and `ionian-islands-compared` when it is.
