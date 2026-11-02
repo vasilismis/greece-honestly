@@ -62,4 +62,6 @@ To do:
 ## 6. Housekeeping (optional)
 
 - `actions/checkout` and `actions/setup-node` were bumped to v5 (Node 24) on 2 November. `upload-pages-artifact@v3` and `deploy-pages@v4` were left as they are. Check their release notes before bumping: newer upload-pages-artifact versions may skip hidden files such as `.nojekyll`.
+- Since 2 November the site is dark blue for every visitor (the founder's choice). Colours live as tokens at the top of `src/style.css` and in the "dark blue theme" block; change them there, not in individual rules. The phone menu was also tightened to fit on one line from 360px.
+- 1 May 2027 is Holy Saturday. When the Ministry of Labour announces whether the holiday moves, update `src/articles/greek-public-holidays-2027.md`.
 - With a custom domain (`SITE_URL`, `BASE_PATH=/`, `CNAME` variables), `robots.txt` will sit at the domain root and the Lighthouse SEO score rises from 92.
