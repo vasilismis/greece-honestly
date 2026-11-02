@@ -33,7 +33,7 @@ For a home you live in as your main residence, Greek law sets a **minimum lease 
 What this means in practice:
 
 - **For you:** you have security. The landlord cannot normally end the lease simply because a shorter date in the contract has passed.
-- **Leaving early:** sources disagree on exactly how the three-year rule works when the tenant wants to leave early. Make sure the contract says clearly how you can end the lease and with how much notice, and ask a lawyer if anything is unclear.
+- **The three years bind you too.** The minimum term applies to both sides. It can only be shortened by a new notarial deed signed at least six months after the lease starts. If you leave before the three years are up, the landlord can claim rent until the end of the three years, or at least until the flat is let again. If you might need to leave early, agree the terms in writing and ask a lawyer.
 
 ## The deposit
 
@@ -116,6 +116,6 @@ Checked in November 2026. Rules change: check with AADE or a Greek lawyer before
 
 - Lease declaration, deadline, required details (AFMs, rent, dates, supply number, energy certificate) and acceptance in myAADE: [AADE, I wish to lease my property (long-term lease)](https://www.aade.gr/en/services-information/useful-guides/buying-property/i-wish-lease-my-property-long-term-lease); [AADE, property rental statements](https://www.aade.gr/en/property-rentalstatements)
 - Tenant benefits that depend on a declared lease: [AADE, FAQ on the rent refund](https://www.aade.gr/sites/default/files/2025-12/FAQS_epistrofi_enoikiou_en.pdf)
-- Three-year minimum term for a main residence (Law 1703/1987, art. 2, as amended by Law 2235/1994): [Landager, Greek lease requirements](https://landager.com/en/property-compliance/greece/national/lease-requirements); [iefimerida (in Greek)](https://www.iefimerida.gr/ellada/enoikio-dikaiomata-idioktiti-ypohreoseis-enoikiasti)
+- Three-year minimum term for a main residence (Law 1703/1987, art. 2, as amended by Law 2235/1994): [Landager, Greek lease requirements](https://landager.com/en/property-compliance/greece/national/lease-requirements); [iefimerida (in Greek)](https://www.iefimerida.gr/ellada/enoikio-dikaiomata-idioktiti-ypohreoseis-enoikiasti); binding on both sides, shortening only by a notarial deed at least six months in, and the tenant's liability for rent if leaving early: [POMIDA, residential leases (in Greek)](https://www.pomida.gr/misthoseis_katoikion.php); [PASYPE (in Greek)](https://www.pasype.gr/%CE%BA%CE%B1%CF%84%CE%B1%CE%B3%CE%B3%CE%B5%CE%BB%CE%AF%CE%B1-%CE%BC%CE%AF%CF%83%CE%B8%CF%89%CF%83%CE%B7%CF%82-%CE%BA%CE%B1%CF%84%CE%BF%CE%B9%CE%BA%CE%AF%CE%B1%CF%82-%CE%BA%CE%B1%CE%B9-%CF%85%CF%80/)
 - Deposits commonly one or two months' rent, and not offsetting the deposit against final rent: [Expat Focus](https://www.expatfocus.com/greece/guide/greece-property-rental-prices); [Landager, security deposits](https://landager.com/en/property-compliance/greece/national/security-deposits)
 - Proof of address for bank accounts: [Ministry of Migration and Asylum, information guide](https://migration.gov.gr/wp-content/uploads/2023/11/ENGLISH_BROCHURE.pdf)

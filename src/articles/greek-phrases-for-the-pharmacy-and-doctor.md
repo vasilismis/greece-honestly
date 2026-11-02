@@ -94,7 +94,7 @@ Check | *Póses forés tin iméra?* How many times a day?
 
 ## If you live in Greece
 
-Residents use the public health system through their insurance or a registered S1 form, with an **AMKA**. Prescriptions usually come with a co-payment of about **25%**, and public hospital treatment is free with a referral. See [AMKA explained](/articles/amka-explained/).
+Residents use the public health system through their insurance or a registered S1 form, with an **AMKA**. Prescriptions usually come with a co-payment of **25%** (10% for some chronic diseases, 0% for some serious ones), and public hospital treatment is free with a referral. See [AMKA explained](/articles/amka-explained/).
 
 ## Quick list to save on your phone
 
@@ -117,5 +117,7 @@ Checked in November 2026.
 - Green cross and *farmakío*; pharmacists for minor problems; some medicines needing a prescription in Greece: [Greece Index, pharmacies in Greece](https://www.greeceindex.com/health/greece_health_system_pharmacies/); [Expat Exchange, prescription medications and pharmacies in Greece](https://expatexchange.com/article/22178/Prescription-Medications-and-Pharmacies-in-Greece--)
 - On-duty pharmacies in Attica (website, app and QR codes) and listings by town: [Pharmaceutical Association of Attica, on-duty pharmacies](https://fsa-efimeries.gr/); [Forin, Attica duty pharmacies on your phone (in Greek)](https://www.forin.gr/articles/article/78715/farmakeutikos-sullogos-attikhs-sto-kinhto-thlefwno-ta-efhmereuonta-farmakeia); [vrisko.gr, pharmacies on duty](https://www.vrisko.gr/en/pharmacy-duties/lefkada/)
 - Emergency numbers: [gov.gr, national emergency numbers](https://www.gov.gr/en/sdg/healthcare/national-emergency-numbers)
+- Prescription co-payment rates: [PPRI, Greece pharmaceutical pricing and reimbursement 2024 (PDF)](https://ppri.goeg.at/system/files/inline-files/Greece_Pharmaceutical_pricing_and_reimbursement_policies_2024_0.pdf)
 - *Voíthia*, *alergikós/alergikí*, *den katalavéno*, *miláte angliká*, prescription co-payment, hospital referrals: Greece, Honestly fact sheet, checked in Greece
-- Other Greek words and phrases: general Greek vocabulary, not taken from a cited source. If anything looks wrong, show the pharmacist the word in English too.
+- *Pyretós* (fever), *ponólemo* (sore throat), *farmakío*, *syntagí* (prescription), *chriázome giatró*, *íme árrostos/árrosti*: [noun.town, hospital vocabulary](https://noun.town/lessons/english/greek/hospital-3-sickness); [noun.town, pharmacy glossary](https://noun.town/language-learning-game/greek/glossary/pharmacy/); [Rosetta Stone, cold symptoms](https://www.rosettastone.com/flashcards/common-cold-symptoms?lang=el-GR); [Greek Trip Planner, Greek phrases](https://greektriplanner.me/blog/greek-phrases)
+- The other words and phrases (headache, cough, sunburn, bites, indigestion, diarrhoea, and the questions about doses) are standard Greek but we did not find them in a cited source. If anything looks unclear, show the pharmacist the English word too.

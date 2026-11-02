@@ -37,14 +37,21 @@ All Lefkada facts and their sources are listed in the site article: https://vasi
 - Navagio ban until 31 October 2026, viewing platform, boats: To Vima, https://www.tovima.com/society/zakynthos-navagio-beach-access-curbs-extended-through-2026/ ; iefimerida, https://www.iefimerida.gr/english/greece-bans-access-navagio-shipwreck-beach-and-its-waters-until-november-cliffside-platform ; Greek Trip Planner, https://greektriplanner.me/blog/shipwreck-beach-zakynthos
 - National Marine Park, nesting May–August at night, night rules, Sekania closed: ARCHELON, https://archelon.gr/en/project-areas/zakynthos-laganas-bay ; Wikipedia, https://en.wikipedia.org/wiki/National_Marine_Park_of_Zakynthos
 
-## Unchecked (left out, or written around)
-- **Navagio after 31 October 2026:** no source found; the guide says to check locally.
-- **Egremni in 2026:** the closure comes from one local site; not confirmed with the municipality.
-- **Skorpios:** whether boats may land; the guide says most trips view it from the water.
-- **Corfu:** the 2007 UNESCO inscription year (left out); sofrito recipe differs between sources (the guide says so); where to stay beyond Corfu Town is kept general on purpose; the Paxos ferry leaving from near Corfu Town is general knowledge.
-- **Paxos:** olive oil (left out); boat times to Antipaxos (left out).
-- **Kefalonia:** current road access to Myrtos (left out); Robola's PDO status (left out); exact airport distance (sources differ, so the guide says "near Argostoli"); "keeps more life outside summer" follows from the fact-sheet rule that big islands keep living.
-- **Ithaca:** local food (left out); Gidaki boat price (left out).
-- **Zakynthos:** where to stay is kept general on purpose; local food (left out).
-- **Itineraries:** routes 2 and 3 are our suggestions built from the sourced ferry links, not routes taken from a source.
-- **Driving tips:** "allow more time than the map suggests" is general advice.
+## Checked in November 2026 (previously unchecked)
+- Egremni: February 2026 storm and rockfall damaged the stairs; guides advise against using them — Vasiliki.eu, https://vasiliki.eu/egremni-beach.html ; Amazing Lefkada, https://amazinglefkada.com/egremni-beach/ . **Corrected:** the earlier claim that the municipality had formally closed land access is not supported and was removed.
+- Skorpios: private; landing forbidden except at one public beach; security patrols — Barbaros Yachting, https://barbarosyachting.com/destinations/greece/ionian-islands-region/skorpios ; Practical Boat Owner, https://www.pbo.co.uk/news/armed-guards-on-ionian-island-skorpios-22123
+- Lefkada bridge in service since 1986 — lefkada.gr, https://lefkada.gr/en/?p=4613 ; Greek News Agenda, https://www.greeknewsagenda.gr/lefkada-a-cultural-and-natural-treasure/
+- Eglouvi lentils on the EU PDO register — To Vima, https://www.tovima.com/food/eu-commission-adds-egklouvi-lentil-to-pdo-list/
+- Old Town of Corfu inscribed in 2007 (decision 31 COM 8B.40) — UNESCO, https://whc.unesco.org/en/decisions/1339 ; Wikipedia, https://en.wikipedia.org/wiki/Corfu_(city)
+- Paxos olive oil around Lakka — Greek farms portal (Ministry of Rural Development), https://portal.greekfarms.gov.gr/en/paxos/ ; byFood, https://www.byfood.com/experiences/olive-oil-tasting-under-the-trees-paxos-island-greece-53653
+- Myrtos road (Divarata turn-off, about 2 km, asphalted, tight bends; car park fills by late morning) — Greece Index, https://www.greeceindex.com/regions/ionian-islands/myrtos-beach-kefalonia/ ; Wikipedia, https://en.wikipedia.org/wiki/Myrtos_Beach
+- Robola of Cephalonia PDO since 1982; Robola festival in late summer — Wines of Greece, https://winesofgreece.org/pdo/pdo-robola/ ; Wikipedia, https://en.wikipedia.org/wiki/Robola
+- Ithaca olive oil, sage honey, Mavrodaphne — Travel.gr, https://www.travel.gr/en/food-and-drink-en/food-culture-food-and-drink-en/ithaca-islands-rich-and-flavorful-culinary-landscape/
+- Zakynthos ladotyri and sartsa, olive oil and wine — Visit Greece, https://www.visitgreece.gr/en/experiences/nature/culture/zakynthian-gastronomy ; Travel.gr, https://www.travel.gr/en/food-and-drink-en/food-culture-food-and-drink-en/flavors-and-aromas-from-the-local-cuisine-of-zakynthos/
+- Navagio decision: Government Gazette B' 3033/28.05.2026, closure to 31 October 2026, viewpoint open, boats offshore — Greek Trip Planner, https://greektriplanner.me/blog/shipwreck-beach-zakynthos ; Zakynthos Beaches, https://zakynthosbeaches.com/navagio-beach-current-status/
+
+## Still not confirmable (and how the guide handles it)
+- **Navagio after 31 October 2026:** no follow-up decision had been published on 2 November 2026. The guide says so and tells readers to check locally.
+- **Bridge length:** sources give 20 to 500 metres; left out.
+- **Direct Athens–Preveza flights:** aggregators contradict each other; left out (the guide says check airlines).
+- **Itineraries 2 and 3** are our suggestions built from sourced ferry links, and the driving tip "allow more time than the map suggests" is general advice.

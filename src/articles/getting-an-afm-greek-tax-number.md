@@ -64,6 +64,10 @@ For a foreign non-resident, AADE lists an identity document such as a **passport
 
 The AFM on its own is not enough to use AADE's online services. You also need an **authentication key** (*kleidárithmos*), a personal access code. AADE allows anyone who has an AFM, Greek or foreign, resident or not, to apply for one. Ask for it at the same time as your AFM: you will need it to accept your lease online and for most dealings with the tax authority.
 
+## What it costs
+
+The AFM itself is free. If a lawyer or accountant applies for you, they charge for their service, and a notarised authorisation from abroad has its own costs.
+
 ## Can someone apply for you?
 
 Yes. Applications can be made by you, by a legal or tax representative, or by an authorised third party. Many people moving from abroad ask a Greek lawyer or accountant to handle it. If you use a representative, ask them exactly what authorisation they need from you, and how it must be signed and certified.
@@ -94,6 +98,7 @@ Checked in November 2026. Procedures change: check AADE before you apply.
 
 - Applying through myAADE and identification by video call or in person: [gov.gr, attribution of AFM and authentication key to a natural person](https://www.gov.gr/en/arxes/anexartete-arkhe-demosion-esodon-aade/anexartete-arkhe-demosion-esodon-aade/apodose-arithmou-phorologikou-metroou-aphm-kai-kleidarithmou-se-phusiko-prosopo); [AADE, FAQs on TIN and authentication key via myAADElive (PDF)](https://www.aade.gr/sites/default/files/kleidarithmos/FAQs_myAADElive_EN.pdf)
 - Non-residents, documents, representatives and authorised third parties, competent tax office, authentication key for anyone with an AFM: [AADE, issuance of TIN and authentication key for non-residents](https://www.aade.gr/en/greeks-abroad-non-residents/registration-tax-register/issuance-tax-identification-number-and-authentication-key-and-appointment); [AADE, Registry Procedures Guide, June 2026 (PDF)](https://aade.gr/sites/default/files/2026-06/REGISTRY%20PROCEDURES%20GUIDE.pdf)
+- AFM free of charge: [Elxis, how do I get a Greek tax number](https://elxis.com/?p=270258); [Arencos, applying for an AFM](https://arencos.com/applying-for-an-afm/)
 - Tax residence: [AADE, tax residence for natural persons](https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-residence-natural-persons-itc)
 - AFM in lease declarations: [AADE, property rental statements](https://www.aade.gr/en/property-rentalstatements)
 - AFM for bank accounts: [Ministry of Migration and Asylum, information guide (PDF)](https://migration.gov.gr/wp-content/uploads/2023/11/ENGLISH_BROCHURE.pdf)

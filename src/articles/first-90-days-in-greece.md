@@ -41,7 +41,7 @@ Having an AFM does not, by itself, make you a Greek tax resident. Tax residence 
 
 A Greek mobile number makes everything easier: banks, landlords, deliveries and many online services send codes by text.
 
-- Take your passport to a mobile phone shop. Greek SIM cards, including prepaid ones, are registered to your identity, so the shop will record your ID.
+- Take your passport to a mobile phone shop. Under Greek law (Law 3783/2009), SIM cards, including prepaid ones, are registered to your identity: foreigners show a passport.
 - Keep your home number active for a while too, in case your bank back home sends you security codes.
 
 ## Step 3: somewhere to live
@@ -70,9 +70,9 @@ The **AMKA** is your social security number. You need it for the public health s
 
 - You get it in person at a **KEP** (citizens' service centre) or a branch of **e-EFKA**, the social security body.
 - **EU citizens** bring their passport or ID card.
-- **Non-EU citizens**: the official AMKA site lists a valid passport and a residence permit that gives access to the labour market. If your permit does not allow work (the Financially Independent Person permit, for example), ask the KEP or e-EFKA what applies to you before you go.
+- **Non-EU citizens**: the official AMKA site lists a valid passport and a residence permit that gives access to the labour market. Holders of the Financially Independent Person permit, which does not allow work, generally cannot get an AMKA and keep private health insurance instead. With any other permit that does not allow work, ask the KEP or e-EFKA first.
 
-**UK and EU pensioners with an S1 form:** once you have your AMKA, register your S1 with **EOPYY**, the national health provider. A new S1 comes every year, and you must register each one.
+**UK and EU pensioners with an S1 form:** once you have your AMKA, register your S1 with **EOPYY**, the national health provider (GOV.UK names EOPYY; EOPYY's own cross-border healthcare page says the S1 is registered with e-EFKA. Ask at the KEP which office to use). A new S1 comes every year, and you must register each one.
 
 ## Step 6: registering your residence
 
@@ -103,6 +103,7 @@ Checked in November 2026. Procedures change: always check the official page befo
 - AMKA at KEP or e-EFKA, and documents for non-EU citizens: [Ministry of Labour, AMKA](https://ypergasias.gov.gr/en/social-security/insured-persons/social-security-registration-number-amka/); [amka.gr](https://www.amka.gr/)
 - Lease registration and acceptance in myAADE: [AADE, property rental statements](https://www.aade.gr/en/property-rentalstatements)
 - Bank account documents: [Ministry of Migration and Asylum, information guide](https://migration.gov.gr/wp-content/uploads/2023/11/ENGLISH_BROCHURE.pdf)
-- SIM card registration with ID: [Phys.org (AP), 2009](https://phys.org/news/2009-06-greeks-register-prepaid-cell.html); [Cullen International, 2025](https://www.cullen-international.com/news/2025/10/19-EU-countries-mandate-the-registration-of-prepaid-customers.html)
+- SIM card registration with ID (Law 3783/2009, Gazette A' 136/2009): [e-nomothesia (in Greek)](https://www.e-nomothesia.gr/kat-epikoinonies-telepikoinonies-telephonia/n-3783-2009.html); [European University Institute database](https://dti.eui.eu/database/page/328); [Phys.org (AP), 2009](https://phys.org/news/2009-06-greeks-register-prepaid-cell.html); [Cullen International, 2025](https://www.cullen-international.com/news/2025/10/19-EU-countries-mandate-the-registration-of-prepaid-customers.html)
 - EU registration after three months, in person, documents: [gov.gr, obligation to register residence](https://www.gov.gr/en/sdg/residence/temporary-or-permanent-move/general/obligation-for-citizens-to-register-their-residence-for-periods-exceeding-three-months); [Hellenic Police](https://astynomia.gr/index.php?Itemid=114&id=94449&lang=EN&option=ozo_content&perform=view); [MITOS, financially inactive persons](https://en.mitos.gov.gr/index.php/%CE%94%CE%94:Certificate_of_registration_for_Union_citizens_residing_in_Greece_as_financially_inactive_persons)
+- FIP holders and AMKA: [Stathaki-Tsopela law firm](https://stathaki-tsopela.gr/en/immigration-law/financially-independent-persons-new-greek-residence-permit/)
 - Non-EU permit application before the visa expires, S1 and EOPYY, tax residence, emergency numbers: Greece, Honestly fact sheet, checked in Greece

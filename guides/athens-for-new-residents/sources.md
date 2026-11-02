@@ -34,14 +34,23 @@ Checked in November 2026. Every fact in the guide comes from one of these source
 - Bank documents: Ministry of Migration and Asylum guide, https://migration.gov.gr/wp-content/uploads/2023/11/ENGLISH_BROCHURE.pdf
 - Tax residence: AADE, https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-residence-natural-persons-itc
 
-## Unchecked (left out, or written around)
-- **Rents:** none quoted on purpose; sources differ widely.
-- **Neighbourhood transport:** apart from Kifisia on Line 1, the nearest stations are not named; the guide says to check. That Glyfada is served by the coastal tram towards Voula is not stated as fact.
-- **Tram:** the current number of lines (sources differ; the guide says so).
-- **ATH.ENA anonymous card:** whether ID is needed at the ticket office (sources differ; the guide says take your passport); that a lost anonymous card cannot be recovered is our inference.
-- **Validating tickets** on every boarding and **holiday timetable changes** are general practice, not from a cited source.
-- **Aliens Department hours** (07:30–15:00 in a 2020 document) left out; the guide says check current hours.
-- **Tax office appointments:** how to book is not described; the guide says most things are online via myAADE.
-- **1 May 2027:** whether Labour Day moves (Holy Saturday).
-- **"Much of the city slows down around 15 August"** is general knowledge.
-- **Phrases 13–20** are general Greek vocabulary, not from a cited source.
+## Checked in November 2026 (previously unchecked)
+- Tram: two lines (Syntagma–Pikrodafni, Voula–Piraeus), 60 stops — Wikipedia, https://en.wikipedia.org/wiki/Athens_Tram ; Protothema, https://en.protothema.gr/2026/08/29/tram-services-to-become-more-frequent-with-shorter-waiting-times-on-syntagma-pikrodafni-and-voula-sef/ . **Corrected** from "sources differ".
+- Anonymous ATH.ENA card: money on a lost card cannot be recovered — grandpl.com, https://grandpl.com/grecja/artykul/athena-card--idealne-rozwiazanie-dla-osob-czesto-korzystajacych-z-komunikacji-miejskiej-w-atenach/ ; card types — CNN Greece, https://www.cnn.gr/ellada/story/100380/ola-osa-prepei-na-gnorizete-gia-to-ilektroniko-eisitirio
+- Department of Aliens of Athens: Petrou Ralli 24, Tavros, 17778; tel. 210 340 5807; tallodathinon@astynomia.gr — Hellenic Police contact list (April 2025), https://www.astynomia.gr/file/2025/04/stoixeia-epikoinwnias-armodiwn-ypiresiwn-elas-el-epikairopoihmeno.pdf ; Decentralised Administration migration office at Petrou Ralli and Salaminias 2 — University of Athens list, https://issu-el.uoa.gr/fileadmin/depts/uoa.gr/issu/uploads/DAM_EMAIL_for_applications_el.pdf
+- FIP holders generally cannot get an AMKA and rely on private insurance — Stathaki-Tsopela law firm, https://stathaki-tsopela.gr/en/immigration-law/financially-independent-persons-new-greek-residence-permit/ ; My Greek Expat Journey, https://www.mygreekexpatjourney.com/post/am-i-eligible-for-the-amka . **Corrected** from "ask first".
+- Prescription co-payments 25% / 10% / 0% — PPRI 2024, https://ppri.goeg.at/system/files/inline-files/Greece_Pharmaceutical_pricing_and_reimbursement_policies_2024_0.pdf . **Corrected** from "about 25%".
+- S1: GOV.UK names EOPYY; EOPYY's cross-border page names e-EFKA — https://www.gov.uk/guidance/healthcare-in-greece ; https://eu-healthcare.eopyy.gov.gr/en/healthcare-in-greece/accessing-health-services-in-greece-for-eu-citizens/moving-to-greece-for-eu-citizens/ (the guide states both)
+- SIM registration under Law 3783/2009 (Gazette A' 136/2009) — e-nomothesia, https://www.e-nomothesia.gr/kat-epikoinonies-telepikoinonies-telephonia/n-3783-2009.html
+- Three-year lease binds the tenant too; shortening only by notarial deed at least six months in; tenant liable for rent if leaving early — POMIDA, https://www.pomida.gr/misthoseis_katoikion.php . **Corrected** from "sources disagree".
+- AFM free of charge — Elxis, https://elxis.com/?p=270258 ; Arencos, https://arencos.com/applying-for-an-afm/
+- Glyfada and the coast: the Voula–Piraeus tram line runs along this coast — Wikipedia (above). The guide still says "check the tram and buses" for the nearest stop.
+
+## Still not confirmable (and how the guide handles it)
+- **Rents:** none quoted on purpose; they vary too much.
+- **Department of Aliens opening hours:** not published reliably; the guide gives the phone number and email instead.
+- **1 May 2027:** no decision announced yet (2024 precedent: moved to 7 May for the public sector).
+- **Deposits:** no legal cap or refund deadline found; the guide says "commonly one or two months, agree in writing".
+- **Phrases 13–20:** standard Greek; not found word for word in a cited phrasebook.
+- **Validating tickets on every boarding** and **holiday timetable changes:** general practice; inspections and fines for travelling without a valid ticket are confirmed, the exact validation rule is not.
+- **"Much of the city slows down around 15 August":** general knowledge.

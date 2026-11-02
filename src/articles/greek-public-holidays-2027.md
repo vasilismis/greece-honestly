@@ -39,7 +39,7 @@ sun | Busiest holiday | 15 August
 | 26 December | Sunday | Synaxis of the Mother of God (Boxing Day) |
 
 :::note Two dates to double-check
-- **1 May 2027** falls on Holy Saturday, the day before Easter. Check whether a different date is announced for the Labour Day holiday.
+- **1 May 2027** falls on Holy Saturday, the day before Easter. No decision had been announced in November 2026. There is a precedent: in 2024, when 1 May fell in Holy Week, the holiday was moved to 7 May for the public sector. Check the Ministry of Labour's announcement.
 - **Whit Monday** is a public-sector holiday, and not every private employer observes it.
 :::
 
@@ -95,5 +95,6 @@ For the full order of paperwork after you arrive, see [your first 90 days in Gre
 Checked in November 2026. Check the official announcement for 2027 before you rely on any date.
 
 - 2027 dates, Orthodox Easter on 2 May, Clean Monday 15 March, Whit Monday 21 June, Whit Monday as a public-sector holiday: [Time and Date, holidays in Greece 2027](https://www.timeanddate.com/holidays/greece/2027); [Holidaya, Greek public holidays 2027](https://holidaya.gr/en/2027/); [Wikipedia, Clean Monday](https://en.wikipedia.org/wiki/Clean_Monday). We also computed the date of Orthodox Easter 2027 and the weekdays ourselves.
+- 2024 precedent for moving 1 May: [Greek City Times](https://greekcitytimes.com/2024/02/27/labour-day-to-be-postponed-until-may-7/amp/); [Protothema](https://origin01-en.protothema.gr/?p=365854)
 - Holidays on a Sunday not moved, except 1 May; the list of mandatory holidays: [Wikipedia, public holidays in Greece](https://en.wikipedia.org/wiki/Public_holidays_in_Greece)
 - 15 August as a peak and national holiday: Greece, Honestly fact sheet, checked in Greece

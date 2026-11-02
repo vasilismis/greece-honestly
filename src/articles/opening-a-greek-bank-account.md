@@ -51,7 +51,7 @@ EU rules (Directive 2014/92/EU, the Payment Accounts Directive) give consumers w
 - the right also covers people with no fixed address and asylum seekers
 - a bank **must refuse** where opening the account would breach anti-money-laundering rules
 
-If a bank turns you down, ask it to explain why in writing, and ask specifically about a **basic payment account**. We have not been able to check how Greek banks apply these rules in practice, so treat this as a starting point, not a guarantee.
+If a bank turns you down, ask it to explain why in writing, and ask specifically about a **basic payment account**. Greece made these rules part of its own law with Law 4465/2017 (article 16 covers the right of access). How each bank applies them in practice still varies, so be persistent and polite.
 
 :::note Good to know
 A basic payment account covers everyday needs such as receiving money and paying by card or transfer. It may not include everything a standard account offers. Ask what is included and what it costs.
@@ -91,4 +91,5 @@ Checked in November 2026. Bank requirements vary: always ask your bank.
 - Documents banks ask for (residence permit, proof of address, tax number) and keeping your address current: [Ministry of Migration and Asylum, information guide (PDF)](https://migration.gov.gr/wp-content/uploads/2023/11/ENGLISH_BROCHURE.pdf)
 - AFM through myAADE: [gov.gr, attribution of AFM and authentication key](https://www.gov.gr/en/arxes/anexartete-arkhe-demosion-esodon-aade/anexartete-arkhe-demosion-esodon-aade/apodose-arithmou-phorologikou-metroou-aphm-kai-kleidarithmou-se-phusiko-prosopo)
 - Lease declared to AADE and accepted online: [AADE, property rental statements](https://www.aade.gr/en/property-rentalstatements)
+- Greek transposition, Law 4465/2017, article 16: [Taxheaven, Law 4465/2017 article 16 (in Greek)](https://www.taxheaven.gr/law/4465/2017/arthro/16)
 - Right to a payment account with basic features, non-discrimination, asylum seekers, refusal for money-laundering reasons: [Directive 2014/92/EU, chapter IV (legislation.gov.uk copy)](https://www.legislation.gov.uk/eudr/2014/92/chapter/IV); [AGP Law, right to a basic bank account in the EU](https://www.agplaw.com/right-to-a-basic-bank-account-in-the-eu/)

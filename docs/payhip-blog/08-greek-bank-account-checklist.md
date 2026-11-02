@@ -21,7 +21,7 @@ Most of these papers depend on each other. The smoothest path is:
 
 ## If the bank says no
 
-EU rules give consumers who are legally resident in the EU the right to a **payment account with basic features**. Banks must not refuse because of nationality or place of residence, though they must refuse where opening the account would break anti-money-laundering rules. If you are turned down, ask for the reason in writing, and ask specifically about a basic payment account. How each Greek bank applies this in practice varies, so treat it as a conversation starter, not a guarantee.
+EU rules give consumers who are legally resident in the EU the right to a **payment account with basic features**. Banks must not refuse because of nationality or place of residence, though they must refuse where opening the account would break anti-money-laundering rules. If you are turned down, ask for the reason in writing, and ask specifically about a basic payment account. Greece made these rules part of its own law (Law 4465/2017), but how each bank applies them still varies, so be persistent and polite.
 
 ## While you wait
 

@@ -55,7 +55,7 @@ Agree | Then let the kitchen cook it.
 Asking is completely normal in Greece. It is the single best way to avoid a surprise on the bill.
 
 :::note Good to know
-Frozen ingredients must be marked on the menu. If it matters to you, especially with seafood, look for the note or ask.
+Frozen fish, meat and vegetables must be marked on the menu as frozen (*katepsygméno*), usually with an asterisk next to the dish. If it matters to you, especially with seafood, look for the note or ask.
 :::
 
 ## Rule 5: take your time, and ask for the bill
@@ -67,7 +67,7 @@ The waiter will usually not bring the bill until you ask for it. That is hospita
 ## Rule 6: receipts and paying by card
 
 - **You should get a receipt.** If it does not come, it is fine to ask for one.
-- **Card payment should be possible.** If you prefer to pay by card, it is reasonable to ask before you order.
+- **You can pay by card.** Restaurants and tavernas must have a card terminal, and a receipt must be issued for card payments.
 
 If you are a group, decide in advance whether you will split the bill evenly. With shared plates, that is usually the simplest way.
 
@@ -109,4 +109,6 @@ Even dishes that sound vegetarian can include meat stock or cheese, so ask. With
 
 Checked in November 2026.
 
-- Sharing dishes, bread usually charged, tap water, fish priced by the kilo, frozen ingredients marked on the menu, receipts and card payment, tipping of about 5–10% in cash, *kerasméno*, *chortofágos*, *alergikós/alergikí*, and the phrases used: Greece, Honestly fact sheet, checked in Greece. We could not find an official English-language page for the menu and receipt rules.
+- Frozen products marked on the menu with an asterisk: [Foodlaw Consulting (in Greek)](https://www.foodlaw.gr/news/232-y.html); [Powergame (in Greek)](https://www.powergame.gr/ikonomia/565211/estiasi-ti-prepei-na-anagrafetai-ypochreotika-sto-menou/)
+- Card terminals required in catering, receipts: [EEKE, price list FAQ](https://eeke.gr/en/faq/price-list); [in.gr, POS mandatory everywhere](https://in.gr/2023/01/10/english-edition/greece-makes-pos-mandatory-everywhere-connection-cash-registers)
+- Sharing dishes, bread usually charged, tap water, fish priced by the kilo, tipping of about 5–10% in cash, *kerasméno*, *chortofágos*, *alergikós/alergikí*, and the phrases used: Greece, Honestly fact sheet, checked in Greece.

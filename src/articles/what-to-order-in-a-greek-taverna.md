@@ -76,7 +76,7 @@ This is completely normal in Greece, and nobody will mind you asking.
 
 ### Frozen ingredients must be marked
 
-Frozen ingredients must be marked on the menu. Look for a small note or symbol next to the dish. It is especially useful to know when you order seafood.
+Frozen fish, meat and vegetables must be marked on the menu as frozen (*katepsygméno*), usually with an asterisk next to the dish. It is especially useful to know when you order seafood.
 
 ## Vegetarians and allergies
 
@@ -96,7 +96,7 @@ In Greece, the waiter usually will not bring the bill until you ask. This is hos
 ### Receipt and card payment
 
 - **You should get a receipt.**
-- **Card payment should be possible.**
+- **You can pay by card.** Restaurants and tavernas must have a card terminal, and a receipt must be issued for card payments.
 
 If you are not offered a receipt, it is fine to ask for one.
 
@@ -132,4 +132,6 @@ For more, see our list of [20 Greek phrases for your first week in Greece](/arti
 
 Checked in November 2026. Rules change: check the official source before you act.
 
-- Sharing dishes, bread charges, tap water, fish by the kilo, marking frozen ingredients, receipts and card payment, tipping and the words used: Greece, Honestly fact sheet, checked in Greece. We could not find an official English-language page for the menu and receipt rules; ask the taverna or the consumer authorities if in doubt.
+- Frozen products marked on the menu: [Foodlaw Consulting (in Greek)](https://www.foodlaw.gr/news/232-y.html)
+- Card terminals and receipts: [EEKE, price list FAQ](https://eeke.gr/en/faq/price-list)
+- Sharing dishes, bread charges, tap water, fish by the kilo, tipping and the dishes: Greece, Honestly fact sheet, checked in Greece

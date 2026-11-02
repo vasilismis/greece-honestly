@@ -4,4 +4,4 @@
 - AFM via myAADE: gov.gr (see 07 sources)
 - Lease declaration: AADE, https://www.aade.gr/en/property-rentalstatements
 - Basic payment account rights (Directive 2014/92/EU, chapter IV): https://www.legislation.gov.uk/eudr/2014/92/chapter/IV ; AGP Law, https://www.agplaw.com/right-to-a-basic-bank-account-in-the-eu/
-- Unchecked: how Greek banks apply the basic-account rules in practice
+- Greek transposition, Law 4465/2017 art. 16: https://www.taxheaven.gr/law/4465/2017/arthro/16

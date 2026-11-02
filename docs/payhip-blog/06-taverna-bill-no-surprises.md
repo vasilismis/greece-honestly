@@ -20,7 +20,7 @@ A plate of fruit, a little dessert, a small glass of something? If the waiter sa
 
 ## The receipt and the card machine
 
-You should get a **receipt**, and **card payment** should be possible. If you would rather pay by card, it is fine to mention it early.
+You should get a **receipt**, and you can pay by **card**: restaurants and tavernas must have a card terminal.
 
 ## The tip
 
