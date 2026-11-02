@@ -10,7 +10,7 @@ Everything below is merged into `main`. Work through it top to bottom. Nothing h
 
 ## 2. Payhip blog drafts to post
 
-Folder: `docs/payhip-blog/`. Post the `.md` file; **do not** post the matching `.sources.md` (it is for checking). Each post already ends with one product link, one site link and the AI disclosure.
+Folder: `docs/payhip-blog/`. Post the `.md` file; **do not** post the matching `.sources.md` (it is for checking). Each post ends with one product link, one site link and the AI disclosure.
 
 | Post | File | Status |
 |---|---|---|
@@ -26,10 +26,20 @@ Folder: `docs/payhip-blog/`. Post the `.md` file; **do not** post the matching `
 | After the season: picking a Greek island in October or November | `10-islands-after-the-season.md` | [ ] not posted |
 | Ferry day in Greece: a calm checklist | `11-ferry-day-checklist.md` | [ ] not posted |
 | Five sentences for a Greek pharmacy | `12-pharmacy-in-greek.md` | [ ] not posted |
+| Can I retire to Greece without an EU passport? | `13-can-i-retire-to-greece-without-eu-passport.md` | [ ] not posted |
+| Which Greek island should I choose for my first trip? | `14-greek-island-for-a-first-trip.md` | [ ] not posted |
+| How many Greek islands can I visit in ten days? | `15-how-many-islands-in-ten-days.md` | [ ] not posted |
+| Do I need to speak Greek to visit Greece? | `16-do-i-need-to-speak-greek.md` | [ ] not posted |
+| Why does a Greek P sound like an R? | `17-why-is-p-an-r-in-greek.md` | [ ] not posted |
+| Which Ionian island can I enjoy without a car? | `18-ionian-island-without-a-car.md` | [ ] not posted |
+| Can I leave a Greek lease before three years? | `19-can-i-leave-a-greek-lease-early.md` | [ ] not posted |
+| What should I do first after moving to Greece? | `20-what-to-do-first-after-moving-to-greece.md` | [ ] not posted |
+| Do I need an AMKA, and can I get one? | `21-do-i-need-an-amka.md` | [ ] not posted |
+| When is Greek Easter in 2027, and what closes? | `22-when-is-greek-easter-2027.md` | [ ] not posted |
 
 ## 3. Carousels ready to post (TikTok and Instagram)
 
-Folder: `social/out/<slug>/`. `tiktok-01.jpg` … `tiktok-08.jpg` are 1080×1920; `instagram-01.jpg` … `instagram-08.jpg` are 1080×1350. Each folder has a `contact-sheet.jpg`. Post the slides in order with the caption below (already ends with "AI characters, written in Greece." and 6 hashtags). All captions are also in `social/out/index.md`.
+Folder: `social/out/<slug>/`. `tiktok-01.jpg` … `tiktok-08.jpg` are 1080×1920; `instagram-01.jpg` … `instagram-08.jpg` are 1080×1350. Each folder has a `contact-sheet.jpg`. Post the slides in order with the caption below (it already ends with "AI characters, written in Greece." and 6 hashtags). All captions are also in `social/out/index.md`.
 
 ### Taverna bill: myths vs facts  ·  `social/out/01-taverna-bill-myths/`
 
@@ -150,6 +160,66 @@ Folder: `social/out/<slug>/`. `tiktok-01.jpg` … `tiktok-08.jpg` are 1080×1920
 - [ ] TikTok  - [ ] Instagram
 
 > Five islands in ten days sounds great until you spend it in ports. Two or three islands, three nights each. Here is why. AI characters, written in Greece. #islandhopping #greekislands #greece #cyclades #travelplanning #greecetravel
+
+### Which Ionian island suits you?  ·  `social/out/21-ionian-quiz/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> Corfu, Paxos, Lefkada, Kefalonia, Ithaca or Zakynthos? Six Ionian islands, six kinds of trip. Which one is yours? AI characters, written in Greece. #ionianislands #greece #corfu #lefkada #kefalonia #travelquiz
+
+### AMKA: myths vs facts  ·  `social/out/22-amka-myths/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> The AMKA is not your tax number, and not every residence permit gets one. Greece's social security number, explained in eight slides. AI characters, written in Greece. #movingtogreece #greece #expatlife #greekbureaucracy #retireingreece #movingabroad
+
+### Moving to Greece in numbers  ·  `social/out/23-moving-numbers/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> Three months, 183 days, three years, €3,500, 25% and 112. The numbers that shape your first year in Greece. AI characters, written in Greece. #movingtogreece #greece #expatlife #movingabroad #greeklife #newbeginnings
+
+### Read these Greek signs  ·  `social/out/24-signs-quiz/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> ΚΕΝΤΡΟ, ΛΙΜΑΝΙ, ΦΑΡΜΑΚΕΙΟ, ΕΞΟΔΟΣ, ΑΕΡΟΔΡΟΜΙΟ. Five signs you will meet in your first hour in Greece. Can you read them? AI characters, written in Greece. #greekalphabet #learngreek #greece #greeklanguage #languagelearning #travelgreece
+
+### Athens transport: myths vs facts  ·  `social/out/25-athens-transport-myths/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> Three metro lines, two tram lines and one card. What new residents should know about getting around Athens, and which ATH.ENA card to get. AI characters, written in Greece. #athens #athensgreece #movingtogreece #publictransport #expatlife #greece
+
+### Lefkada beaches, as they are today  ·  `social/out/26-lefkada-beaches/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> Wind first, Porto Katsiki early, Egremni by boat. How to do Lefkada's beaches as they really are today. AI characters, written in Greece. #lefkada #lefkas #ionianislands #greekislands #greece #beachlife
+
+### Zakynthos: rules to know  ·  `social/out/27-zakynthos-rules/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> Turtle beaches at night, a closed beach and a famous shipwreck. What to know before Zakynthos, so you do it right. AI characters, written in Greece. #zakynthos #zante #ionianislands #seaturtles #greece #responsibletravel
+
+### Renting in Greece in numbers  ·  `social/out/28-renting-numbers/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> Three years, six months, one to two months' deposit. The numbers behind a Greek lease, and why leaving early can cost you. AI characters, written in Greece. #rentingreece #athens #greece #expatlife #movingabroad #firstapartment
+
+### At the taverna: say this  ·  `social/out/29-taverna-say-this/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> Water, vegetarian, allergic, on the house and the bill. Six bits of taverna Greek that make every meal easier. AI characters, written in Greece. #greekfood #learngreek #taverna #greece #greekphrases #eatlikealocal
+
+### Kefalonia and Ithaca: myths vs facts  ·  `social/out/30-kefalonia-ithaca-myths/`
+
+- [ ] TikTok  - [ ] Instagram
+
+> No airport on Ithaca, tight bends to Myrtos and a protected wine since 1982. What to know about Kefalonia and Ithaca. AI characters, written in Greece. #kefalonia #ithaca #ionianislands #greekislands #greece #travelplanning
 
 ## 4. The two new paid guides
 
