@@ -20,6 +20,21 @@
 
 - [ ] `docs/social-calendar.md`: 14 days, one carousel a day from Monday 9 to Sunday 22 November, with a ready TikTok caption and Instagram caption for each (AI label line and 6 hashtags included). Tick the boxes as you post. Regenerate with `python3 scripts/calendar.py` if you change the plan.
 
+## 4d. Pinterest (new photo-system pins)
+
+The old flat navy pins are being deleted. The new set is in `social/pinterest/` (see `contact-sheet-pins.jpg`):
+
+- 33 pins at 1000×1500 in `social/pinterest/pins/`: 22 articles (each links to its article) and 11 products (each links to its Payhip page). There are 33 rather than 30 because the plan was one per article plus one per product.
+- **Boards:** Moving to Greece: Checklists & Tips · Learn Greek: Phrases & Alphabet · Greek Islands: Where to Go · Greek Food: What to Eat in Greece · Living in Greece, Honestly · Lefkada & the Ionian.
+- `social/pinterest/pins.csv` has file, title (100 characters max), description (500 characters max, ending "AI characters, written in Greece."), destination URL and board.
+- `social/pinterest/pinterest-bulk.csv` is in Pinterest's bulk-create format (Title, Media URL, Pinterest board, Description, Link, Keywords). The media URLs point at raw.githubusercontent.com, so they work once this is on `main`.
+
+To do:
+- [ ] Create the six boards with exactly these names before importing.
+- [ ] Upload `pinterest-bulk.csv` (Pinterest: Create → bulk create pins), or post the pins by hand from `pins.csv`.
+- [ ] **Pins 32 and 33** (Lefkada & the Ionian, Athens for New Residents) link to the Payhip shop page for now. Put their product URLs in `PRODUCTS` in `scripts/pins.py` once the products exist, run `python3 scripts/pins.py`, and edit the two pins on Pinterest.
+- [ ] Space the pins out (for example 2–3 a day) rather than publishing all 33 at once.
+
 ## 5. Things that need a human (could not be confirmed online)
 
 - [ ] **Navagio (Zakynthos):** the access ban ran to 31 October 2026 (Gazette B' 3033/28.05.2026). No follow-up decision had been published on 2 November. Update the Ionian guide and `ionian-islands-compared` when it is.
