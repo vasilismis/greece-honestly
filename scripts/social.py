@@ -28,7 +28,7 @@ car('02-island-quiz', 'Which Greek island are you?', 'Quiz', [
  ('Quick quiz', 'Which Greek island suits you?', 'Pick the answer that sounds like you. Each slide gives you islands to try.', 'santorini-wide'),
  ('First time?', 'Start with Naxos, Crete or Paros', 'Easy to reach, plenty to do, and good for a first island trip.', 'crete-rocks'),
  ('Famous views', 'Santorini, in May or October', 'The views are real. Go outside peak summer for a calmer visit.', 'santorini-dome'),
- ('Peace and quiet', 'Folegandros, Sifnos or Paxos', 'Smaller islands with a slower pace and fewer crowds.', 'cyclades-chairs'),
+ ('Peace and quiet', 'Folegandros, Sifnos or Paxos', 'Smaller islands with a slower pace and fewer crowds.', 'taverna-chairs'),
  ('Hiking', 'Crete, Ikaria, Amorgos, Kefalonia', 'Mountains, gorges and paths: bring proper shoes.', 'mountain-village'),
  ('Hate ferries?', 'Fly straight into these islands', 'Corfu, Crete, Rhodes, Kos, Zakynthos, Kefalonia and Skiathos all have airports.', 'corfu-boats'),
  ('Short on time', 'Aegina, Hydra or Poros', 'Saronic islands, one to two hours by boat from Piraeus.', 'ferry'),
@@ -150,7 +150,7 @@ car('11-winter-islands-myths', 'Greek islands in winter: myths vs facts', 'Myths
  ('Myth', '"All islands close in winter"', 'Big islands keep living. Small islands go to sleep.', 'crete-rocks'),
  ('Fact', 'October is quieter', 'On small islands, some places start to close.', 'cyclades-harbour'),
  ('Fact', 'Crete stays awake', 'Its northern towns stay active all year.', 'crete-rocks'),
- ('Fact', 'Rhodes Town stays lively', 'Resort areas go quiet, so stay in or near town.', 'santorini-wide'),
+ ('Fact', 'Rhodes Town stays lively', 'Resort areas go quiet, so stay in or near town.', 'ferry'),
  ('Myth', '"Ferries stop in winter"', 'They run all year, but with fewer sailings.', 'ferry'),
  ('Best bets', 'Crete, Rhodes, Corfu, Syros', 'Islands that keep living outside summer. Pack a rain jacket for Corfu.', 'corfu-boats'),
  ('Free guide', 'Islands in October and November', 'Link in bio: which ones stay open, free on our site.', 'crete-rocks'),
@@ -309,6 +309,11 @@ for c in C:
     open(os.path.join(out, c['slug'] + '.md'), 'w').write('\n'.join(md))
     index.append(f"| {c['slug'][:2]} | [{c['title']}]({c['slug']}.md) | {c['fmt']} |")
 open(os.path.join(out, 'README.md'), 'w').write('\n'.join(index) + '\n\nEvery caption ends with "AI characters, written in Greece." and 6 hashtags. Sources at the bottom of each file are for checking, not for posting.\n')
+import json
+json.dump([dict(slug=c['slug'], title=c['title'], fmt=c['fmt'], article=SITE + c['article'],
+                slides=[dict(kicker=k, headline=h, line=l, photo=img) for k, h, l, img in c['slides']],
+                caption=f"{c['caption']} {END} {' '.join(c['tags'])}", sources=c['sources']) for c in C],
+          open(os.path.join(out, 'carousels.json'), 'w'), ensure_ascii=False, indent=1)
 if errors:
     print('\n'.join(errors)); sys.exit(1)
 print(f'OK: {len(C)} carousels, all limits met')
