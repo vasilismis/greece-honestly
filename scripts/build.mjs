@@ -212,7 +212,7 @@ ${hero ? `<link rel="preload" as="image" type="image/webp" imagesrcset="${srcset
 <link rel="preload" href="${rel('fonts/noto-serif-latin-700-normal.woff2')}" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="${rel('favicon.svg')}" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="${esc(site.name)}" href="${abs('rss.xml')}">
-<meta name="theme-color" content="#1F4E79">
+<meta name="theme-color" content="#1F4E79" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#163A5B" media="(prefers-color-scheme: dark)">
 <meta property="og:site_name" content="${esc(site.name)}">
 <meta property="og:locale" content="en_GB">
 <meta property="og:type" content="${type}">
