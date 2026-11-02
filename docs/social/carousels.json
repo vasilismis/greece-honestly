@@ -1223,5 +1223,606 @@
   "sources": [
    "Rules of thumb and routes: Greece, Honestly fact sheet, checked in Greece"
   ]
+ },
+ {
+  "slug": "21-ionian-quiz",
+  "title": "Which Ionian island suits you?",
+  "fmt": "Quiz",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/",
+  "slides": [
+   {
+    "kicker": "Quick quiz",
+    "headline": "Which Ionian island are you?",
+    "line": "Six green islands, six different trips. Find yours.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "First visit?",
+    "headline": "Corfu",
+    "line": "Direct flights, families welcome, and good outside summer too.",
+    "photo": "corfu-boats"
+   },
+   {
+    "kicker": "Total calm?",
+    "headline": "Paxos",
+    "line": "No airport, ferry from Corfu or Igoumenitsa, and no car needed.",
+    "photo": "taverna-tables"
+   },
+   {
+    "kicker": "Road trip?",
+    "headline": "Lefkada",
+    "line": "Drive in over a floating bridge. Dramatic west coast, calm east.",
+    "photo": "lefkada-green"
+   },
+   {
+    "kicker": "Hiking?",
+    "headline": "Kefalonia",
+    "line": "The biggest of the six, mountainous and spread out. Bring a car.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "Slow days?",
+    "headline": "Ithaca",
+    "line": "No airport. About half an hour by ferry from Sami on Kefalonia.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "Least hassle?",
+    "headline": "Zakynthos",
+    "line": "Direct flights and a year-round ferry from Kyllini.",
+    "photo": "ferry"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "Ionian islands compared",
+    "line": "Link in bio: all six side by side.",
+    "photo": "ferry"
+   }
+  ],
+  "caption": "Corfu, Paxos, Lefkada, Kefalonia, Ithaca or Zakynthos? Six Ionian islands, six kinds of trip. Which one is yours? AI characters, written in Greece. #ionianislands #greece #corfu #lefkada #kefalonia #travelquiz",
+  "sources": [
+   "Ionian comparison sources: https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/"
+  ]
+ },
+ {
+  "slug": "22-amka-myths",
+  "title": "AMKA: myths vs facts",
+  "fmt": "Myths vs facts",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/amka-explained/",
+  "slides": [
+   {
+    "kicker": "Myths vs facts",
+    "headline": "The AMKA, explained",
+    "line": "Greece's social security number, without the confusion.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "Myth",
+    "headline": "\"The AMKA is your tax number\"",
+    "line": "No. The tax number is the AFM. The AMKA is social security.",
+    "photo": "laptop-sea"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "You apply in person",
+    "line": "At a KEP citizens' centre or a branch of e-EFKA.",
+    "photo": "athens-street"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "EU citizens bring ID",
+    "line": "A passport or national ID card. Take your AFM and proof of address too.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Non-EU needs a work-access permit",
+    "line": "The official site lists a permit giving access to the labour market.",
+    "photo": "cyclades-harbour"
+   },
+   {
+    "kicker": "Myth",
+    "headline": "\"Every permit holder gets one\"",
+    "line": "Financially Independent Person permit holders generally cannot, and keep private insurance.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "Myth",
+    "headline": "\"AMKA means free healthcare\"",
+    "line": "Cover depends on insurance: work, or a registered S1 form.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "AMKA explained",
+    "line": "Link in bio: who can get it and how. Not legal advice.",
+    "photo": "athens-street"
+   }
+  ],
+  "caption": "The AMKA is not your tax number, and not every residence permit gets one. Greece's social security number, explained in eight slides. AI characters, written in Greece. #movingtogreece #greece #expatlife #greekbureaucracy #retireingreece #movingabroad",
+  "sources": [
+   "AMKA: https://ypergasias.gov.gr/en/social-security/insured-persons/social-security-registration-number-amka/ ; https://www.amka.gr/",
+   "FIP holders: https://stathaki-tsopela.gr/en/immigration-law/financially-independent-persons-new-greek-residence-permit/"
+  ]
+ },
+ {
+  "slug": "23-moving-numbers",
+  "title": "Moving to Greece in numbers",
+  "fmt": "Money numbers",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/first-90-days-in-greece/",
+  "slides": [
+   {
+    "kicker": "Money numbers",
+    "headline": "Moving to Greece in numbers",
+    "line": "Seven numbers every newcomer should know.",
+    "photo": "cyclades-harbour"
+   },
+   {
+    "kicker": "3 months",
+    "headline": "EU citizens register after three months",
+    "line": "In person, with the police service for foreigners where you live.",
+    "photo": "athens-street"
+   },
+   {
+    "kicker": "183 days",
+    "headline": "The tax residence line",
+    "line": "More than 183 days in any 12-month period usually makes you tax resident.",
+    "photo": "laptop-sea"
+   },
+   {
+    "kicker": "3 years",
+    "headline": "The minimum lease term",
+    "line": "For a main residence, binding on tenant and landlord alike.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "€3,500",
+    "headline": "Monthly income for a FIP permit",
+    "line": "For non-EU retirees. More for a spouse and children.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "25%",
+    "headline": "Usual prescription co-payment",
+    "line": "10% for some chronic diseases, 0% for some serious ones.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "112",
+    "headline": "The European emergency number",
+    "line": "Save it on day one. Ambulance: 166.",
+    "photo": "cyclades-chairs"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "Your first 90 days in Greece",
+    "line": "Link in bio: the order that saves trips. Not legal advice.",
+    "photo": "cyclades-harbour"
+   }
+  ],
+  "caption": "Three months, 183 days, three years, €3,500, 25% and 112. The numbers that shape your first year in Greece. AI characters, written in Greece. #movingtogreece #greece #expatlife #movingabroad #greeklife #newbeginnings",
+  "sources": [
+   "EU registration: gov.gr ; tax residence: AADE ; lease: POMIDA ; FIP: Siopi law firm ; prescriptions: PPRI 2024 ; emergency numbers: gov.gr (all linked in the site articles)"
+  ]
+ },
+ {
+  "slug": "24-signs-quiz",
+  "title": "Read these Greek signs",
+  "fmt": "Quiz",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/how-to-read-greek-signs-alphabet/",
+  "slides": [
+   {
+    "kicker": "Quick quiz",
+    "headline": "Can you read these signs?",
+    "line": "Five words you will see everywhere in Greece. Guess, then swipe.",
+    "photo": "greek-inscription"
+   },
+   {
+    "kicker": "Sign 1",
+    "headline": "ΚΕΝΤΡΟ",
+    "line": "Kéndro: the centre. ΝΤ sounds like nd.",
+    "photo": "athens-street"
+   },
+   {
+    "kicker": "Sign 2",
+    "headline": "ΛΙΜΑΝΙ",
+    "line": "Limáni: the port. Λ is l.",
+    "photo": "ferry"
+   },
+   {
+    "kicker": "Sign 3",
+    "headline": "ΦΑΡΜΑΚΕΙΟ",
+    "line": "Farmakío: pharmacy. Ρ is r, and ΕΙ sounds like i.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "Sign 4",
+    "headline": "ΕΞΟΔΟΣ",
+    "line": "Éxodos: exit. Ξ is x, Δ is th as in this.",
+    "photo": "greek-inscription"
+   },
+   {
+    "kicker": "Sign 5",
+    "headline": "ΑΕΡΟΔΡΟΜΙΟ",
+    "line": "Aerodrómio: airport.",
+    "photo": "laptop-sea"
+   },
+   {
+    "kicker": "Tip",
+    "headline": "Six letters are traps",
+    "line": "Η, Ρ, Χ, Ν, Υ and Β look English but sound different.",
+    "photo": "greek-inscription"
+   },
+   {
+    "kicker": "Free download",
+    "headline": "Greek alphabet cheat sheet",
+    "line": "Link in bio: free, one page.",
+    "photo": "greek-inscription"
+   }
+  ],
+  "caption": "ΚΕΝΤΡΟ, ΛΙΜΑΝΙ, ΦΑΡΜΑΚΕΙΟ, ΕΞΟΔΟΣ, ΑΕΡΟΔΡΟΜΙΟ. Five signs you will meet in your first hour in Greece. Can you read them? AI characters, written in Greece. #greekalphabet #learngreek #greece #greeklanguage #languagelearning #travelgreece",
+  "sources": [
+   "Signs and letters: Greece, Honestly fact sheet, checked in Greece"
+  ]
+ },
+ {
+  "slug": "25-athens-transport-myths",
+  "title": "Athens transport: myths vs facts",
+  "fmt": "Myths vs facts",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/where-to-live-in-athens/",
+  "slides": [
+   {
+    "kicker": "Myths vs facts",
+    "headline": "Getting around Athens",
+    "line": "Metro, tram, buses and one card.",
+    "photo": "athens-street"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Three metro lines",
+    "line": "Green, red and blue. The blue line serves the airport.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Two tram lines",
+    "line": "Syntagma to Pikrodafni, and Voula to Piraeus along the coast.",
+    "photo": "ferry"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "One card for everything",
+    "line": "The ATH.ENA card works on metro, buses, trams and suburban rail.",
+    "photo": "athens-street"
+   },
+   {
+    "kicker": "Myth",
+    "headline": "\"The anonymous card is safest\"",
+    "line": "Lose it and the money on it is gone. The personalised card can be replaced.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Monthly tickets need the personalised card",
+    "line": "Apply online or in person; it is posted to you.",
+    "photo": "laptop-sea"
+   },
+   {
+    "kicker": "Tip",
+    "headline": "Keep your PIN",
+    "line": "You need the 8-digit PIN to replace a lost personalised card.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "Athens for new residents",
+    "line": "Link in bio: neighbourhoods, transport and offices.",
+    "photo": "athens-street"
+   }
+  ],
+  "caption": "Three metro lines, two tram lines and one card. What new residents should know about getting around Athens, and which ATH.ENA card to get. AI characters, written in Greece. #athens #athensgreece #movingtogreece #publictransport #expatlife #greece",
+  "sources": [
+   "Metro and suburban rail: https://en.wikipedia.org/wiki/Proastiakos ; tram: https://en.wikipedia.org/wiki/Athens_Tram ; ATH.ENA card: https://www.athenstransport.com/english/tickets/ ; lost anonymous card: grandpl.com (linked in the Athens guide sources)"
+  ]
+ },
+ {
+  "slug": "26-lefkada-beaches",
+  "title": "Lefkada beaches, as they are today",
+  "fmt": "Things locals do",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/lefkada-travel-guide/",
+  "slides": [
+   {
+    "kicker": "Things locals do",
+    "headline": "Lefkada beaches, the local way",
+    "line": "How people who know the island actually do it.",
+    "photo": "lefkada-green"
+   },
+   {
+    "kicker": "1",
+    "headline": "Check the wind first",
+    "line": "Big waves on the west coast? Head for the calm east coast.",
+    "photo": "lefkada-boats"
+   },
+   {
+    "kicker": "2",
+    "headline": "Porto Katsiki early",
+    "line": "A long flight of steps, and the car park fills up in summer.",
+    "photo": "lefkada-cliff"
+   },
+   {
+    "kicker": "3",
+    "headline": "Walk or float to Milos",
+    "line": "Lefkada's Milos beach has no road: path from Agios Nikitas or water taxi.",
+    "photo": "lefkada-bay"
+   },
+   {
+    "kicker": "4",
+    "headline": "See Egremni by boat",
+    "line": "Storm damage in February 2026 made the stairs unsafe.",
+    "photo": "lefkada-cliff"
+   },
+   {
+    "kicker": "5",
+    "headline": "Learn in the morning",
+    "line": "In Vasiliki the wind usually builds in the afternoon.",
+    "photo": "lefkada-beach"
+   },
+   {
+    "kicker": "6",
+    "headline": "Skorpios from the water",
+    "line": "The island is private. Landing is only allowed at one public beach.",
+    "photo": "lefkada-boats"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "Lefkada: a practical guide",
+    "line": "Link in bio: beaches, villages and when to go.",
+    "photo": "lefkada-green"
+   }
+  ],
+  "caption": "Wind first, Porto Katsiki early, Egremni by boat. How to do Lefkada's beaches as they really are today. AI characters, written in Greece. #lefkada #lefkas #ionianislands #greekislands #greece #beachlife",
+  "sources": [
+   "All facts with links in the Lefkada guide sources: https://vasilismis.github.io/greece-honestly/articles/lefkada-travel-guide/"
+  ]
+ },
+ {
+  "slug": "27-zakynthos-rules",
+  "title": "Zakynthos: rules to know",
+  "fmt": "Things locals do",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/",
+  "slides": [
+   {
+    "kicker": "Things locals do",
+    "headline": "Zakynthos, done right",
+    "line": "Turtles, a famous beach and the ferry.",
+    "photo": "taverna-chairs"
+   },
+   {
+    "kicker": "1",
+    "headline": "Respect the turtles",
+    "line": "Loggerheads nest on Laganas Bay beaches at night, May to August.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "2",
+    "headline": "Off the beach at night",
+    "line": "Visitors are asked to leave nesting beaches from sunset to 7am.",
+    "photo": "taverna-tables"
+   },
+   {
+    "kicker": "3",
+    "headline": "No bright lights",
+    "line": "Keep lights off near nesting beaches after dark.",
+    "photo": "taverna-chairs"
+   },
+   {
+    "kicker": "4",
+    "headline": "Sekania is closed",
+    "line": "The one beach on the island fully closed to the public.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "5",
+    "headline": "Check Navagio first",
+    "line": "Shipwreck Beach was closed to 31 October 2026. Check its status.",
+    "photo": "ferry"
+   },
+   {
+    "kicker": "6",
+    "headline": "Ferry from Kyllini",
+    "line": "About 1 hour 15 minutes, all year. Book ahead in summer.",
+    "photo": "ferry"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "Ionian islands compared",
+    "line": "Link in bio: all six islands side by side.",
+    "photo": "taverna-chairs"
+   }
+  ],
+  "caption": "Turtle beaches at night, a closed beach and a famous shipwreck. What to know before Zakynthos, so you do it right. AI characters, written in Greece. #zakynthos #zante #ionianislands #seaturtles #greece #responsibletravel",
+  "sources": [
+   "Marine Park rules: https://archelon.gr/en/project-areas/zakynthos-laganas-bay ; Navagio: Gazette B 3033/28.05.2026 via https://greektriplanner.me/blog/shipwreck-beach-zakynthos ; ferry: https://www.ferryhopper.com/en/ferry-routes/direct/zante-kyllini"
+  ]
+ },
+ {
+  "slug": "28-renting-numbers",
+  "title": "Renting in Greece in numbers",
+  "fmt": "Money numbers",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/renting-a-flat-in-greece/",
+  "slides": [
+   {
+    "kicker": "Money numbers",
+    "headline": "Renting in Greece, in numbers",
+    "line": "Five numbers to know before you sign.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "3 years",
+    "headline": "Minimum term for a main home",
+    "line": "Even if the contract says one year.",
+    "photo": "athens-street"
+   },
+   {
+    "kicker": "6 months",
+    "headline": "Before any shortening",
+    "line": "Only by a notarial deed signed at least six months in.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "1–2 months",
+    "headline": "A common deposit",
+    "line": "Agree in writing how and when it comes back.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "End of next month",
+    "headline": "The landlord's AADE deadline",
+    "line": "To declare the lease. You then accept it online.",
+    "photo": "laptop-sea"
+   },
+   {
+    "kicker": "Day one",
+    "headline": "Photos of every room",
+    "line": "Plus an inventory and the meter readings, signed by both.",
+    "photo": "athens-street"
+   },
+   {
+    "kicker": "Careful",
+    "headline": "Leaving early can cost",
+    "line": "The landlord can claim rent until three years pass or it is re-let.",
+    "photo": "athens-alley"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "Renting a flat in Greece",
+    "line": "Link in bio. Not legal advice.",
+    "photo": "athens-alley"
+   }
+  ],
+  "caption": "Three years, six months, one to two months' deposit. The numbers behind a Greek lease, and why leaving early can cost you. AI characters, written in Greece. #rentingreece #athens #greece #expatlife #movingabroad #firstapartment",
+  "sources": [
+   "Three-year rule and early exit: https://www.pomida.gr/misthoseis_katoikion.php ; lease declaration: https://www.aade.gr/en/property-rentalstatements ; deposits: https://landager.com/en/property-compliance/greece/national/security-deposits"
+  ]
+ },
+ {
+  "slug": "29-taverna-say-this",
+  "title": "At the taverna: say this",
+  "fmt": "Say this, not that",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/what-to-order-in-a-greek-taverna/",
+  "slides": [
+   {
+    "kicker": "Say this, not that",
+    "headline": "Taverna Greek in six phrases",
+    "line": "Order, share, pay and say thanks.",
+    "photo": "taverna-tables"
+   },
+   {
+    "kicker": "Say this",
+    "headline": "Éna neró, parakaló",
+    "line": "A water, please. Tap water is common.",
+    "photo": "taverna-chairs"
+   },
+   {
+    "kicker": "Say this",
+    "headline": "Íme chortofágos",
+    "line": "I am vegetarian. Then ask about stock and cheese.",
+    "photo": "taverna-tables"
+   },
+   {
+    "kicker": "Say this",
+    "headline": "Íme alergikós / alergikí",
+    "line": "I am allergic (man / woman). Say it first.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "Hear this",
+    "headline": "Kalí órexi!",
+    "line": "Enjoy your meal: you will hear it when food arrives.",
+    "photo": "taverna-chairs"
+   },
+   {
+    "kicker": "Hear this",
+    "headline": "Kerasméno",
+    "line": "On the house. A gift from the taverna, so say efcharistó.",
+    "photo": "taverna-tables"
+   },
+   {
+    "kicker": "Say this",
+    "headline": "To logariasmó, parakaló",
+    "line": "The bill, please. Usually you need to ask.",
+    "photo": "taverna-chairs"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "What to order in a Greek taverna",
+    "line": "Link in bio: dishes and how the bill works.",
+    "photo": "taverna-tables"
+   }
+  ],
+  "caption": "Water, vegetarian, allergic, on the house and the bill. Six bits of taverna Greek that make every meal easier. AI characters, written in Greece. #greekfood #learngreek #taverna #greece #greekphrases #eatlikealocal",
+  "sources": [
+   "All phrases: Greece, Honestly fact sheet, checked in Greece"
+  ]
+ },
+ {
+  "slug": "30-kefalonia-ithaca-myths",
+  "title": "Kefalonia and Ithaca: myths vs facts",
+  "fmt": "Myths vs facts",
+  "article": "https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/",
+  "slides": [
+   {
+    "kicker": "Myths vs facts",
+    "headline": "Kefalonia and Ithaca",
+    "line": "Two neighbours, very different trips.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "Myth",
+    "headline": "\"You can fly to Ithaca\"",
+    "line": "Ithaca has no airport. Fly to Kefalonia, then take the ferry.",
+    "photo": "ferry"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Sami to Pisaetos, half an hour",
+    "line": "About 20 to 30 minutes, all year, fewer in low season.",
+    "photo": "ferry"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Kefalonia needs a car",
+    "line": "The biggest Ionian island, mountainous and spread out.",
+    "photo": "mountain-village"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Myrtos takes patience",
+    "line": "About 2 km of tight bends down from Divarata. Arrive early.",
+    "photo": "taverna-chairs"
+   },
+   {
+    "kicker": "Fact",
+    "headline": "Robola is protected",
+    "line": "Robola of Cephalonia has been a PDO wine since 1982.",
+    "photo": "taverna-tables"
+   },
+   {
+    "kicker": "Tip",
+    "headline": "Bring water on Ithaca",
+    "line": "Most beaches have few or no facilities.",
+    "photo": "coffee"
+   },
+   {
+    "kicker": "Free guide",
+    "headline": "Ionian islands compared",
+    "line": "Link in bio: six islands side by side.",
+    "photo": "mountain-village"
+   }
+  ],
+  "caption": "No airport on Ithaca, tight bends to Myrtos and a protected wine since 1982. What to know about Kefalonia and Ithaca. AI characters, written in Greece. #kefalonia #ithaca #ionianislands #greekislands #greece #travelplanning",
+  "sources": [
+   "Ithaca ferries: https://ferryscanner.com/en/ferry-routes/ferry-sami-kefalonia-ithaca-all-ports ; Myrtos road: https://www.greeceindex.com/regions/ionian-islands/myrtos-beach-kefalonia/ ; Robola PDO: https://winesofgreece.org/pdo/pdo-robola/ ; Ithaca beaches: Discover Greece"
+  ]
  }
 ]
