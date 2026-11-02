@@ -9,7 +9,7 @@
 | 2 | Myth | "All islands close in winter" | Big islands keep living. Small islands go to sleep. | `crete-rocks.jpg` |
 | 3 | Fact | October is quieter | On small islands, some places start to close. | `cyclades-harbour.jpg` |
 | 4 | Fact | Crete stays awake | Its northern towns stay active all year. | `crete-rocks.jpg` |
-| 5 | Fact | Rhodes Town stays lively | Resort areas go quiet, so stay in or near town. | `santorini-wide.jpg` |
+| 5 | Fact | Rhodes Town stays lively | Resort areas go quiet, so stay in or near town. | `ferry.jpg` |
 | 6 | Myth | "Ferries stop in winter" | They run all year, but with fewer sailings. | `ferry.jpg` |
 | 7 | Best bets | Crete, Rhodes, Corfu, Syros | Islands that keep living outside summer. Pack a rain jacket for Corfu. | `corfu-boats.jpg` |
 | 8 | Free guide | Islands in October and November | Link in bio: which ones stay open, free on our site. | `crete-rocks.jpg` |
