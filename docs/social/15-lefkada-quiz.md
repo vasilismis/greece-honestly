@@ -16,9 +16,9 @@
 
 ## Caption
 
-A floating bridge, a famous afternoon wind and a writer named after the island. How many of these Lefkada questions can you answer? AI characters, written in Greece. #lefkada #lefkas #ionianislands #greece #greekislands #travelquiz
+A floating bridge, a famous afternoon wind and a writer whose middle name comes from the island. How many of these Lefkada questions can you answer? AI characters, written in Greece. #lefkada #lefkas #ionianislands #greece #greekislands #travelquiz
 
-*(34 words)*
+*(37 words)*
 
 ## Sources (do not publish)
 

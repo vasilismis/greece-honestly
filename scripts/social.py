@@ -210,7 +210,7 @@ car('15-lefkada-quiz', 'Lefkada quiz', 'Quiz', [
  ('Question 5', 'Calm water: west or east?', 'East. The west coast faces the open sea.', 'lefkada-boats'),
  ('Bonus', 'Egremni beach access?', 'Uncertain since the 2015 earthquake. Go by boat, and ask locally.', 'lefkada-cliff'),
  ('Free guide', 'Lefkada: a practical guide', 'Link in bio: beaches, villages and when to go.', 'lefkada-green'),
-], 'A floating bridge, a famous afternoon wind and a writer named after the island. How many of these Lefkada questions can you answer?',
+], 'A floating bridge, a famous afternoon wind and a writer whose middle name comes from the island. How many of these Lefkada questions can you answer?',
  ['#lefkada', '#lefkas', '#ionianislands', '#greece', '#greekislands', '#travelquiz'],
  ['All facts with links in the Lefkada guide sources: ' + SITE + 'lefkada-travel-guide/'], 'lefkada-travel-guide/')
 
