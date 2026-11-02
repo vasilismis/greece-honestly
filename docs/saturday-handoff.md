@@ -236,7 +236,7 @@ Folder: `social/out/<slug>/`. `tiktok-01.jpg` … `tiktok-08.jpg` are 1080×1920
 
 - [ ] All 11 covers are in `covers/` (`<key>-1600x2560.jpg` for KDP / portrait, `<key>-1000x1000.jpg` for Payhip thumbnails). See `covers/README.md` for which file belongs to which guide, and `covers/contact-sheet.jpg` for an overview.
 - [ ] Upload the square covers as the Payhip product images for the 9 existing guides, so the shop matches the site (the site's guide cards and product boxes already use them).
-- [ ] **Decide the footer line.** The covers read "Written with AI tools, checked in Greece" to keep the AI disclosure that is everywhere else. If you prefer "Written and checked in Greece", change `FOOTER` in `scripts/covers.py` and run `python3 scripts/covers.py` (then rebuild the site and the guides).
+- **Cover footer:** "Written with AI tools, checked in Greece". Approved by the founder on 2 November 2026; keep it everywhere (`FOOTER` in `scripts/covers.py`).
 - [ ] The two bullet lines on each cover only repeat what the title or format already says, because the contents of the 9 existing PDFs were not available here. Replace them with real highlights from each PDF if you like (`GUIDES` in `scripts/covers.py`).
 
 ## 4c. Social calendar
@@ -257,6 +257,15 @@ To do:
 - [ ] Upload `pinterest-bulk.csv` (Pinterest: Create → bulk create pins), or post the pins by hand from `pins.csv`.
 - [ ] **Pins 32 and 33** (Lefkada & the Ionian, Athens for New Residents) link to the Payhip shop page for now. Put their product URLs in `PRODUCTS` in `scripts/pins.py` once the products exist, run `python3 scripts/pins.py`, and edit the two pins on Pinterest.
 - [ ] Space the pins out (for example 2–3 a day) rather than publishing all 33 at once.
+
+## 4e. Instagram Reels (audio baked in)
+
+- 30 reels in `social/reels/out/<slug>.mp4`. Each is 1080×1920, H.264 + AAC, 24.5 s: 8 slides of about 3 s each, a gentle slow zoom and 0.5 s crossfades. The first frame is the hook slide. Rebuild with `python3 scripts/reels.py`.
+- Captions are in `social/reels/captions.md`: same short tone as the TikTok ones, with the AI line and 6 hashtags.
+- [ ] **Music is missing: every reel currently has a silent audio track.** This build environment's network policy blocked every legal music source (Pixabay, Free Music Archive, archive.org, Wikimedia, incompetech, OpenGameArt, ccMixter). There are two ways to fix it:
+  - Allow one of those domains in the cloud environment's network settings (environment menu → Edit → Network access → Allowed domains; docs: https://code.claude.com/docs/en/cloud-environments#network-access) and ask Claude to finish the job.
+  - Or download four tracks yourself (`islands`, `food`, `words`, `calm`) into `social/reels/music/`, record them in `social/reels/MUSIC-LICENCES.md`, and run `python3 scripts/reels.py`. It trims, fades and normalises to about −14 LUFS.
+- [ ] Post as Reels, not carousels. Pick the cover in Instagram's editor if it doesn't default to the first frame.
 
 ## 5. Things that need a human (could not be confirmed online)
 
