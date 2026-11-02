@@ -5,8 +5,9 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "check": "node scripts/check-links.mjs",
-    "test": "npm run build && npm run check",
-    "serve": "node scripts/serve.mjs"
+    "test": "npm run build && npm run check && npm run ui",
+    "serve": "node scripts/serve.mjs",
+    "ui": "node scripts/ui-check.cjs"
   },
   "repository": {
     "type": "git",
