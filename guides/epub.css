@@ -1,0 +1,16 @@
+/* EPUB styles: simple, reflowable, readable on any e-reader. */
+body{font-family:serif;line-height:1.5;color:#22313F}
+h1,h2,h3{font-family:serif;font-weight:bold;color:#1F4E79;line-height:1.2}
+h1{font-size:1.6em;margin:.6em 0 .6em}
+h2{font-size:1.3em;margin:1.4em 0 .4em}
+h3{font-size:1.1em;margin:1.2em 0 .3em}
+p{margin:0 0 .7em}
+img.opener{width:100%;height:auto;margin:0 0 1em}
+.kicker{font-family:sans-serif;font-size:.75em;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;color:#8A5A0B;margin:0}
+table{border-collapse:collapse;width:100%;font-size:.9em;margin:.5em 0 1em}
+th,td{border-bottom:1px solid #E4DCCB;padding:.3em .4em;text-align:left;vertical-align:top}
+.box{background:#EEF5F9;border-left:4px solid #1F4E79;padding:.6em .8em;margin:1em 0}
+.mistakes{background:#FFF6E5;border-left-color:#E8B248}
+.box-title{font-family:sans-serif;font-size:.75em;font-weight:bold;letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3em}
+.sources{font-size:.85em}
+.endnote{border-top:2px solid #E8B248;padding-top:.6em;margin-top:1.5em;font-size:.9em}

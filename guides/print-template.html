@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="$lang$">
+<head>
+<meta charset="utf-8">
+<title>$title$</title>
+$for(css)$
+<link rel="stylesheet" href="$css$">
+$endfor$
+</head>
+<body>
+<section class="cover-page"><img src="cover-1600x2560.jpg" alt="Cover: $title$"></section>
+<section class="title-page">
+<p class="kicker">A Greece, Honestly guide</p>
+<h1 class="book-title">$title$</h1>
+<p class="book-subtitle">$subtitle$</p>
+<div class="imprint">
+<p><strong>Greece, Honestly</strong> · Edition: November 2026</p>
+<p>$disclosure$</p>
+<p>Facts were checked against the sources listed at the back of this guide in November 2026. Rules, timetables and opening times change: always check before you travel or apply.</p>
+<p>Photos: Unsplash. Photos illustrate the text and are not always of the exact place described.</p>
+</div>
+</section>
+<nav class="toc-page">
+<p class="kicker">Inside</p>
+<h2 class="toc-title">Contents</h2>
+$table-of-contents$
+</nav>
+<main>
+$body$
+</main>
+</body>
+</html>

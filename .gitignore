@@ -2,3 +2,8 @@ node_modules/
 dist/
 .lighthouse/
 __pycache__/
+# Paid guides: the full text and the finished files stay out of this public repo.
+guides/*/content.md
+guides/*/out/*
+!guides/*/out/cover-1600x2560.jpg
+!guides/*/out/thumbnail-1000x1000.jpg
