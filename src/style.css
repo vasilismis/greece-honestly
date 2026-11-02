@@ -46,6 +46,7 @@ li{margin-bottom:.35em}
 .brand svg{width:28px;height:28px;flex:none}
 .nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1rem}
 .nav li{margin:0}
+@media (max-width:400px){.nav ul{gap:.25rem .7rem}.nav a{font-size:.95rem}}
 .nav a{color:#fff;text-decoration:none;padding:.35rem 0;display:inline-block}
 .nav a:hover,.nav a[aria-current=page]{text-decoration:underline;text-decoration-color:var(--ochre);text-decoration-thickness:3px}
 main{display:block;padding-bottom:3rem}
