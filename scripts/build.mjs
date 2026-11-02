@@ -61,6 +61,17 @@ async function renderImages() {
       await sharp(src).resize(1200, 630, { fit: 'cover', position }).jpeg({ quality: 78, mozjpeg: true }).toFile(join(out, 'img', `${name}-og.jpg`));
     })
   );
+  // Guide covers from the shared cover system (scripts/covers.py -> covers/): square for guide cards,
+  // portrait for the product card at the end of each article.
+  await Promise.all(
+    Object.keys(guides).map(async (key) => {
+      const sq = join(root, 'covers', `${key}-1000x1000.jpg`);
+      const pt = join(root, 'covers', `${key}-1600x2560.jpg`);
+      if (!existsSync(sq) || !existsSync(pt)) throw new Error(`missing cover for ${key}: run python3 scripts/covers.py`);
+      for (const w of [480, 800]) await sharp(sq).resize(w, w).webp({ quality: 78 }).toFile(join(out, 'img', `cover-${key}-sq-${w}.webp`));
+      for (const w of [320, 640]) await sharp(pt).resize(w, Math.round(w * 1.6)).webp({ quality: 78 }).toFile(join(out, 'img', `cover-${key}-pt-${w}.webp`));
+    })
+  );
 }
 const srcset = (name) => W.map((w) => `${rel(`img/${name}-${w}.webp`)} ${w}w`).join(', ');
 function img(name, { sizes = '100vw', eager = false, lazy = true, cls = '', alt } = {}) {
@@ -250,16 +261,19 @@ const priceLabel = (g) => (g.price === 'see shop' ? 'see shop for price' : g.pri
 const priceShort = (g) => (g.price === 'free' ? 'Free' : g.price === 'see shop' ? 'Price: see shop' : g.price);
 
 // A "cover" for a guide: the stand-in photo with the guide's name set on it.
-function cover(key, sizes, lazy = true) {
+// The guide's cover from covers/ (same artwork as Payhip and the stores).
+function cover(key, sizes, lazy = true, shape = 'sq') {
   const g = guides[key];
-  const name = guideCovers[key];
-  return `<div class="cover">${img(name, { sizes, lazy })}<span class="cover-text" aria-hidden="true"><span class="cover-brand">${esc(site.name)}</span><span class="cover-title">${esc(g.name)}</span></span></div>`;
+  const ws = shape === 'sq' ? [480, 800] : [320, 640];
+  const [w, h] = shape === 'sq' ? [800, 800] : [640, 1024];
+  const set = ws.map((x) => `${rel(`img/cover-${key}-${shape}-${x}.webp`)} ${x}w`).join(', ');
+  return `<img class="cover-img cover-${shape}" src="${rel(`img/cover-${key}-${shape}-${ws[0]}.webp`)}" srcset="${set}" sizes="${sizes}" width="${w}" height="${h}" alt="Cover of the guide ${esc(g.name)}" ${lazy ? 'loading="lazy" ' : ''}decoding="async">`;
 }
 
 function productCard(key) {
   const g = guides[key];
   return `<aside class="product" aria-labelledby="product-h">
-${cover(key, '(min-width: 640px) 260px, 100vw')}
+${cover(key, '(min-width: 640px) 200px, 220px', true, 'pt')}
 <div class="product-body">
 <p class="kicker">Want the full checklist?</p>
 <h2 id="product-h">${esc(g.name)}</h2>
