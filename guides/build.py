@@ -128,8 +128,13 @@ def main(slug):
     shutil.rmtree(out, ignore_errors=True)
     os.makedirs(out)
     # 1. Cover (KDP 1600x2560) and square thumbnail
-    cover(book, 1600, 2560, os.path.join(out, 'cover-1600x2560.jpg'))
-    cover(dict(book, cover_photo=book['thumb_photo']), 1000, 1000, os.path.join(out, 'thumbnail-1000x1000.jpg'))
+    # Covers come from the shared cover system (scripts/covers.py -> covers/), so site, Payhip and stores match.
+    key = {'ionian-islands-honestly': 'ionian', 'athens-for-new-residents': 'athens'}[slug]
+    shared = os.path.join(ROOT, 'covers')
+    if not os.path.exists(os.path.join(shared, f'{key}-1600x2560.jpg')):
+        subprocess.run([sys.executable, os.path.join(ROOT, 'scripts', 'covers.py')], check=True)
+    shutil.copy(os.path.join(shared, f'{key}-1600x2560.jpg'), os.path.join(out, 'cover-1600x2560.jpg'))
+    shutil.copy(os.path.join(shared, f'{key}-1000x1000.jpg'), os.path.join(out, 'thumbnail-1000x1000.jpg'))
     # 2. Content with openers
     md = open(os.path.join(base, 'content.md')).read()
     md = preprocess(md, out)
