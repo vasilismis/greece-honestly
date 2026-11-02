@@ -201,3 +201,103 @@ Folder: [`20-island-hopping-myths/`](20-island-hopping-myths/) · format: Myths 
 **Caption**
 
 Five islands in ten days sounds great until you spend it in ports. Two or three islands, three nights each. Here is why. AI characters, written in Greece. #islandhopping #greekislands #greece #cyclades #travelplanning #greecetravel
+
+## Which Ionian island suits you?
+
+Folder: [`21-ionian-quiz/`](21-ionian-quiz/) · format: Quiz · links to https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/
+
+![Contact sheet](21-ionian-quiz/contact-sheet.jpg)
+
+**Caption**
+
+Corfu, Paxos, Lefkada, Kefalonia, Ithaca or Zakynthos? Six Ionian islands, six kinds of trip. Which one is yours? AI characters, written in Greece. #ionianislands #greece #corfu #lefkada #kefalonia #travelquiz
+
+## AMKA: myths vs facts
+
+Folder: [`22-amka-myths/`](22-amka-myths/) · format: Myths vs facts · links to https://vasilismis.github.io/greece-honestly/articles/amka-explained/
+
+![Contact sheet](22-amka-myths/contact-sheet.jpg)
+
+**Caption**
+
+The AMKA is not your tax number, and not every residence permit gets one. Greece's social security number, explained in eight slides. AI characters, written in Greece. #movingtogreece #greece #expatlife #greekbureaucracy #retireingreece #movingabroad
+
+## Moving to Greece in numbers
+
+Folder: [`23-moving-numbers/`](23-moving-numbers/) · format: Money numbers · links to https://vasilismis.github.io/greece-honestly/articles/first-90-days-in-greece/
+
+![Contact sheet](23-moving-numbers/contact-sheet.jpg)
+
+**Caption**
+
+Three months, 183 days, three years, €3,500, 25% and 112. The numbers that shape your first year in Greece. AI characters, written in Greece. #movingtogreece #greece #expatlife #movingabroad #greeklife #newbeginnings
+
+## Read these Greek signs
+
+Folder: [`24-signs-quiz/`](24-signs-quiz/) · format: Quiz · links to https://vasilismis.github.io/greece-honestly/articles/how-to-read-greek-signs-alphabet/
+
+![Contact sheet](24-signs-quiz/contact-sheet.jpg)
+
+**Caption**
+
+ΚΕΝΤΡΟ, ΛΙΜΑΝΙ, ΦΑΡΜΑΚΕΙΟ, ΕΞΟΔΟΣ, ΑΕΡΟΔΡΟΜΙΟ. Five signs you will meet in your first hour in Greece. Can you read them? AI characters, written in Greece. #greekalphabet #learngreek #greece #greeklanguage #languagelearning #travelgreece
+
+## Athens transport: myths vs facts
+
+Folder: [`25-athens-transport-myths/`](25-athens-transport-myths/) · format: Myths vs facts · links to https://vasilismis.github.io/greece-honestly/articles/where-to-live-in-athens/
+
+![Contact sheet](25-athens-transport-myths/contact-sheet.jpg)
+
+**Caption**
+
+Three metro lines, two tram lines and one card. What new residents should know about getting around Athens, and which ATH.ENA card to get. AI characters, written in Greece. #athens #athensgreece #movingtogreece #publictransport #expatlife #greece
+
+## Lefkada beaches, as they are today
+
+Folder: [`26-lefkada-beaches/`](26-lefkada-beaches/) · format: Things locals do · links to https://vasilismis.github.io/greece-honestly/articles/lefkada-travel-guide/
+
+![Contact sheet](26-lefkada-beaches/contact-sheet.jpg)
+
+**Caption**
+
+Wind first, Porto Katsiki early, Egremni by boat. How to do Lefkada's beaches as they really are today. AI characters, written in Greece. #lefkada #lefkas #ionianislands #greekislands #greece #beachlife
+
+## Zakynthos: rules to know
+
+Folder: [`27-zakynthos-rules/`](27-zakynthos-rules/) · format: Things locals do · links to https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/
+
+![Contact sheet](27-zakynthos-rules/contact-sheet.jpg)
+
+**Caption**
+
+Turtle beaches at night, a closed beach and a famous shipwreck. What to know before Zakynthos, so you do it right. AI characters, written in Greece. #zakynthos #zante #ionianislands #seaturtles #greece #responsibletravel
+
+## Renting in Greece in numbers
+
+Folder: [`28-renting-numbers/`](28-renting-numbers/) · format: Money numbers · links to https://vasilismis.github.io/greece-honestly/articles/renting-a-flat-in-greece/
+
+![Contact sheet](28-renting-numbers/contact-sheet.jpg)
+
+**Caption**
+
+Three years, six months, one to two months' deposit. The numbers behind a Greek lease, and why leaving early can cost you. AI characters, written in Greece. #rentingreece #athens #greece #expatlife #movingabroad #firstapartment
+
+## At the taverna: say this
+
+Folder: [`29-taverna-say-this/`](29-taverna-say-this/) · format: Say this, not that · links to https://vasilismis.github.io/greece-honestly/articles/what-to-order-in-a-greek-taverna/
+
+![Contact sheet](29-taverna-say-this/contact-sheet.jpg)
+
+**Caption**
+
+Water, vegetarian, allergic, on the house and the bill. Six bits of taverna Greek that make every meal easier. AI characters, written in Greece. #greekfood #learngreek #taverna #greece #greekphrases #eatlikealocal
+
+## Kefalonia and Ithaca: myths vs facts
+
+Folder: [`30-kefalonia-ithaca-myths/`](30-kefalonia-ithaca-myths/) · format: Myths vs facts · links to https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/
+
+![Contact sheet](30-kefalonia-ithaca-myths/contact-sheet.jpg)
+
+**Caption**
+
+No airport on Ithaca, tight bends to Myrtos and a protected wine since 1982. What to know about Kefalonia and Ithaca. AI characters, written in Greece. #kefalonia #ithaca #ionianislands #greekislands #greece #travelplanning

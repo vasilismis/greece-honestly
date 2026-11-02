@@ -286,12 +286,144 @@ car('20-island-hopping-myths', 'Island hopping: myths vs facts', 'Myths vs facts
  ['#islandhopping', '#greekislands', '#greece', '#cyclades', '#travelplanning', '#greecetravel'],
  [f'Rules of thumb and routes: {FS}'], 'greek-island-hopping-three-routes/')
 
+
+car('21-ionian-quiz', 'Which Ionian island suits you?', 'Quiz', [
+ ('Quick quiz', 'Which Ionian island are you?', 'Six green islands, six different trips. Find yours.', 'mountain-village'),
+ ('First visit?', 'Corfu', 'Direct flights, families welcome, and good outside summer too.', 'corfu-boats'),
+ ('Total calm?', 'Paxos', 'No airport, ferry from Corfu or Igoumenitsa, and no car needed.', 'taverna-tables'),
+ ('Road trip?', 'Lefkada', 'Drive in over a floating bridge. Dramatic west coast, calm east.', 'lefkada-green'),
+ ('Hiking?', 'Kefalonia', 'The biggest of the six, mountainous and spread out. Bring a car.', 'mountain-village'),
+ ('Slow days?', 'Ithaca', 'No airport. About half an hour by ferry from Sami on Kefalonia.', 'coffee'),
+ ('Least hassle?', 'Zakynthos', 'Direct flights and a year-round ferry from Kyllini.', 'ferry'),
+ ('Free guide', 'Ionian islands compared', 'Link in bio: all six side by side.', 'ferry'),
+], 'Corfu, Paxos, Lefkada, Kefalonia, Ithaca or Zakynthos? Six Ionian islands, six kinds of trip. Which one is yours?',
+ ['#ionianislands', '#greece', '#corfu', '#lefkada', '#kefalonia', '#travelquiz'],
+ ['Ionian comparison sources: https://vasilismis.github.io/greece-honestly/articles/ionian-islands-compared/'], 'ionian-islands-compared/')
+
+car('22-amka-myths', 'AMKA: myths vs facts', 'Myths vs facts', [
+ ('Myths vs facts', 'The AMKA, explained', 'Greece\'s social security number, without the confusion.', 'mountain-village'),
+ ('Myth', '"The AMKA is your tax number"', 'No. The tax number is the AFM. The AMKA is social security.', 'laptop-sea'),
+ ('Fact', 'You apply in person', 'At a KEP citizens\' centre or a branch of e-EFKA.', 'athens-street'),
+ ('Fact', 'EU citizens bring ID', 'A passport or national ID card. Take your AFM and proof of address too.', 'athens-alley'),
+ ('Fact', 'Non-EU needs a work-access permit', 'The official site lists a permit giving access to the labour market.', 'cyclades-harbour'),
+ ('Myth', '"Every permit holder gets one"', 'Financially Independent Person permit holders generally cannot, and keep private insurance.', 'coffee'),
+ ('Myth', '"AMKA means free healthcare"', 'Cover depends on insurance: work, or a registered S1 form.', 'mountain-village'),
+ ('Free guide', 'AMKA explained', 'Link in bio: who can get it and how. Not legal advice.', 'athens-street'),
+], 'The AMKA is not your tax number, and not every residence permit gets one. Greece\'s social security number, explained in eight slides.',
+ ['#movingtogreece', '#greece', '#expatlife', '#greekbureaucracy', '#retireingreece', '#movingabroad'],
+ ['AMKA: https://ypergasias.gov.gr/en/social-security/insured-persons/social-security-registration-number-amka/ ; https://www.amka.gr/',
+  'FIP holders: https://stathaki-tsopela.gr/en/immigration-law/financially-independent-persons-new-greek-residence-permit/'], 'amka-explained/')
+
+car('23-moving-numbers', 'Moving to Greece in numbers', 'Money numbers', [
+ ('Money numbers', 'Moving to Greece in numbers', 'Seven numbers every newcomer should know.', 'cyclades-harbour'),
+ ('3 months', 'EU citizens register after three months', 'In person, with the police service for foreigners where you live.', 'athens-street'),
+ ('183 days', 'The tax residence line', 'More than 183 days in any 12-month period usually makes you tax resident.', 'laptop-sea'),
+ ('3 years', 'The minimum lease term', 'For a main residence, binding on tenant and landlord alike.', 'athens-alley'),
+ ('€3,500', 'Monthly income for a FIP permit', 'For non-EU retirees. More for a spouse and children.', 'coffee'),
+ ('25%', 'Usual prescription co-payment', '10% for some chronic diseases, 0% for some serious ones.', 'mountain-village'),
+ ('112', 'The European emergency number', 'Save it on day one. Ambulance: 166.', 'cyclades-chairs'),
+ ('Free guide', 'Your first 90 days in Greece', 'Link in bio: the order that saves trips. Not legal advice.', 'cyclades-harbour'),
+], 'Three months, 183 days, three years, €3,500, 25% and 112. The numbers that shape your first year in Greece.',
+ ['#movingtogreece', '#greece', '#expatlife', '#movingabroad', '#greeklife', '#newbeginnings'],
+ ['EU registration: gov.gr ; tax residence: AADE ; lease: POMIDA ; FIP: Siopi law firm ; prescriptions: PPRI 2024 ; emergency numbers: gov.gr (all linked in the site articles)'], 'first-90-days-in-greece/')
+
+car('24-signs-quiz', 'Read these Greek signs', 'Quiz', [
+ ('Quick quiz', 'Can you read these signs?', 'Five words you will see everywhere in Greece. Guess, then swipe.', 'greek-inscription'),
+ ('Sign 1', 'ΚΕΝΤΡΟ', 'Kéndro: the centre. ΝΤ sounds like nd.', 'athens-street'),
+ ('Sign 2', 'ΛΙΜΑΝΙ', 'Limáni: the port. Λ is l.', 'ferry'),
+ ('Sign 3', 'ΦΑΡΜΑΚΕΙΟ', 'Farmakío: pharmacy. Ρ is r, and ΕΙ sounds like i.', 'athens-alley'),
+ ('Sign 4', 'ΕΞΟΔΟΣ', 'Éxodos: exit. Ξ is x, Δ is th as in this.', 'greek-inscription'),
+ ('Sign 5', 'ΑΕΡΟΔΡΟΜΙΟ', 'Aerodrómio: airport.', 'laptop-sea'),
+ ('Tip', 'Six letters are traps', 'Η, Ρ, Χ, Ν, Υ and Β look English but sound different.', 'greek-inscription'),
+ ('Free download', 'Greek alphabet cheat sheet', 'Link in bio: free, one page.', 'greek-inscription'),
+], 'ΚΕΝΤΡΟ, ΛΙΜΑΝΙ, ΦΑΡΜΑΚΕΙΟ, ΕΞΟΔΟΣ, ΑΕΡΟΔΡΟΜΙΟ. Five signs you will meet in your first hour in Greece. Can you read them?',
+ ['#greekalphabet', '#learngreek', '#greece', '#greeklanguage', '#languagelearning', '#travelgreece'],
+ [f'Signs and letters: {FS}'], 'how-to-read-greek-signs-alphabet/')
+
+car('25-athens-transport-myths', 'Athens transport: myths vs facts', 'Myths vs facts', [
+ ('Myths vs facts', 'Getting around Athens', 'Metro, tram, buses and one card.', 'athens-street'),
+ ('Fact', 'Three metro lines', 'Green, red and blue. The blue line serves the airport.', 'athens-alley'),
+ ('Fact', 'Two tram lines', 'Syntagma to Pikrodafni, and Voula to Piraeus along the coast.', 'ferry'),
+ ('Fact', 'One card for everything', 'The ATH.ENA card works on metro, buses, trams and suburban rail.', 'athens-street'),
+ ('Myth', '"The anonymous card is safest"', 'Lose it and the money on it is gone. The personalised card can be replaced.', 'athens-alley'),
+ ('Fact', 'Monthly tickets need the personalised card', 'Apply online or in person; it is posted to you.', 'laptop-sea'),
+ ('Tip', 'Keep your PIN', 'You need the 8-digit PIN to replace a lost personalised card.', 'coffee'),
+ ('Free guide', 'Athens for new residents', 'Link in bio: neighbourhoods, transport and offices.', 'athens-street'),
+], 'Three metro lines, two tram lines and one card. What new residents should know about getting around Athens, and which ATH.ENA card to get.',
+ ['#athens', '#athensgreece', '#movingtogreece', '#publictransport', '#expatlife', '#greece'],
+ ['Metro and suburban rail: https://en.wikipedia.org/wiki/Proastiakos ; tram: https://en.wikipedia.org/wiki/Athens_Tram ; ATH.ENA card: https://www.athenstransport.com/english/tickets/ ; lost anonymous card: grandpl.com (linked in the Athens guide sources)'], 'where-to-live-in-athens/')
+
+car('26-lefkada-beaches', 'Lefkada beaches, as they are today', 'Things locals do', [
+ ('Things locals do', 'Lefkada beaches, the local way', 'How people who know the island actually do it.', 'lefkada-green'),
+ ('1', 'Check the wind first', 'Big waves on the west coast? Head for the calm east coast.', 'lefkada-boats'),
+ ('2', 'Porto Katsiki early', 'A long flight of steps, and the car park fills up in summer.', 'lefkada-cliff'),
+ ('3', 'Walk or float to Milos', 'Lefkada\'s Milos beach has no road: path from Agios Nikitas or water taxi.', 'lefkada-bay'),
+ ('4', 'See Egremni by boat', 'Storm damage in February 2026 made the stairs unsafe.', 'lefkada-cliff'),
+ ('5', 'Learn in the morning', 'In Vasiliki the wind usually builds in the afternoon.', 'lefkada-beach'),
+ ('6', 'Skorpios from the water', 'The island is private. Landing is only allowed at one public beach.', 'lefkada-boats'),
+ ('Free guide', 'Lefkada: a practical guide', 'Link in bio: beaches, villages and when to go.', 'lefkada-green'),
+], 'Wind first, Porto Katsiki early, Egremni by boat. How to do Lefkada\'s beaches as they really are today.',
+ ['#lefkada', '#lefkas', '#ionianislands', '#greekislands', '#greece', '#beachlife'],
+ ['All facts with links in the Lefkada guide sources: https://vasilismis.github.io/greece-honestly/articles/lefkada-travel-guide/'], 'lefkada-travel-guide/')
+
+car('27-zakynthos-rules', 'Zakynthos: rules to know', 'Things locals do', [
+ ('Things locals do', 'Zakynthos, done right', 'Turtles, a famous beach and the ferry.', 'taverna-chairs'),
+ ('1', 'Respect the turtles', 'Loggerheads nest on Laganas Bay beaches at night, May to August.', 'coffee'),
+ ('2', 'Off the beach at night', 'Visitors are asked to leave nesting beaches from sunset to 7am.', 'taverna-tables'),
+ ('3', 'No bright lights', 'Keep lights off near nesting beaches after dark.', 'taverna-chairs'),
+ ('4', 'Sekania is closed', 'The one beach on the island fully closed to the public.', 'mountain-village'),
+ ('5', 'Check Navagio first', 'Shipwreck Beach was closed to 31 October 2026. Check its status.', 'ferry'),
+ ('6', 'Ferry from Kyllini', 'About 1 hour 15 minutes, all year. Book ahead in summer.', 'ferry'),
+ ('Free guide', 'Ionian islands compared', 'Link in bio: all six islands side by side.', 'taverna-chairs'),
+], 'Turtle beaches at night, a closed beach and a famous shipwreck. What to know before Zakynthos, so you do it right.',
+ ['#zakynthos', '#zante', '#ionianislands', '#seaturtles', '#greece', '#responsibletravel'],
+ ['Marine Park rules: https://archelon.gr/en/project-areas/zakynthos-laganas-bay ; Navagio: Gazette B 3033/28.05.2026 via https://greektriplanner.me/blog/shipwreck-beach-zakynthos ; ferry: https://www.ferryhopper.com/en/ferry-routes/direct/zante-kyllini'], 'ionian-islands-compared/')
+
+car('28-renting-numbers', 'Renting in Greece in numbers', 'Money numbers', [
+ ('Money numbers', 'Renting in Greece, in numbers', 'Five numbers to know before you sign.', 'athens-alley'),
+ ('3 years', 'Minimum term for a main home', 'Even if the contract says one year.', 'athens-street'),
+ ('6 months', 'Before any shortening', 'Only by a notarial deed signed at least six months in.', 'athens-alley'),
+ ('1–2 months', 'A common deposit', 'Agree in writing how and when it comes back.', 'coffee'),
+ ('End of next month', 'The landlord\'s AADE deadline', 'To declare the lease. You then accept it online.', 'laptop-sea'),
+ ('Day one', 'Photos of every room', 'Plus an inventory and the meter readings, signed by both.', 'athens-street'),
+ ('Careful', 'Leaving early can cost', 'The landlord can claim rent until three years pass or it is re-let.', 'athens-alley'),
+ ('Free guide', 'Renting a flat in Greece', 'Link in bio. Not legal advice.', 'athens-alley'),
+], 'Three years, six months, one to two months\' deposit. The numbers behind a Greek lease, and why leaving early can cost you.',
+ ['#rentingreece', '#athens', '#greece', '#expatlife', '#movingabroad', '#firstapartment'],
+ ['Three-year rule and early exit: https://www.pomida.gr/misthoseis_katoikion.php ; lease declaration: https://www.aade.gr/en/property-rentalstatements ; deposits: https://landager.com/en/property-compliance/greece/national/security-deposits'], 'renting-a-flat-in-greece/')
+
+car('29-taverna-say-this', 'At the taverna: say this', 'Say this, not that', [
+ ('Say this, not that', 'Taverna Greek in six phrases', 'Order, share, pay and say thanks.', 'taverna-tables'),
+ ('Say this', 'Éna neró, parakaló', 'A water, please. Tap water is common.', 'taverna-chairs'),
+ ('Say this', 'Íme chortofágos', 'I am vegetarian. Then ask about stock and cheese.', 'taverna-tables'),
+ ('Say this', 'Íme alergikós / alergikí', 'I am allergic (man / woman). Say it first.', 'coffee'),
+ ('Hear this', 'Kalí órexi!', 'Enjoy your meal: you will hear it when food arrives.', 'taverna-chairs'),
+ ('Hear this', 'Kerasméno', 'On the house. A gift from the taverna, so say efcharistó.', 'taverna-tables'),
+ ('Say this', 'To logariasmó, parakaló', 'The bill, please. Usually you need to ask.', 'taverna-chairs'),
+ ('Free guide', 'What to order in a Greek taverna', 'Link in bio: dishes and how the bill works.', 'taverna-tables'),
+], 'Water, vegetarian, allergic, on the house and the bill. Six bits of taverna Greek that make every meal easier.',
+ ['#greekfood', '#learngreek', '#taverna', '#greece', '#greekphrases', '#eatlikealocal'],
+ [f'All phrases: {FS}'], 'what-to-order-in-a-greek-taverna/')
+
+car('30-kefalonia-ithaca-myths', 'Kefalonia and Ithaca: myths vs facts', 'Myths vs facts', [
+ ('Myths vs facts', 'Kefalonia and Ithaca', 'Two neighbours, very different trips.', 'mountain-village'),
+ ('Myth', '"You can fly to Ithaca"', 'Ithaca has no airport. Fly to Kefalonia, then take the ferry.', 'ferry'),
+ ('Fact', 'Sami to Pisaetos, half an hour', 'About 20 to 30 minutes, all year, fewer in low season.', 'ferry'),
+ ('Fact', 'Kefalonia needs a car', 'The biggest Ionian island, mountainous and spread out.', 'mountain-village'),
+ ('Fact', 'Myrtos takes patience', 'About 2 km of tight bends down from Divarata. Arrive early.', 'taverna-chairs'),
+ ('Fact', 'Robola is protected', 'Robola of Cephalonia has been a PDO wine since 1982.', 'taverna-tables'),
+ ('Tip', 'Bring water on Ithaca', 'Most beaches have few or no facilities.', 'coffee'),
+ ('Free guide', 'Ionian islands compared', 'Link in bio: six islands side by side.', 'mountain-village'),
+], 'No airport on Ithaca, tight bends to Myrtos and a protected wine since 1982. What to know about Kefalonia and Ithaca.',
+ ['#kefalonia', '#ithaca', '#ionianislands', '#greekislands', '#greece', '#travelplanning'],
+ ['Ithaca ferries: https://ferryscanner.com/en/ferry-routes/ferry-sami-kefalonia-ithaca-all-ports ; Myrtos road: https://www.greeceindex.com/regions/ionian-islands/myrtos-beach-kefalonia/ ; Robola PDO: https://winesofgreece.org/pdo/pdo-robola/ ; Ithaca beaches: Discover Greece'], 'ionian-islands-compared/')
+
 # ---------- checks and output ----------
 words = lambda s: len(re.findall(r"\S+", s))
 errors = []
-assert len(C) == 20, len(C)
+assert len(C) == 30, len(C)
 out = os.path.join(ROOT, 'docs/social'); os.makedirs(out, exist_ok=True)
-index = ['# Social carousels', '', 'Twenty 8-slide carousel scripts for TikTok and Instagram. Each slide: kicker (≤4 words) / headline (≤7 words) / one line (≤18 words) / photo from `src/static/img/`. Generated by `scripts/social.py`, which also checks every length rule.', '', '| # | Carousel | Format |', '|---|---|---|']
+index = ['# Social carousels', '', 'Thirty 8-slide carousel scripts for TikTok and Instagram. Each slide: kicker (≤4 words) / headline (≤7 words) / one line (≤18 words) / photo from `src/static/img/`. Generated by `scripts/social.py`, which also checks every length rule.', '', '| # | Carousel | Format |', '|---|---|---|']
 for c in C:
     if len(c['slides']) != 8: errors.append(f"{c['slug']}: {len(c['slides'])} slides")
     for i, (k, h, l, img) in enumerate(c['slides'], 1):
