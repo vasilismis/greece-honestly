@@ -1,6 +1,6 @@
 # Paid guides
 
-Two guides, each in its own folder with `content.md` (the text), `sources.md` (sources and the Unchecked list) and `out/` (built files):
+Two guides, each in its own folder with `content.md` (the text), `sources.md` (sources and the Unchecked list), `listing.md` (store listing) and `out/` (built files):
 
 | Folder | Title | Suggested price |
 |---|---|---|
