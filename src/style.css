@@ -10,7 +10,7 @@
   --aegean:#1F4E79;--aegean-dark:#163A5B;--sea:#2E86AB;--ochre:#D9A441;--ochre-deep:#8A5A0B;--cream:#FBF7EF;--ink:#22313F;
   --muted:#4A5866;--line:#E4DCCB;--card:#FFFFFF;--shade:#14202B;
   --link:var(--aegean);--heading:var(--aegean);--text:var(--ink);--tint:#EEF3F8;--note-bg:#EEF5F9;--note-line:#CFE0EA;--footer:var(--ink);--icon:var(--sea);
-  color-scheme:light dark;
+  color-scheme:dark;
   --sans:'Noto Sans',system-ui,-apple-system,'Segoe UI',Arial,sans-serif;
   --serif:'Noto Serif',Georgia,'Times New Roman',serif;
   --wrap:44rem;--radius:10px;--shadow:0 1px 2px rgba(20,32,43,.06),0 6px 18px rgba(20,32,43,.07);
@@ -177,8 +177,7 @@ code{font-family:var(--sans);background:var(--tint);padding:0 .25em;border-radiu
 .route-guides{margin-top:2rem;font-size:1.15rem}
 .note{font-size:.95rem;color:var(--muted);border-top:1px solid var(--line);padding-top:1rem}
 .more{margin-top:2rem}
-/* ---------- dark theme (follows the device setting) ---------- */
-@media (prefers-color-scheme:dark){
+/* ---------- dark blue theme (the site's only look) ---------- */
   :root{
     --cream:#0F1A24;--card:#172532;--line:#2A3B4B;--muted:#A7B4C0;--text:#E4E9EE;
     --link:#8CC3EA;--heading:#B7D6EE;--ochre-deep:#E0AE52;--icon:#6DB8DC;
@@ -189,5 +188,4 @@ code{font-family:var(--sans);background:var(--tint);padding:0 .25em;border-radiu
   .button:not(.button-ghost){background:#2B6698;border-color:#2B6698}
   .hero .button:not(.button-ghost){background:var(--ochre);border-color:var(--ochre)}
   img:not(.hero img):not(.feature img){filter:brightness(.92)}
-}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
