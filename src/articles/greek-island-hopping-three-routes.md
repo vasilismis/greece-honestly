@@ -33,7 +33,7 @@ These four rules will save most trips:
 **Ferry times change every year.** Always check the current schedules for your dates before you book anything that cannot be changed.
 :::
 
-## Route 1: Classic Cyclades (10–12 days)
+## Route 1: classic Cyclades (10–12 days)
 
 The famous islands, in an order that flows.
 
@@ -50,7 +50,7 @@ The famous islands, in an order that flows.
 
 **Tip:** if your dates are flexible, Santorini is at its best in May or October, when it is less crowded than midsummer. With 10–12 days, you can add a spare night in Athens at either end.
 
-## Route 2: Quiet Cyclades (10 days)
+## Route 2: quiet Cyclades (10 days)
 
 The same island group, a completely different mood. Smaller islands, fewer crowds.
 

@@ -16,7 +16,7 @@ Here is how it works, plus ten dishes worth knowing.
 :::facts
 food | Order | Several dishes, and share
 euro | Bread | Usually charged
-doc | Receipt | You should get one; card payment should be possible
+doc | Receipt | You should get one, and you can pay by card
 check | Tip | Optional, about 5–10% in cash
 :::
 

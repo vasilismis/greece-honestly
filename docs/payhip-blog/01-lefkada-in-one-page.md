@@ -20,7 +20,7 @@ If you only read one thing before a trip to Lefkada, make it this.
 
 **Go up the mountain.** Karya is known for its embroidery and Eglouvi for its small lentils. Both are a winding drive from the coast, and both are a different world from the beach resorts.
 
-**Look up in town.** Many houses in Lefkada town have a stone ground floor and a light timber upper floor clad in painted metal, a local way of building to cope with earthquakes. The writer Lafcadio Hearn was born on the island in 1850 and took his middle name from it.
+**Look up in town.** Many houses in Lefkada town have a stone ground floor and a light timber upper floor clad in painted metal, a local way of building to cope with earthquakes. The writer Patrick Lafcadio Hearn was born on the island in 1850; Lafcadio, his middle name, comes from it.
 
 **When:** May, June and September are the sweet spots. August is busiest, especially around the 15th. The town hosts its International Folklore Festival in August.
 
