@@ -284,5 +284,5 @@ To do:
 
 ## 6. Housekeeping (optional)
 
-- GitHub warns that actions in `.github/workflows/deploy.yml` run on a Node 20 runtime that is being retired; bump `actions/checkout`, `setup-node`, `upload-pages-artifact` and `deploy-pages` to their latest major versions when convenient.
+- `actions/checkout` and `actions/setup-node` were bumped to v5 (Node 24) on 2 November. `upload-pages-artifact@v3` and `deploy-pages@v4` were left as they are. Check their release notes before bumping: newer upload-pages-artifact versions may skip hidden files such as `.nojekyll`.
 - With a custom domain (`SITE_URL`, `BASE_PATH=/`, `CNAME` variables), `robots.txt` will sit at the domain root and the Lighthouse SEO score rises from 92.
