@@ -159,6 +159,7 @@ const articles = readdirSync(join(root, 'src/articles'))
       kicker: data.kicker || kickers[data.guide],
       html: marked.parse(blocks(body, f)),
       words,
+      source: body,
       file: f,
     };
   })
@@ -605,6 +606,39 @@ ${pages.map(([p, d]) => `<url><loc>${abs(p)}</loc><lastmod>${d}</lastmod></url>`
 
 // robots.txt (only meaningful at a domain root; harmless under a sub-path)
 write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${abs('sitemap.xml')}\n`);
+
+// Plain-text copies for AI assistants and other readers: /llms.txt and articles/<slug>/index.md
+const mdCopy = (a) => `# ${a.title}
+
+${a.description}
+
+- URL: ${abs(`articles/${a.slug}/`)}
+- Published: ${a.published}. Last checked: ${a.lastChecked}.
+- ${site.name} is written with AI tools and checked in Greece. General information, not legal, tax or medical advice.
+
+${a.source.trim().replace(/\]\(\//g, `](${abs()}`)}
+`;
+for (const a of articles) write(`articles/${a.slug}/index.md`, mdCopy(a));
+write(
+  'llms.txt',
+  `# ${site.name}
+
+> ${site.description}
+
+Practical, dated articles in British English for people visiting or moving to Greece. Every article lists its sources and the month it was last checked. Written with AI tools and checked in Greece; general information, not legal, tax or medical advice. Each article has a plain Markdown copy at the same address plus index.md.
+
+## Articles
+
+${articles.map((a) => `- [${a.title}](${abs(`articles/${a.slug}/`)}): ${a.summary} Last checked ${a.lastChecked}. Markdown: ${abs(`articles/${a.slug}/index.md`)}`).join('\n')}
+
+## Optional
+
+- [Start here](${abs('start-here/')}): which articles to read first, by situation
+- [Guides](${abs('guides/')}): paid downloadable PDF guides
+- [About](${abs('about/')}): who is behind the site and how it is checked
+- [RSS feed](${abs('rss.xml')})
+`
+);
 
 // RSS
 const rfc822 = (d) => new Date(d + 'T09:00:00Z').toUTCString();

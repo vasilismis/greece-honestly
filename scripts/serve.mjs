@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { site } from '../src/site.mjs';
 
 const dist = join(dirname(fileURLToPath(import.meta.url)), '..', 'dist');
-const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.xml': 'application/xml', '.txt': 'text/plain', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
+const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.xml': 'application/xml', '.txt': 'text/plain; charset=utf-8', '.md': 'text/markdown; charset=utf-8', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
 const port = Number(process.env.PORT || 4321);
 
 createServer(async (req, res) => {
