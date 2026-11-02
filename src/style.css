@@ -103,7 +103,7 @@ main{display:block;padding-bottom:3rem}
 .cards{list-style:none;padding:0;margin:1rem 0 0;display:grid;gap:1.25rem;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr))}
 .cards li{margin:0}
 .card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;height:100%;display:flex;flex-direction:column;box-shadow:var(--shadow)}
-.card>img,.card>.cover{aspect-ratio:16/9;width:100%;height:auto;object-fit:cover}
+.card>img{aspect-ratio:16/9;width:100%;height:auto;object-fit:cover}
 .card-body{padding:1rem 1.1rem 1.2rem}
 .card h2,.card h3{margin:0 0 .4rem;font-size:1.12rem}
 .card h2 a,.card h3 a{text-decoration:none}
@@ -114,13 +114,8 @@ main{display:block;padding-bottom:3rem}
 .card:focus-within{outline:3px solid var(--ochre);outline-offset:2px}
 .card:focus-within a:focus-visible{outline:none}
 
-/* guide "cover": the stand-in photo with the title set on it */
-.cover{position:relative;display:block;overflow:hidden;background:var(--aegean);aspect-ratio:16/9;isolation:isolate}
-.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
-.cover::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(20,32,43,.9),rgba(20,32,43,.45) 60%,rgba(20,32,43,.2));border-bottom:5px solid var(--ochre)}
-.cover-text{position:absolute;left:0;right:0;bottom:0;padding:.8rem 1rem 1rem;color:#fff;display:flex;flex-direction:column;gap:.15rem}
-.cover-brand{font-variant-caps:all-small-caps;letter-spacing:.08em;font-weight:700;color:var(--ochre);font-size:.95rem}
-.cover-title{font-family:var(--serif);font-weight:700;font-size:1.15rem;line-height:1.25}
+/* guide covers: rendered artwork from covers/ */
+.card>.cover-sq{aspect-ratio:1/1;width:100%;height:auto;object-fit:cover;border-bottom:4px solid var(--ochre)}
 
 /* ---------- article body ---------- */
 .article-body{padding-top:2rem}
@@ -160,13 +155,13 @@ code{font-family:var(--sans);background:#EEF3F8;padding:0 .25em;border-radius:3p
 
 /* product card at the end of each article */
 .product{margin:2.75rem 0 1.5rem;display:grid;grid-template-columns:1fr;background:#fff;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
-.product .cover{aspect-ratio:16/9}
+.product .cover-pt{display:block;width:100%;max-width:220px;height:auto;aspect-ratio:5/8;margin:1.25rem auto 0;border-radius:6px;box-shadow:var(--shadow)}
 .product-body{padding:1.2rem 1.25rem 1.3rem}
 .product h2{margin:0 0 .4rem;font-size:1.35rem}
 .product-meta{display:flex;align-items:center;gap:.4rem;font-weight:700;margin:0 0 1rem}
 .product-meta .icon{color:var(--sea)}
 .product .small{margin:.75rem 0 0}
-@media (min-width:640px){.product{grid-template-columns:260px 1fr}.product .cover{aspect-ratio:auto;height:100%;min-height:220px}}
+@media (min-width:640px){.product{grid-template-columns:200px 1fr;align-items:center}.product .cover-pt{margin:1.25rem 0 1.25rem 1.25rem;max-width:180px}}
 
 .route-picker{list-style:none;padding:0;margin:1.5rem 0 1rem;display:grid;gap:.75rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))}
 .route-picker li{margin:0}
