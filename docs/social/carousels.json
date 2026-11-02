@@ -38,7 +38,7 @@
    {
     "kicker": "Fact",
     "headline": "You should get a receipt",
-    "line": "And card payment should be possible. It is fine to ask.",
+    "line": "And you can pay by card: restaurants must have a card terminal.",
     "photo": "athens-street"
    },
    {
@@ -887,7 +887,7 @@
    {
     "kicker": "Question 4",
     "headline": "Which writer was born here?",
-    "line": "Lafcadio Hearn, in 1850. His middle name comes from the island.",
+    "line": "Patrick Lafcadio Hearn, in 1850. Lafcadio, his middle name, comes from the island.",
     "photo": "lefkada-cliff"
    },
    {

@@ -92,7 +92,7 @@ Lefkada town sits right by the bridge and lagoon. Walk the old streets and look 
 **Two cultural notes:**
 
 - **The August festivals.** Lefkada's arts and literature events have been held since 1955, and the International Folklore Festival since 1962. The folklore festival takes place in August and brings dance and music groups from many countries to the town. Check the exact dates each year.
-- **Lafcadio Hearn.** The writer Lafcadio Hearn, famous for his books about Japan, was born on Lefkada in 1850. His middle name, Lafcadio, comes from the island's name.
+- **Lafcadio Hearn.** The writer Patrick Lafcadio Hearn, famous for his books about Japan, was born on Lefkada in 1850. Lafcadio, his middle name, comes from the island's name.
 
 ## When to go
 

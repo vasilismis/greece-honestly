@@ -10,7 +10,7 @@
 | 3 | Fact | Fish is priced by the kilo | The menu price is per kilo, not per plate. Ask the weight and price before cooking. | `corfu-boats.jpg` |
 | 4 | Myth | "You must tip 15%" | Tipping is optional. About 5–10% in cash if you were happy. | `taverna-tables.jpg` |
 | 5 | Fact | Kerasméno means on the house | That dessert you did not order? A gift from the taverna. Say efcharistó. | `coffee.jpg` |
-| 6 | Fact | You should get a receipt | And card payment should be possible. It is fine to ask. | `athens-street.jpg` |
+| 6 | Fact | You should get a receipt | And you can pay by card: restaurants must have a card terminal. | `athens-street.jpg` |
 | 7 | Locals do this | Order several dishes and share | Plates go in the middle and everyone helps themselves. Order more later. | `taverna-chairs.jpg` |
 | 8 | Free guide | Read the full etiquette guide | Link in bio: Greek taverna etiquette, free on our website. | `taverna-tables.jpg` |
 

@@ -120,7 +120,7 @@ An hour with an accountant who knows both countries is worth more than any forum
 3. Get the type D visa at a Greek consulate **before** you travel; you cannot switch from tourist status.
 4. The national visa fee in the law is €75; the visa is valid for up to 12 months, and the residence permit lasts 2 years and is renewable.
 5. You need full health insurance covering Greece; travel insurance is not enough.
-6. Expect to become a Greek tax resident if you stay more than 183 days, and do not count on the 50% tax break.
+6. Expect to become a Greek tax resident if you stay more than 183 days in any 12-month period, and do not count on the 50% tax break.
 
 If you are thinking about Greece as a long-term base rather than a remote-work stint, the rules for the [Financially Independent Person permit](/articles/retiring-to-greece-2026/) are worth a look too, though that permit does not allow you to work in Greece at all.
 
