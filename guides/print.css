@@ -1,0 +1,58 @@
+/* Print styles for Greece, Honestly guides (A4 and US Letter). Body 11pt, readable line length. */
+@font-face{font-family:'Noto Sans';font-weight:400;src:url(fonts/noto-sans-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Noto Sans';font-weight:400;src:url(fonts/noto-sans-greek-400-normal.woff2) format('woff2');unicode-range:U+0370-03FF}
+@font-face{font-family:'Noto Sans';font-weight:700;src:url(fonts/noto-sans-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Noto Sans';font-weight:700;src:url(fonts/noto-sans-greek-700-normal.woff2) format('woff2');unicode-range:U+0370-03FF}
+@font-face{font-family:'Noto Serif';font-weight:700;src:url(fonts/noto-serif-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'Noto Serif';font-weight:700;src:url(fonts/noto-serif-greek-700-normal.woff2) format('woff2');unicode-range:U+0370-03FF}
+
+:root{--navy:#081626;--aegean:#1F4E79;--ochre:#E8B248;--ochre-deep:#8A5A0B;--cream:#FBF7EF;--ink:#22313F;--muted:#4A5866;--line:#E4DCCB}
+
+@page{margin:20mm 18mm 22mm;
+  @bottom-left{content:"Greece, Honestly";font:8pt 'Noto Sans';color:#6B7785}
+  @bottom-right{content:counter(page);font:8pt 'Noto Sans';color:#6B7785}}
+@page cover{margin:0;@bottom-left{content:none}@bottom-right{content:none}}
+@page front{@bottom-left{content:none}@bottom-right{content:none}}
+
+html{font-family:'Noto Sans',sans-serif;font-size:11pt;line-height:1.5;color:var(--ink);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{margin:0}
+.cover-page{page:cover;break-after:page;height:100vh;background:var(--navy);overflow:hidden}
+.cover-page img{width:100%;height:100%;object-fit:cover;object-position:50% 70%;display:block}
+.title-page,.toc-page{page:front;break-after:page}
+.title-page{padding-top:40mm}
+.book-title{font:700 30pt/1.15 'Noto Serif',serif;color:var(--aegean);margin:2mm 0 4mm}
+.book-subtitle{font-size:14pt;color:var(--muted);margin:0 0 30mm}
+.imprint{border-top:2px solid var(--ochre);padding-top:5mm;font-size:9pt;color:var(--muted)}
+.imprint p{margin:0 0 3mm}
+.toc-title{margin-top:0}
+nav ul{list-style:none;padding:0;margin:6mm 0 0}
+nav li{margin:0 0 2.5mm;font-size:12pt}
+nav a{color:var(--aegean);text-decoration:none}
+nav ul ul{display:none}
+
+.kicker{font:700 9pt 'Noto Sans';letter-spacing:.12em;text-transform:uppercase;color:var(--ochre-deep);margin:0 0 1.5mm}
+h1,h2,h3{font-family:'Noto Serif',serif;font-weight:700;color:var(--aegean);line-height:1.2;break-after:avoid}
+h1{font-size:22pt;margin:5mm 0 5mm}
+h2{font-size:15pt;margin:8mm 0 3mm}
+h3{font-size:12pt;margin:6mm 0 2mm}
+p{margin:0 0 3mm;orphans:3;widows:3}
+ul,ol{margin:0 0 3mm;padding-left:6mm}
+li{margin-bottom:1.2mm}
+a{color:var(--aegean)}
+img.opener{display:block;width:100%;border-radius:3mm;margin:0 0 6mm;break-before:page}
+p:has(> img.opener){break-before:page;margin:0}
+figure{margin:0}
+figure:has(img.opener){break-before:page;margin:0}
+figcaption{display:none}
+table{border-collapse:collapse;width:100%;margin:2mm 0 5mm;font-size:9.5pt;break-inside:avoid}
+th,td{border-bottom:1px solid var(--line);padding:1.8mm 2mm;text-align:left;vertical-align:top}
+th{background:#EEF3F8}
+.box{background:#EEF5F9;border-left:4px solid var(--aegean);border-radius:2mm;padding:3mm 4mm;margin:4mm 0;break-inside:avoid}
+.box > :last-child{margin-bottom:0}
+.box-title{font:700 9pt 'Noto Sans';letter-spacing:.1em;text-transform:uppercase;color:var(--aegean);margin-bottom:1.5mm}
+.mistakes{background:#FFF6E5;border-left-color:var(--ochre)}
+.mistakes .box-title{color:var(--ochre-deep)}
+.phrase-table td:first-child{font-weight:700;width:45%}
+.sources{font-size:8.5pt;color:var(--muted)}
+.sources a{word-break:break-all}
+.endnote{border-top:2px solid var(--ochre);padding-top:4mm;margin-top:8mm;font-size:9pt;color:var(--muted)}
